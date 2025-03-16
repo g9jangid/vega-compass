@@ -1,0 +1,407 @@
+[
+  {
+    "title": "Consulting",
+    "desc": "Transform your business with expert CRM consulting",
+    "path": "/consulting"
+  },
+  {
+    "title": "Consulting | CRM Marketing Strategy",
+    "desc": "Boost customer engagement and drive growth with a CRM marketing strategy",
+    "path": "/consulting/crm-marketing-strategy"
+  },
+  {
+    "title": "Consulting | CRM Sales Strategy",
+    "desc": "Boost customer engagement and drive growth with a CRM marketing strategy",
+    "path": "/consulting/crm-sales-strategy"
+  },
+  {
+    "title": "Consulting | CRM Customer Service Strategy",
+    "desc": "Elevate customer service using CRM solutions for streamlined operations and support.",
+    "path": "/consulting/crm-customer-service-strategy"
+  },
+  {
+    "title": "Consulting | CRM AI Adoption Strategy",
+    "desc": "Transform CRM with AI to automate tasks and personalize customer experiences.",
+    "path": "/consulting/crm-ai-adoption-strategy"
+  },
+  {
+    "title": "Consulting | CRM Growth Framework",
+    "desc": "Unlock growth by aligning CRM strategies with business objectives for efficiency.",
+    "path": "/consulting/crm-growth-framework"
+  },
+  {
+    "title": "Consulting | CRM Right Fitment Planning",
+    "desc": "Customize your CRM solution to align with your business needs for optimal results.",
+    "path": "/consulting/crm-right-fitment-planning"
+  },
+  {
+    "title": "Consulting | CRM Audit and Technical Debt Optimization",
+    "desc": "Optimize your CRM system to reduce costs while maximizing performance and ROI.",
+    "path": "/consulting/crm-audit-and-technical-debt-optimization"
+  },
+  {
+    "title": "Consulting | CRM Customer Communities",
+    "desc": "Foster engagement by building CRM-powered customer communities for deeper connections.",
+    "path": "/consulting/crm-customer-communities"
+  },
+  {
+    "title": "Consulting | CRM E-Commerce",
+    "desc": "Streamline e-commerce operations, enhance customer engagement, and drive growth with tailored CRM solutions.",
+    "path": "/consulting/crm-e-commerce"
+  },
+  {
+    "title": "Consulting | CRM Program Management",
+    "desc": "Streamline CRM processes to drive better customer experiences and business growth.",
+    "path": "/consulting/crm-program-management"
+  },
+  {
+    "title": "Consulting | CRM Implementation and Integration",
+    "desc": "Seamlessly integrate CRM systems with existing platforms to optimize operations.",
+    "path": "/consulting/crm-implementation-and-integration"
+  },
+  {
+    "title": "Consulting | Organization-wide Multiple CRM Unification",
+    "desc": "Unify CRM systems to centralize data and improve organizational efficiency.",
+    "path": "/consulting/organization-wide-multiple-crm-unification"
+  },
+  {
+    "title": "Consulting | CRM Security Planning",
+    "desc": "Secure your CRM journey with advanced protection for data, customers, and business growth",
+    "path": "/consulting/crm-security-planning"
+  },
+  {
+    "title": "Consulting | Customer Success Strategy",
+    "desc": "Drive customer success by proactively addressing needs and minimizing churn.",
+    "path": "/consulting/customer-success-strategy"
+  },
+  {
+    "title": "Tech Services",
+    "desc": "Enhance customer engagement with our expert CRM tech solutions",
+    "path": "/tech-services"
+  },
+  {
+    "title": "Tech Services | Salesforce CRM",
+    "desc": "Transform your business with strategic Salesforce CRM solutions.",
+    "path": "/tech-services/salesforce-crm"
+  },
+  {
+    "title": "Tech Services | MS Dynamics CRM",
+    "desc": "Simplify processes and maximize results with Microsoft Dynamics expertise.",
+    "path": "/tech-services/ms-dynamics-crm"
+  },
+  {
+    "title": "Tech Services | ServiceNow",
+    "desc": "Enhance efficiency with comprehensive ServiceNow solutions for digital transformation.",
+    "path": "/tech-services/servicenow"
+  },
+  {
+    "title": "Tech Services | Open Source CRM",
+    "desc": "Streamline sales, marketing, and customer service with cost-effective Open Source CRM solutions tailored for small businesses",
+    "path": "/tech-services/open-source-crm"
+  },
+  {
+    "title": "Tech Services | Hubspot CRM",
+    "desc": "Optimize HubSpot for success in marketing, sales, and service.",
+    "path": "/tech-services/hubspot-crm"
+  },
+  {
+    "title": "Tech Services | Excel CRM-Atom",
+    "desc": "Simplify CRM with Atom, an Excel-based solution for SMBs.",
+    "path": "/tech-services/excel-crm-atom"
+  },
+  {
+    "title": "Tech Services | MuleSoft",
+    "desc": "Connect data effortlessly with expert MuleSoft integration services.",
+    "path": "/tech-services/mulesoft"
+  },
+  {
+    "title": "Tech Services | Marketo",
+    "desc": "Transform your business with strategic Salesforce CRM solutions.",
+    "path": "/tech-services/marketo"
+  },
+  {
+    "title": "Tech Services | Customer Data Optimization & Cleanup",
+    "desc": "Simplify CRM with Atom, an Excel-based solution for SMBs.",
+    "path": "/tech-services/customer-data-optimization-and-cleanup"
+  },
+  {
+    "title": "Tech Services | E-Commerce & Development",
+    "desc": "Elevate your digital presence with our e-commerce and custom software solutions.",
+    "path": "/tech-services/e-commerce-and-development"
+  },
+  {
+    "title": "Innovations",
+    "desc": "Transform customer engagement with our innovative CRM solutions",
+    "path": "/innovations"
+  },
+  {
+    "title": "Innovations | CRM AI-Elements",
+    "desc": "Harness AI to redefine customer interactions with smarter, data-driven CRM capabilities.",
+    "path": "/innovations/crm-ai-elements"
+  },
+  {
+    "title": "Innovations | Excel CRM – Atom",
+    "desc": "Simplify CRM with Atom, an Excel-based solution for SMBs.",
+    "path": "/innovations/excel-crm-atom"
+  },
+  {
+    "title": "Innovations | Salesman",
+    "desc": "Empower sales teams with intelligent, ML-driven product recommendations for seamless upselling and cross-selling",
+    "path": "/innovations/salesman"
+  },
+  {
+    "title": "Innovations | SimCase",
+    "desc": "Centralize customer communication channels for actionable insights and enhanced customer service strategies.",
+    "path": "/innovations/simcase"
+  },
+  {
+    "title": "Case Studies",
+    "desc": "Success stories driven by Vega Compass Solutions",
+    "path": "/case-studies"
+  },
+  {
+    "title": "About Us",
+    "desc": "Vega Compass operated as Thutech for the last 10 years and has now rebranded to Vega Compass, reinforcing our commitment to CRM consulting excellence",
+    "path": "/about-us"
+  },
+  {
+    "title": "Our Team",
+    "desc": "Turning challenges into opportunities with a team committed to your business’s success",
+    "path": "/our-team"
+  },
+  {
+    "title": "Contact Us",
+    "desc": "Have a question or need assistance? Our team is ready to help",
+    "path": "/contact-us"
+  },
+  {
+    "title": "Privacy Policy",
+    "desc": "Privacy Policy for our users information security",
+    "path": "/privacy-policy"
+  },
+  {
+    "title": "Case Studies | Lead Lift-Off: How Pardot Perfected OSM Worldwide's Pipeline Performance!",
+    "desc": "OSM Worldwide, a leading global logistics firm, sought to streamline its marketing operations to improve lead management and customer engagement. The company was facing challenges in tracking leads, managing campaigns, and optimizing customer outreach efforts. By leveraging Salesforce Account engagement, OSM Worldwide transformed its processes, resulting in a more efficient and data-driven approach to marketing.",
+    "path": "/case-studies/lead-lift-off-how-pardot-perfected-osm-worldwides-pipeline-performance"
+  },
+  {
+    "title": "Case Studies | Marketing Mastery: Optimizing Marketo & Salesforce Sync for BD's Success",
+    "desc": "BD needed to optimize its lead management process within Marketo and ensure seamless integration with Salesforce. The company was experiencing inefficiencies in lead tracking, data synchronization, and campaign management. By conducting a comprehensive process review of their Marketo operations, BD successfully improved the accuracy and speed of lead management while enhancing overall marketing efficiency.",
+    "path": "/case-studies/marketing-mastery-optimizing-marketo-salesforce-sync-for-bds-success"
+  },
+  {
+    "title": "Case Studies | Sales Strategy Success: Streamlining Processes and Revamping Technology for SVP Global",
+    "desc": "The company faced challenges with outdated systems and inefficient workflows, which were impacting sales performance. Through a comprehensive consultation and technology revamp, SVP Global transformed its sales operations, driving better performance and growth.",
+    "path": "/case-studies/sales-strategy-success-streamlining-processes-and-revamping-technology-for-svp-global"
+  },
+  {
+    "title": "Case Studies | Boosting Broker Dealer Efficiency: Automating Sales Processes for Flextrade",
+    "desc": "Flextrade sought to enhance its broker-dealer operations by streamlining its sales processes and implementing automation. With a growing volume of transactions, the company needed a more efficient, scalable solution to manage sales and operational workflows. Through tailored process automation, Flextrade significantly improved the speed and accuracy of its broker-dealer operations.",
+    "path": "/case-studies/boosting-broker-dealer-efficiency-automating-sales-processes-for-flextrade"
+  },
+  {
+    "title": "Case Studies | Revamping Reap and Replace: Automating Account Allocation for Aprimo",
+    "desc": "Aprimo, a leading digital asset management company, sought to optimize its sales operations by improving the reap and replace process and automating account allocations to sales reps. The existing manual processes were inefficient and time-consuming, limiting the company's ability to scale. By implementing a new process setup with automation, Aprimo was able to streamline account distribution and boost sales productivity.",
+    "path": "/case-studies/revamping-reap-and-replace-automating-account-allocation-for-aprimo"
+  },
+  {
+    "title": "Case Studies | Service Simplified: Streamlining Case Management with Salesforce for SGX",
+    "desc": "Singapore Exchange (SGX) - MaxxTrader unit needed to optimize its customer support process to manage cases more efficiently and improve response times. The company faced challenges with manual workflows, leading to delays and reduced customer satisfaction due to recent acquisition. By implementing Salesforce Service Cloud with automation, SGX transformed its case management system, enhancing both productivity and customer experience.",
+    "path": "/case-studies/service-simplified-streamlining-case-management-with-salesforce-for-sgx"
+  },
+  {
+    "title": "Case Studies | Empowering Volunteers: Streamlining Support and Engagement for Dementia Singapore",
+    "desc": "Dementia Singapore, a leading non-profit organization dedicated to supporting individuals with dementia, needed to optimize its support-related processes and improve engagement with volunteers and members. With growing demand, the organization sought to streamline volunteer registration, automate event and member registrations, and leverage AI and analytics to enhance their impact. Through a comprehensive digital overhaul, Dementia Singapore transformed its operations, making processes more efficient and data-driven.",
+    "path": "/case-studies/empowering-volunteers-streamlining-support-and-engagement-for-dementia-singapore"
+  },
+  {
+    "title": "Case Studies | Insure Better: Automating Case Handling and Vendor Collaboration for FIMC US",
+    "desc": "FIMC US, a leading insurance provider, sought to enhance its case handling efficiency by automating various channels for customer support, including email, call, and SMS. Additionally, they aimed to improve collaboration with external vendor partners by developing a vendor portal. Through advanced automation and seamless collaboration, FIMC significantly improved its response times and streamlined its operations.",
+    "path": "/case-studies/insure-better-automating-case-handling-and-vendor-collaboration-for-fimc-us"
+  },
+  {
+    "title": "Case Studies | AI-Powered Portal: Automating Knowledge Management for Mangal Prabhat",
+    "desc": "Mangal Prabhat, a non-profit organization focused on educational services, aimed to enhance their internal knowledge management by leveraging AI to process departmental PDF files. The objective was to create a streamlined portal where users could query services and processes, receiving accurate search results based on the automated processing of their documents. The implementation of AI transformed their operations, improving access to key information and automating search capabilities.",
+    "path": "/case-studies/ai-powered-portal-automating-knowledge-management-for-mangal-prabhat"
+  },
+  {
+    "title": "Case Studies | AI-Driven Automation: Enhancing Feedback Analysis for GreenAct India",
+    "desc": "GreenAct, a non-profit focused on green services in India, sought to improve its understanding of customer sentiments by utilizing AI to automate feedback analysis across multiple sources. The goal was to streamline the sentiment analysis process, enabling faster and more accurate insights from feedback received on cases and other channels. The integration of AI services significantly boosted operational efficiency and improved responsiveness to community needs.",
+    "path": "/case-studies/ai-driven-automation-enhancing-feedback-analysis-for-greenact-india"
+  },
+  {
+    "title": "Case Studies | CRM Transformation: Automating Lead to Quote for Emaar Energy",
+    "desc": "Emaar Energy, a leader in chemical engineering and energy solutions with operations in Canada and the Middle East, faced challenges with outdated CRM systems and inefficient processes. A comprehensive analysis of their CRM operations revealed a need for automation across lead-to-quote management and integration with key business systems. By phasing out old legacy systems, Emaar Energy significantly improved efficiency and streamlined operations.",
+    "path": "/case-studies/crm-transformation-automating-lead-to-quote-for-emaar-energy"
+  },
+  {
+    "title": "Case Studies | Revamping CRM: Streamlining Systems and Boosting Efficiency for GreenAct Solutions",
+    "desc": "GreenAct Solutions, a leading environmental and energy audit solutions provider in India, sought to improve its CRM operations by addressing inefficiencies caused by legacy systems and outdated processes. Through a comprehensive CRM growth framework and process analysis, a phased approach was recommended to automate operations, integrate bespoke systems, and gradually eliminate obsolete systems. This transformation aimed to enhance operational efficiency and ensure seamless customer relationship management.",
+    "path": "/case-studies/revamping-crm-streamlining-systems-and-boosting-efficiency-for-greenact-solutions"
+  },
+  {
+    "title": "Case Studies | CRM Overhaul: Streamlining Systems and Boosting Automation for MaxxTrader",
+    "desc": "MaxxTrader, a subsidiary of Singapore Exchange, aimed to optimize its CRM operations by identifying the right CRM fit, integrating bespoke systems, and phasing out outdated legacy platforms. With a focus on improving efficiency and automation, MaxxTrader embarked on a systematic overhaul of its CRM infrastructure, leading to improved customer management and streamlined processes.",
+    "path": "/case-studies/crm-overhaul-streamlining-systems-and-boosting-automation-for-maxxtrader"
+  },
+  {
+    "title": "Case Studies | CRM Transformation: Streamlining Pharma Operations with Automation for Peach Base Pharma",
+    "desc": "Peach Base Pharma, a natural products-based pharma services company in India, aimed to modernize its customer relationship management (CRM) operations. With inefficient processes and scattered customer data, the company sought expert guidance to recommend the right CRM system. Through a phased implementation roadmap, the goal was to improve efficiency, automate workflows, and optimize customer data management.",
+    "path": "/case-studies/crm-transformation-streamlining-pharma-operations-with-automation-for-peach-base-pharma"
+  },
+  {
+    "title": "Case Studies | CRM Audit Excellence: Streamlining Systems and Slashing Technical Debt for Linq Systems",
+    "desc": "Linq Systems, a K12 software provider in the US, faced challenges with its current CRM system due to accumulated technical debt and inefficiencies in its processes. To address these issues, a comprehensive audit was conducted, covering code, security, system functionality, and application utilization. Following the audit recommendations, Linq Systems significantly reduced its technical debt, streamlined operations, and improved customer service efficiency.",
+    "path": "/case-studies/crm-audit-excellence-streamlining-systems-and-slashing-technical-debt-for-linq-systems"
+  },
+  {
+    "title": "Case Studies | CRM Audit Excellence: Eliminating Technical Debt and Streamlining Operations at OSM Worldwide",
+    "desc": "OSM Worldwide, a global logistics firm headquartered in the US, sought a comprehensive audit of its current CRM systems to address inefficiencies and improve customer operations. The audit included an in-depth analysis of code, security, system performance, and application utilization. Based on the findings, strategic recommendations were made, enabling OSM to significantly reduce technical debt, optimize processes, and enhance overall customer service.",
+    "path": "/case-studies/crm-audit-excellence-eliminating-technical-debt-and-streamlining-operations-at-osm-worldwide"
+  },
+  {
+    "title": "Case Studies | Salesforce System Audit: Maintain Lean system by reducing Technical Debt for Century Global",
+    "desc": "Century Global, a financial services and debt consolidation company in the US, sought to optimize its Salesforce CRM through a comprehensive audit. The audit covered several key areas, including system performance, code quality, security, and user roles. The findings and recommendations helped Century Global eliminate technical debt, streamline processes, and enhance customer operations for improved business outcomes.",
+    "path": "/case-studies/salesforce-system-audit-maintain-lean-system-by-reducing-technical-debt-for-century-global"
+  },
+  {
+    "title": "Case Studies | Empowering Caregivers: Building Member and Volunteer Portals for Dementia Singapore",
+    "desc": "Dementia Singapore, a non-profit dedicated to supporting dementia recovery, sought to streamline caregiver and volunteer registration processes. By developing a member portal for caregivers to register dementia patients for recovery events and a volunteer portal for community members to assist in caregiving, the organization improved accessibility and engagement. Salesforce Community was implemented to build these portals, creating a seamless user experience.",
+    "path": "/case-studies/empowering-caregivers-building-member-and-volunteer-portals-for-dementia-singapore"
+  },
+  {
+    "title": "Case Studies | Connecting users with Communities: Seamless Support and Service with Linq Systems",
+    "desc": "Linq Systems, a US-based company serving K-12 education systems, needed a community portal for external users to register for programs, raise and track cases, and access knowledge articles. The portal aimed to enhance user engagement and streamline support processes. Using Salesforce Community, Linq Systems was able to build an intuitive platform, offering a seamless experience from program registration to case resolution.",
+    "path": "/case-studies/connecting-users-with-communities-seamless-support-and-service-with-linq-systems"
+  },
+  {
+    "title": "Case Studies | Vendor Visibility: Streamlining Case Management with FIMC's Dynamic Portal",
+    "desc": "FIMC, a US-based insurance systems and management company, sought to enhance collaboration with external vendors by building a community portal. The portal allowed vendors to manage cases efficiently, improving communication and transparency. Developed end-to-end using MS Dynamics, the portal streamlined case handling and empowered vendors with greater control over their workflows.",
+    "path": "/case-studies/vendor-visibility-streamlining-case-management-with-fimcs-dynamic-portal"
+  },
+  {
+    "title": "Case Studies | Seamless Selling: Supercharging Sales with Dynamic Dropshipping’s E-Commerce Portal",
+    "desc": "Dynamic Dropshipping, an e-commerce company, needed a robust platform to allow external users to manage their sales effortlessly. By building an intuitive e-commerce portal using WordPress, Dynamic Dropshipping empowered users to track, manage, and optimize their sales process. The platform was developed end-to-end, ensuring a smooth user experience and scalable operations.",
+    "path": "/case-studies/seamless-selling-supercharging-sales-with-dynamic-dropshippings-e-commerce-portal"
+  },
+  {
+    "title": "Case Studies | Sewing Success: Streamlining CRM and Program Management for SVP Worldwide",
+    "desc": "SVP Worldwide, a global leader in sewing machines and accessories, sought to implement an end-to-end CRM setup to manage its customer relationships and program operations efficiently. The goal was to integrate all customer touchpoints and streamline program management across their global network. By implementing a comprehensive CRM solution, SVP Worldwide enhanced customer engagement and operational efficiency.",
+    "path": "/case-studies/sewing-success-streamlining-crm-and-program-management-for-svp-worldwide"
+  },
+  {
+    "title": "Case Studies | Revamping Reap and Replace: Optimizing CRM for Aprimo’s Asset Management",
+    "desc": "Aprimo, a global asset management software company, sought to update and optimize its CRM processes through a comprehensive Reap and Replace program. The initiative aimed to enhance efficiency, automate outdated workflows, and ensure seamless integration of new tools into their existing CRM infrastructure. By refining key CRM processes, Aprimo improved its customer management and operational performance.",
+    "path": "/case-studies/revamping-reap-and-replace-optimizing-crm-for-aprimos-asset-management"
+  },
+  {
+    "title": "Case Studies | Crafting CRM Success: Greenfield Dynamics for SVP Worldwide",
+    "desc": "SVP Worldwide, a leader in sewing machine manufacturing, embarked on a greenfield implementation of MS Dynamics CRM to modernize its customer relationship management. The initiative aimed to build a robust CRM system from the ground up, streamlining customer interactions and improving operational efficiency. This implementation provided a scalable solution tailored to SVP’s unique business needs.",
+    "path": "/case-studies/crafting-crm-success-greenfield-dynamics-for-svp-worldwide"
+  },
+  {
+    "title": "Case Studies | CRM Transformation: Streamlined Case Management for Century Finance Services",
+    "desc": "Century Finance Services, a US-based debt resettlement company, required an efficient system to manage client cases and streamline its operations. Through the greenfield implementation of Salesforce CRM and seamless integration with external legacy systems, Century Finance was able to automate case management, improve data accuracy, and enhance client services.",
+    "path": "/case-studies/crm-transformation-streamlined-case-management-for-century-finance-services"
+  },
+  {
+    "title": "Case Studies | Bridging Boundaries: Seamless System Integration for Rainbow Hospitals",
+    "desc": "Rainbow Hospitals, a leading child care hospital in India, aimed to integrate its healthcare systems with WordPress while ensuring data privacy and system performance. The initiative required balancing customization with usability and managing change across hospital staff.",
+    "path": "/case-studies/bridging-boundaries-seamless-system-integration-for-rainbow-hospitals"
+  },
+  {
+    "title": "Case Studies | Seamless Synergy: Salesforce and ERP Integration for Fibro India",
+    "desc": "Fibro India aimed to improve operational efficiency and quoting accuracy by integrating Salesforce with their ERP system. The focus was on real-time pricing sync, order tracking, and eliminating manual data entry errors.",
+    "path": "/case-studies/seamless-synergy-salesforce-and-erp-integration-for-fibro-india"
+  },
+  {
+    "title": "Case Studies | Transforming Dementia Care: A Digital Salesforce Solution for Seamless Service",
+    "desc": "Dementia Singapore leveraged Salesforce CRM to modernize its dementia care delivery. From automating paper-based forms to launching a case management system and community portals, this transformation improved operational efficiency, volunteer engagement, and patient outcomes.",
+    "path": "/case-studies/transforming-dementia-care-a-digital-salesforce-solution-for-seamless-service"
+  },
+  {
+    "title": "Case Studies | Fintech Foundations: Implementation of Case Management and Sales process with Salesforce for MaxxTrader",
+    "desc": "MaxxTrader implemented a greenfield Salesforce CRM solution covering case management and sales operations. The solution empowered internal teams and external clients with real-time case tracking, automated workflows, and seamless CRM-to-trading system integration.",
+    "path": "/case-studies/fintech-foundations-implementation-of-case-management-and-sales-process-with-salesforce-for-maxxtrader"
+  },
+  {
+    "title": "Case Studies | Fintech Flexibility: Scalable Case Management and Automation for FlexTrade",
+    "desc": "FlexTrade optimized its Salesforce CRM for scalable fintech case management by introducing Communities for external access, automation via Apex, custom workflows, and secure role-based permissions. This setup enhanced incident handling across asset classes and supported operational growth.",
+    "path": "/case-studies/fintech-flexibility-scalable-case-management-and-automation-for-flextrade"
+  },
+  {
+    "title": "Case Studies | Luxury in the Cloud: Improvising Chanel’s Salesforce CRM for Scalable Service",
+    "desc": "In collaboration with Keyrus, Chanel’s Salesforce CRM system was audited and optimized to improve scalability, security, and service quality across the APAC region. The initiative streamlined customer operations and prepared the platform for future growth and evolving luxury service needs.",
+    "path": "/case-studies/luxury-in-the-cloud-improvising-chanels-salesforce-crm-for-scalable-service"
+  },
+  {
+    "title": "Case Studies | Seamless Shipping Solutions: Optimizing CRM and Analytics for OSM",
+    "desc": "Optimized Salesforce CRM for OSM by implementing B2B marketing analytics, automating lead processes, and improving data security. Enhancements included dedicated sandboxes, UI/UX upgrades, and a scalable framework to support OSM’s global logistics operations.",
+    "path": "/case-studies/seamless-shipping-solutions-optimizing-crm-and-analytics-for-osm"
+  },
+  {
+    "title": "Case Studies | Streamlined Success: Automating Sales and Lead Operations for Aprimo’s SaaS Growth",
+    "desc": "Enhanced Aprimo’s Salesforce CRM by automating lead-to-opportunity workflows and implementing the Reap and Replace process, streamlining sales operations, enabling data accuracy, and improving marketing alignment for global SaaS growth.",
+    "path": "/case-studies/streamlined-success-automating-sales-and-lead-operations-for-aprimos-saas-growth"
+  },
+  {
+    "title": "Case Studies | Seamless Shift: Migrating FIMC’s Account and Case Management to Dynamics 365",
+    "desc": "Migrated FIMC's CRM system from Salesforce to Dynamics 365, improving account, contact, and case management through data integrity, custom automation, and scalable workflows tailored to the insurance industry.",
+    "path": "/case-studies/seamless-shift-migrating-fimcs-account-and-case-management-to-dynamics-365"
+  },
+  {
+    "title": "Case Studies | Stitching Success: SVP’s Seamless CRM Setup with Dynamics 365 Integration",
+    "desc": "Implemented Microsoft Dynamics 365 from the ground up for SVP Worldwide, integrating it with MS Teams, 8x8 call center, and MS Copilot AI to streamline lead-to-opportunity tracking, improve call automation, and drive proactive sales engagement.",
+    "path": "/case-studies/stitching-success-svps-seamless-crm-setup-with-dynamics-365-integration"
+  },
+  {
+    "title": "Case Studies | From Legacy to Leading: Streamlined Insurance Solutions for TDECU with Dynamics 365",
+    "desc": "Migrated TDECU’s legacy insurance systems to Microsoft Dynamics 365, enabling unified member onboarding, automated product workflows, and improved cross-selling through personalized CRM logic.",
+    "path": "/case-studies/from-legacy-to-leading-streamlined-insurance-solutions-for-tdecu-with-dynamics-365"
+  },
+  {
+    "title": "Case Studies | Empowering Energy Efficiency: Streamlined CRM Setup for GreenAct Solutions",
+    "desc": "Implemented Zoho CRM for GreenAct Solutions, enabling centralized lead and opportunity tracking, client relationship management, and streamlined energy audit workflows.",
+    "path": "/case-studies/empowering-energy-efficiency-streamlined-crm-setup-for-greenact-solutions"
+  },
+  {
+    "title": "Case Studies | From Spreadsheets to Success: Automating CRM for Thutech Infosystems",
+    "desc": "Implemented Zoho CRM for Thutech Infosystems to automate lead-to-deal tracking, reduce manual effort, and improve sales pipeline visibility.",
+    "path": "/case-studies/from-spreadsheets-to-success-automating-crm-for-thutech-infosystems"
+  },
+  {
+    "title": "Case Studies | Optimizing Energy Sales: Streamlined Sales and CRM for Emaar Energy",
+    "desc": "Implemented Odoo CRM for Emaar Energy to automate prospect management and streamline the sales lifecycle from lead capture to customer conversion.",
+    "path": "/case-studies/optimizing-energy-sales-streamlined-sales-and-crm-for-emaar-energy"
+  },
+  {
+    "title": "Case Studies | From Strategy to Sync: Streamlined Marketing for FIMC Insurance",
+    "desc": "Implemented a synchronized campaign management system using HubSpot and WordPress to automate and optimize FIMC’s marketing operations and content delivery.",
+    "path": "/case-studies/from-strategy-to-sync-streamlined-marketing-for-fimc-insurance"
+  },
+  {
+    "title": "Case Studies | Service Stability: Streamlined Support and Case Management for Aprimo",
+    "desc": "Delivered ongoing support and structured workflow enhancements in ServiceNow to optimize case management and improve operational stability for Aprimo.",
+    "path": "/case-studies/service-stability-streamlined-support-and-case-management-for-aprimo"
+  },
+  {
+    "title": "Case Studies | Seamless Sync: Enhancing Customer View with ServiceNow and Salesforce Integration for Century",
+    "desc": "Enabled seamless integration between ServiceNow and Salesforce using MuleSoft to synchronize customer case data, improving service responsiveness and decision-making for Century.",
+    "path": "/case-studies/seamless-sync-enhancing-customer-view-with-servicenow-and-salesforce-integration-for-century"
+  },
+  {
+    "title": "Case Studies | Seamless Sync: Mulesoft Integration for Streamlined Debt Management at Century",
+    "desc": "Integrated Salesforce with external credit and debt scoring platforms using Mulesoft, streamlining client onboarding and enhancing service delivery for Century.",
+    "path": "/case-studies/seamless-sync-mulesoft-integration-for-streamlined-debt-management-at-century"
+  },
+  {
+    "title": "Case Studies | Data Diligence: Streamlining Legacy Cleanup for FIMC Insurance",
+    "desc": "Cleaned and optimized legacy customer data for FIMC Insurance, reducing redundancies and improving CRM integration for better insights and efficiency.",
+    "path": "/case-studies/data-diligence-streamlining-legacy-cleanup-for-fimc-insurance"
+  },
+  {
+    "title": "Case Studies | Clean, Connect, and Consolidate: Data Transformation for K12 Success at Linq",
+    "desc": "Optimized and migrated legacy customer data for Linq, reducing redundancies and aligning records with CRM standards to improve operational efficiency and scalability.",
+    "path": "/case-studies/clean-connect-and-consolidate-data-transformation-for-k12-success-at-linq"
+  }
+]

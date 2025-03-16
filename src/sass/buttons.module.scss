@@ -1,0 +1,11 @@
+$button-bg-color: blue;
+
+.button {
+    background-color: $button-bg-color;
+    color: white;
+}
+
+.big {
+    padding: 40px;
+    border-radius: 300px;
+}

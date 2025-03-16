@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -10,6 +11,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#1E40AF",  // Custom Blue
+        secondary: "#9333EA", // Custom Purple
+        blackone: "#101118", // text color black
+        red: "#C40A23"
       },
     },
   },

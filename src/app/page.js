@@ -1,101 +1,122 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
+import Navigation from "@/components/Navigation/Navigation";
+import HomeSlider from "@/components/HomeSlider";
+import LogoSlider from "@/components/LogoSlider";
+import Footer from "@/components/Footer";
+import TestimonialSlider from "@/components/TestimonialSlider";
+import Link from "next/link";
+import VegaCompassInAction from "@/components/VegaCompassInAction";
+import CRMInquiry from "@/components/CRMInquiry";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.js
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <main className="min-h-screen">
+      <Navigation />
+      <HomeSlider />
+      <section className="container mx-auto px-6 flex justify-center flex-col items-center mt-16">
+        <h2 className="ff-raleway text-xl text-blackone font-semibold mb-8 text-center">
+          Trusted by businesses all over the world
+        </h2>
+        <LogoSlider />
+      </section>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+      <section className="container mx-auto text-center mt-28 testimonial-section">
+        <h2 className="ff-raleway text-4xl font-semibold text-blackone mb-12">
+          Hear from our clients
+        </h2>
+        <TestimonialSlider />
+      </section>
+
+      <section className="container mx-auto text-center mt-28 px-6 lg:px-28">
+        <h2 className="ff-raleway text-4xl font-semibold text-blackone mb-12">
+          Our Offerings
+        </h2>
+
+        <div className="w-full flex lg:flex-row flex-col justify-between items-center mb-8 lg:mb-3">
+          <div className="w-full lg:w-1/2 text-left">
+            <div className=" inline-block py-6 px-9 bg-[--off-red3] hover:bg-[--off-red4] rounded-xl">
+              <img src="/assets/images/crm-consulting.png" alt="" />
+            </div>
+          </div>
+
+          <div className="w-full lg:w-1/2 text-left lg:pl-16 lg:pr-5 mt-5 lg:mt-0">
+            <h3 className="ff-raleway font-semibold text-3xl text-blackone">
+              CRM Consulting
+            </h3>
+            <p className="ff-lato text-base text-blackone mt-4 mb-6">
+              At VegaCompass, we bring decades of CRM consulting expertise to
+              help businesses overcome challenges, optimize processes, and
+              achieve scalable growth. We focus on improving customer
+              interactions, streamlining operations, and driving long-term value
+            </p>
+            <Link
+              href="/signup"
+              className="text-base capitalize inline-block ff-lato ease-in-up rounded-md border border-red hover:bg-red py-2 px-8 text-red hover:text-white transition duration-300"
+            >
+              learn More
+            </Link>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+
+        <div className="w-full flex flex-col lg:flex-row justify-between items-center mb-8 lg:mb-3">
+          <div className="w-full lg:w-1/2 text-left lg:pr-16 order-2 lg:order-none mt-5 lg:mt-0">
+            <h3 className="ff-raleway font-semibold text-3xl text-blackone">
+              Technologies
+            </h3>
+            <p className="ff-lato text-base text-blackone mt-4 mb-6">
+              VegaCompass leverages cutting-edge CRM technologies to transform
+              your business processes. With expertise in leading CRM platforms,
+              we provide end-to-end technical solutions, including seamless
+              implementations, custom developments, and ongoing support to
+              enhance your operational efficiency.
+            </p>
+            <Link
+              href="/signup"
+              className="text-base capitalize inline-block ff-lato ease-in-up rounded-md border border-red hover:bg-red py-2 px-8 text-red hover:text-white transition duration-300"
+            >
+              learn More
+            </Link>
+          </div>
+
+          <div className="w-full lg:w-1/2 text-left lg:pl-5 order-1 lg:order-none">
+            <div className="inline-block py-6 px-9 bg-[--off-red3] hover:bg-[--off-red4] rounded-xl">
+              <img src="/assets/images/technologies.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div className="w-full flex lg:flex-row flex-col justify-between items-center mb-8 lg:mb-3">
+          <div className="w-full lg:w-1/2 text-left">
+            <div className=" inline-block py-6 px-9 bg-[--off-red3] hover:bg-[--off-red4] rounded-xl">
+              <img src="/assets/images/innovation.png" alt="" />
+            </div>
+          </div>
+
+          <div className="w-full lg:w-1/2 text-left lg:pl-16 lg:pr-5 mt-5 lg:mt-0">
+            <h3 className="ff-raleway font-semibold text-3xl text-blackone">
+              Innovation
+            </h3>
+            <p className="ff-lato text-base text-blackone mt-4 mb-6">
+              Our innovative CRM solutions, powered by advanced AI-driven tools,
+              are designed to optimize customer engagement, streamline
+              workflows, and provide actionable insights. At VegaCompass, we
+              blend creativity and technology to deliver futuristic solutions
+              that set your business apart.
+            </p>
+            <Link
+              href="/signup"
+              className="text-base capitalize inline-block ff-lato ease-in-up rounded-md border border-red hover:bg-red py-2 px-8 text-red hover:text-white transition duration-300"
+            >
+              learn More
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <VegaCompassInAction />
+      <CRMInquiry />
+      <Footer />
+    </main>
   );
 }
