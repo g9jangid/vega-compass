@@ -323,7 +323,7 @@ export default function Home() {
         </h1>
 
         <div className="w-full flex flex-wrap justify-center items-center max-w-[700px] text-center mt-8 px-6 relative">
-          <div className="border border-gray-300 rounded-lg absolute h-12 bg-white z-[2] lg:w-1/3 flex w-full">
+          <div className="border border-gray-300 rounded-lg absolute h-12 bg-white z-[2] flex w-full">
             <div
               className="cursor-pointer absolute right-0 top-0 p-3 block z-[2]"
               onClick={() => handleKeywordSearch(keyword)}
