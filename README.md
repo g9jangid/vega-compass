@@ -34,3 +34,45 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+---------------------------------
+Using SASS
+file name: buttons.module.scss
+
+import styles from '@/sass/buttons.module.scss';
+
+<button className={`${styles.button} ${styles.big}`}>call now</button>
+
+---------------------------------
+Tailwind custom colors
+
+in tailwind.config.mjs
+
+theme: {
+    extend: {
+      colors: {
+        background: "var(--background)",
+        foreground: "var(--foreground)",
+        primary: "#1E40AF",  // Custom Blue
+        secondary: "#9333EA", // Custom Purple
+      },
+    },
+  },
+
+
+
+bg-primary 
+text-primary
+---------------------------------
+using fonts
+
+font-[family-name:var(--font-geist-mono)]
+
+.custom-heading {
+  font-family: var(--font-geist-mono);
+  font-weight: 700;
+}
+
+<ol className="font-[family-name:var(--font-geist-mono)]"></ol>
+
+---------------------------------
