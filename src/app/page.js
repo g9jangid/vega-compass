@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image";
 import Navigation from "@/components/Navigation/Navigation";
 import HomeSlider from "@/components/HomeSlider";
 import LogoSlider from "@/components/LogoSlider";
@@ -37,7 +36,10 @@ export default function Home() {
         <div className="w-full flex lg:flex-row flex-col justify-between items-center mb-8 lg:mb-3">
           <div className="w-full lg:w-1/2 text-left">
             <div className=" inline-block py-6 px-9 bg-[--off-red3] hover:bg-[--off-red4] rounded-xl">
-              <img src="/assets/images/crm-consulting.png" alt="" />
+              <img
+                src="/assets/images/crm-consulting.png"
+                alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              />
             </div>
           </div>
 
@@ -82,7 +84,10 @@ export default function Home() {
 
           <div className="w-full lg:w-1/2 text-left lg:pl-5 order-1 lg:order-none">
             <div className="inline-block py-6 px-9 bg-[--off-red3] hover:bg-[--off-red4] rounded-xl">
-              <img src="/assets/images/technologies.png" alt="" />
+              <img
+                src="/assets/images/technologies.png"
+                alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              />
             </div>
           </div>
         </div>
@@ -90,7 +95,10 @@ export default function Home() {
         <div className="w-full flex lg:flex-row flex-col justify-between items-center mb-8 lg:mb-3">
           <div className="w-full lg:w-1/2 text-left">
             <div className=" inline-block py-6 px-9 bg-[--off-red3] hover:bg-[--off-red4] rounded-xl">
-              <img src="/assets/images/innovation.png" alt="" />
+              <img
+                src="/assets/images/innovation.png"
+                alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              />
             </div>
           </div>
 

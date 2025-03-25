@@ -107,7 +107,7 @@ const Navigation = () => {
               >
                 <img
                   src="/assets/images/logo.svg"
-                  alt=""
+                  alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                   className="h-[75px] object-contain"
                 />
               </Link>

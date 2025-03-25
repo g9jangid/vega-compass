@@ -1,88 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
-"use client";
-import React, { useState } from "react";
-import Image from "next/image";
+import React from "react";
 import Navigation from "@/components/Navigation/Navigation";
-import Team from "@/components/Team";
-import TestimonialSlider from "@/components/TestimonialSlider";
-import TalkToExpert from "@/components/TalkToExpert";
 import VegaCompassInAction from "@/components/VegaCompassInAction";
 import CRMInquiry from "@/components/CRMInquiry";
 import Footer from "@/components/Footer";
-import HeroOne from "@/components/HeroOne";
-import CaseStudiesSlides from "@/components/CaseStudiesSlides";
-import Accordian from "@/components/Accordian";
-import AccordianBig from "@/components/AccordianBig";
-import caseStudiesData from "@/constants/case-studies.json";
-import Link from "next/link";
-import menuData from "@/components/Navigation/menuData";
-import Select from "react-select";
+import getSEOTags from "@/utils/getSeoTags";
 
-// export const metadata = {
-//   title: "Vega Compass",
-//   description: "Vega Compass",
-// };
-
-// export const metadata = {
-//   title: "UI Graphic – 3D Illustrations & Animations for Beautiful UI Design",
-//   description:
-//     "Discover premium 3D illustrations and background animations crafted for modern UI design. Perfect for SaaS, startups, and landing pages.",
-//   keywords: [
-//     "3D illustrations",
-//     "UI design assets",
-//     "SaaS design",
-//     "landing page animations",
-//     "website illustrations",
-//     "premium UI assets",
-//     "background animations",
-//   ],
-//   metadataBase: new URL("https://uigraphic.com"),
-//   openGraph: {
-//     title: "UI Graphic – 3D Illustrations & Animations for Beautiful UI Design",
-//     description:
-//       "Discover premium 3D illustrations and background animations crafted for modern UI design.",
-//     url: "https://uigraphic.com",
-//     siteName: "UI Graphic",
-//     images: [
-//       {
-//         url: "https://uigraphic.com/og-image.jpg", // Replace with your OG image
-//         width: 1200,
-//         height: 630,
-//         alt: "UI Graphic Preview",
-//       },
-//     ],
-//     type: "website",
-//   },
-//   twitter: {
-//     card: "summary_large_image",
-//     title: "UI Graphic – 3D Illustrations & Animations for Beautiful UI Design",
-//     description:
-//       "Discover premium 3D illustrations and background animations crafted for modern UI design.",
-//     site: "@uigraphic", // Replace with your Twitter handle
-//     creator: "@uigraphic", // Replace with your Twitter handle
-//     images: ["https://uigraphic.com/og-image.jpg"],
-//   },
-//   icons: {
-//     icon: "/favicon.ico",
-//     shortcut: "/favicon-32x32.png",
-//     apple: "/apple-touch-icon.png",
-//   },
-//   themeColor: "#ffffff",
-//   authors: [{ name: "Vega Compass", url: "" }],
-//   generator: "Next.js",
-//   applicationName: "Vega Compass",
-//   referrer: "origin-when-cross-origin",
-//   robots: {
-//     index: true,
-//     follow: true,
-//     nocache: false,
-//     googleBot: {
-//       index: true,
-//       follow: true,
-//       noimageindex: false,
-//     },
-//   },
-// };
+export const metadata = getSEOTags(
+  "About Us - Vegacompass | Expert CRM Consulting & Technology Solutions",
+  "Discover Vegacompass, a specialized CRM consulting firm focused on optimizing marketing, sales, and customer support operations. With a team of experts having 15+ years of experience, we help businesses maximize their CRM potential. Learn more about our journey and expertise."
+);
 
 export default function Home() {
   return (
@@ -182,7 +109,7 @@ export default function Home() {
         <div className="w-full lg:w-1/2 lg:pl-6 mt-16 lg:mt-0">
           <img
             src="/assets/images/about/intro.png"
-            alt=""
+            alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
             className="w-full h-auto p-3 lg:scale-125 origin-left"
           />
         </div>
@@ -197,7 +124,7 @@ export default function Home() {
             <div className="bg-[#F0CCB4] border border-[#F0CCB4] w-14 mt-2"></div>
           </div>
           <h3 className="ff-raleway text-2xl md:text-3xl mt-4 lg:text-4xl text-blackone capitalize font-semibold">
-            Vega Compass values
+            Vegacompass values
           </h3>
         </div>
       </section>
@@ -206,7 +133,7 @@ export default function Home() {
         <div className="w-full lg:w-1/3 lg:pr-6 text-center flex flex-col justify-center items-center">
           <img
             src="/assets/images/about/trust.png"
-            alt=""
+            alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
             className="w-20 h-auto m-1"
           />
           <p className="ff-raleway text-2xl font-semibold text-blackone mt-3">
@@ -216,7 +143,7 @@ export default function Home() {
         <div className="w-full lg:w-1/3 lg:pl-6 mt-16 lg:mt-0 text-center flex flex-col justify-center items-center">
           <img
             src="/assets/images/about/security.png"
-            alt=""
+            alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
             className="w-20 h-auto m-1"
           />
           <p className="ff-raleway text-2xl font-semibold text-blackone mt-3">
@@ -226,7 +153,7 @@ export default function Home() {
         <div className="w-full lg:w-1/3 lg:pl-6 mt-16 lg:mt-0 text-center flex flex-col justify-center items-center">
           <img
             src="/assets/images/about/innovation.png"
-            alt=""
+            alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
             className="w-20 h-auto m-1"
           />
           <p className="ff-raleway text-2xl font-semibold text-blackone mt-3">
@@ -264,7 +191,7 @@ export default function Home() {
         <div className="w-full lg:w-1/2 lg:pl-6 mt-16 lg:mt-0">
           <img
             src="/assets/images/about/the-vega-way.png"
-            alt=""
+            alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
             className="w-full h-auto p-3"
           />
         </div>
@@ -302,7 +229,7 @@ export default function Home() {
         <div className="w-full lg:w-1/2 lg:pl-6 mt-16 lg:mt-0">
           <img
             src="/assets/images/about/working.png"
-            alt=""
+            alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
             className="w-full h-auto p-3"
           />
         </div>

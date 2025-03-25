@@ -1,0 +1,75 @@
+const getSEOTags = (title, desc) => {
+  return {
+    title: title,
+    description: desc,
+    keywords: [
+      "CRM Consulting Services",
+      "CRM Optimization Experts",
+      "AI-Powered CRM Solutions",
+      "CRM Implementation & Integration",
+      "CRM Growth Strategies",
+      "CRM for Business Automation",
+      "Enterprise CRM Consulting",
+      "CRM for Sales & Marketing",
+      "Best CRM for Customer Support",
+      "CRM Migration Services",
+      "MS Dynamics CRM Solutions",
+      "Salesforce CRM Implementation",
+      "CRM Data Cleanup & Optimization",
+      "CRM for Nonprofits & Enterprises",
+      "End-to-End CRM Automation",
+      "AI in CRM Consulting",
+      "CRM for E-Commerce Businesses",
+      "Open Source CRM Development",
+      "CRM for Financial Services",
+      "CRM Security & Compliance",
+      "How to optimize CRM for better customer engagement?",
+      "Best CRM solutions for small businesses and enterprises",
+      "CRM migration from Salesforce to MS Dynamics",
+      "AI-driven CRM automation for business growth",
+      "CRM integration strategies for seamless operations",
+      "Benefits of AI in CRM for sales & marketing",
+      "Choosing the right CRM for customer service efficiency",
+      "How to unify multiple CRM platforms in an organization?",
+      "CRM best practices for growing businesses",
+    ],
+    metadataBase: new URL("https://vegacompass.com/"),
+    openGraph: {
+      title: title,
+      description: desc,
+      url: "https://vegacompass.com/",
+      siteName: "Vegacompass",
+      images: [
+        {
+          url: "https://vegacompass.com/poster.jpg", // Replace with your OG image
+          width: 1200,
+          height: 630,
+          alt: "Vegacompass Preview",
+        },
+      ],
+      type: "website",
+    },
+    icons: {
+      icon: "/favicon.ico",
+      shortcut: "/favicon-32x32.png",
+      apple: "/apple-touch-icon.png",
+    },
+    themeColor: "#c40a23",
+    authors: [{ name: "Vegacompass", url: "" }],
+    generator: "Next.js",
+    applicationName: "Vegacompass",
+    referrer: "origin-when-cross-origin",
+    robots: {
+      index: true,
+      follow: true,
+      nocache: false,
+      googleBot: {
+        index: true,
+        follow: true,
+        noimageindex: false,
+      },
+    },
+  };
+};
+
+export default getSEOTags;

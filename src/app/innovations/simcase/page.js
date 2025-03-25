@@ -1,82 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image";
 import Navigation from "@/components/Navigation/Navigation";
-import Team from "@/components/Team";
-import TestimonialSlider from "@/components/TestimonialSlider";
-import TalkToExpert from "@/components/TalkToExpert";
 import VegaCompassInAction from "@/components/VegaCompassInAction";
 import CRMInquiry from "@/components/CRMInquiry";
 import Footer from "@/components/Footer";
 import HeroOne from "@/components/HeroOne";
-import Link from "next/link";
-import menuData from "@/components/Navigation/menuData";
-import Accordian from "@/components/Accordian";
-
-export const metadata = {
-  title: "Vega Compass",
-  description: "Vega Compass",
-};
-
-// export const metadata = {
-//   title: "UI Graphic – 3D Illustrations & Animations for Beautiful UI Design",
-//   description:
-//     "Discover premium 3D illustrations and background animations crafted for modern UI design. Perfect for SaaS, startups, and landing pages.",
-//   keywords: [
-//     "3D illustrations",
-//     "UI design assets",
-//     "SaaS design",
-//     "landing page animations",
-//     "website illustrations",
-//     "premium UI assets",
-//     "background animations",
-//   ],
-//   metadataBase: new URL("https://uigraphic.com"),
-//   openGraph: {
-//     title: "UI Graphic – 3D Illustrations & Animations for Beautiful UI Design",
-//     description:
-//       "Discover premium 3D illustrations and background animations crafted for modern UI design.",
-//     url: "https://uigraphic.com",
-//     siteName: "UI Graphic",
-//     images: [
-//       {
-//         url: "https://uigraphic.com/og-image.jpg", // Replace with your OG image
-//         width: 1200,
-//         height: 630,
-//         alt: "UI Graphic Preview",
-//       },
-//     ],
-//     type: "website",
-//   },
-//   twitter: {
-//     card: "summary_large_image",
-//     title: "UI Graphic – 3D Illustrations & Animations for Beautiful UI Design",
-//     description:
-//       "Discover premium 3D illustrations and background animations crafted for modern UI design.",
-//     site: "@uigraphic", // Replace with your Twitter handle
-//     creator: "@uigraphic", // Replace with your Twitter handle
-//     images: ["https://uigraphic.com/og-image.jpg"],
-//   },
-//   icons: {
-//     icon: "/favicon.ico",
-//     shortcut: "/favicon-32x32.png",
-//     apple: "/apple-touch-icon.png",
-//   },
-//   themeColor: "#ffffff",
-//   authors: [{ name: "Vega Compass", url: "" }],
-//   generator: "Next.js",
-//   applicationName: "Vega Compass",
-//   referrer: "origin-when-cross-origin",
-//   robots: {
-//     index: true,
-//     follow: true,
-//     nocache: false,
-//     googleBot: {
-//       index: true,
-//       follow: true,
-//       noimageindex: false,
-//     },
-//   },
-// };
+import getSEOTags from "@/utils/getSeoTags";
+export const metadata = getSEOTags(
+  "SimCase | Centralized Customer Communication & Insights",
+  "Optimize customer service with SimCase, a CRM tool that unifies communication channels for improved service management."
+);
 
 export default function Home() {
   return (
@@ -107,7 +39,7 @@ export default function Home() {
 
         <div className="w-full flex flex-wrap justify-center items-center max-w-[700px] text-center">
           <p className="ff-lato text-blackone">
-            At Vega Compass, we understand the complexities of managing customer
+            At Vegacompass, we understand the complexities of managing customer
             interactions across email, chat, and social media. Simcase
             streamlines data aggregation, delivering standardized insights for
             customer service managers. It empowers teams with actionable,
@@ -318,7 +250,7 @@ export default function Home() {
                 <span className="flex items-center mb-3">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2"
                   />
                   Faster onboarding with reduced training time for new staff.
@@ -327,7 +259,7 @@ export default function Home() {
                 <span className="flex items-center mb-3">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2"
                   />
                   Provides AI-powered similar case suggestions for efficient
@@ -337,7 +269,7 @@ export default function Home() {
                 <span className="flex items-center mb-3">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2"
                   />
                   Streamlines workflows, reducing response time and offering
@@ -347,7 +279,7 @@ export default function Home() {
                 <span className="flex items-center mb-3">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2"
                   />
                   Enhances professionalism and customer experience with advanced
@@ -357,7 +289,7 @@ export default function Home() {
                 <span className="flex items-center mb-3">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2"
                   />
                   Delivers actionable insights for proactive problem-solving.
@@ -369,7 +301,7 @@ export default function Home() {
               <div className="inline-block py-6 px-9 rounded-xl">
                 <img
                   src="/assets/images/innovations/customer support.png"
-                  alt=""
+                  alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                 />
               </div>
             </div>
@@ -380,7 +312,7 @@ export default function Home() {
               <div className=" inline-block py-6 px-9 rounded-xl">
                 <img
                   src="/assets/images/innovations/customer insights.png"
-                  alt=""
+                  alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                 />
               </div>
             </div>
@@ -393,7 +325,7 @@ export default function Home() {
                 <span className="flex items-center mb-3">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2"
                   />
                   Offers detailed case reports with cross-account analysis for
@@ -402,7 +334,7 @@ export default function Home() {
                 <span className="flex items-center mb-3">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2"
                   />
                   Provides insights to refine products, services, and workflows
@@ -412,7 +344,7 @@ export default function Home() {
                 <span className="flex items-center mb-3">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2"
                   />
                   Boosts productivity and reduces costs by enabling targeted
@@ -422,7 +354,7 @@ export default function Home() {
                 <span className="flex items-center mb-3">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2"
                   />
                   Provides insights to refine products, services, and workflows
@@ -441,7 +373,7 @@ export default function Home() {
                 <span className="flex items-center mb-3">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2"
                   />
                   Better cross team collaboration to coordinate for more product
@@ -451,7 +383,7 @@ export default function Home() {
                 <span className="flex items-center mb-3">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2"
                   />
                   Better trainings planning
@@ -461,7 +393,10 @@ export default function Home() {
 
             <div className="w-full lg:w-1/2 text-left lg:pl-5 order-1 lg:order-none">
               <div className="inline-block py-6 px-9 rounded-xl">
-                <img src="/assets/images/innovations/cross-team.png" alt="" />
+                <img
+                  src="/assets/images/innovations/cross-team.png"
+                  alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+                />
               </div>
             </div>
           </div>

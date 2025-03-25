@@ -1,5 +1,6 @@
 import { Lato, Raleway } from "next/font/google";
 import "./globals.css";
+import getSEOTags from "@/utils/getSeoTags";
 
 const latoSans = Lato({
   subsets: ["latin"],
@@ -12,11 +13,14 @@ const ralewaySans = Raleway({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"], // Available weights
   variable: "--font-raleway",
 });
-
-export const metadata = {
-  title: "Vega Compass",
-  description: "Vega Compass",
+export const viewport = {
+  themeColor: "#c40a23",
 };
+
+export const metadata = getSEOTags(
+  "Vegacompass | CRM-Only Consulting Experts",
+  "Vegacompass is a specialized CRM consulting firm with deep domain expertise in marketing, sales, and customer support operations. Our expert team ensures your CRM delivers more than expected, driving business growth and seamless customer management."
+);
 
 export default function RootLayout({ children }) {
   return (

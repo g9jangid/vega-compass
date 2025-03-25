@@ -10,7 +10,7 @@ const TalkToExpert = () => {
           <div className="inline-block rounded-xl">
             <img
               src="/assets/images/talktoexpert.png"
-              alt=""
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
               className="w-full h-full object-cover"
             />
           </div>

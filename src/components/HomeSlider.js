@@ -112,7 +112,7 @@ const HomeSlider = () => {
               <img
                 src="/assets/images/slider/business-optimisation.png"
                 className="object-center lg:object-right"
-                alt=""
+                alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
               />
             </div>
           </div>
@@ -132,7 +132,7 @@ const HomeSlider = () => {
               <img
                 src="/assets/images/slider/customer-journey.svg"
                 className="object-center lg:object-right"
-                alt=""
+                alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
               />
             </div>
           </div>
@@ -144,7 +144,7 @@ const HomeSlider = () => {
               <YoutubeLinks />
               <h1 className="text-white ff-raleway text-3xl md:text-4xl lg:text-5xl text-center lg:text-left font-semibold !leading-tight">
                 Think CRM. <br className="hidden lg:block" />
-                Think Vega Compass
+                Think Vegacompass
               </h1>
               <DownloadBtns />
             </div>
@@ -152,7 +152,7 @@ const HomeSlider = () => {
               <img
                 src="/assets/images/slider/think-crm.png"
                 className="object-center lg:object-right pt-6"
-                alt=""
+                alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
               />
             </div>
           </div>

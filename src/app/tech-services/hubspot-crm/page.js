@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image";
 import Navigation from "@/components/Navigation/Navigation";
 import Team from "@/components/Team";
 import TestimonialSlider from "@/components/TestimonialSlider";
@@ -9,77 +8,11 @@ import CRMInquiry from "@/components/CRMInquiry";
 import Footer from "@/components/Footer";
 import HeroOne from "@/components/HeroOne";
 import CaseStudiesSlides from "@/components/CaseStudiesSlides";
-import Accordian from "@/components/Accordian";
-import AccordianBig from "@/components/AccordianBig";
-
-import Link from "next/link";
-import menuData from "@/components/Navigation/menuData";
-
-export const metadata = {
-  title: "Vega Compass",
-  description: "Vega Compass",
-};
-
-// export const metadata = {
-//   title: "UI Graphic – 3D Illustrations & Animations for Beautiful UI Design",
-//   description:
-//     "Discover premium 3D illustrations and background animations crafted for modern UI design. Perfect for SaaS, startups, and landing pages.",
-//   keywords: [
-//     "3D illustrations",
-//     "UI design assets",
-//     "SaaS design",
-//     "landing page animations",
-//     "website illustrations",
-//     "premium UI assets",
-//     "background animations",
-//   ],
-//   metadataBase: new URL("https://uigraphic.com"),
-//   openGraph: {
-//     title: "UI Graphic – 3D Illustrations & Animations for Beautiful UI Design",
-//     description:
-//       "Discover premium 3D illustrations and background animations crafted for modern UI design.",
-//     url: "https://uigraphic.com",
-//     siteName: "UI Graphic",
-//     images: [
-//       {
-//         url: "https://uigraphic.com/og-image.jpg", // Replace with your OG image
-//         width: 1200,
-//         height: 630,
-//         alt: "UI Graphic Preview",
-//       },
-//     ],
-//     type: "website",
-//   },
-//   twitter: {
-//     card: "summary_large_image",
-//     title: "UI Graphic – 3D Illustrations & Animations for Beautiful UI Design",
-//     description:
-//       "Discover premium 3D illustrations and background animations crafted for modern UI design.",
-//     site: "@uigraphic", // Replace with your Twitter handle
-//     creator: "@uigraphic", // Replace with your Twitter handle
-//     images: ["https://uigraphic.com/og-image.jpg"],
-//   },
-//   icons: {
-//     icon: "/favicon.ico",
-//     shortcut: "/favicon-32x32.png",
-//     apple: "/apple-touch-icon.png",
-//   },
-//   themeColor: "#ffffff",
-//   authors: [{ name: "Vega Compass", url: "" }],
-//   generator: "Next.js",
-//   applicationName: "Vega Compass",
-//   referrer: "origin-when-cross-origin",
-//   robots: {
-//     index: true,
-//     follow: true,
-//     nocache: false,
-//     googleBot: {
-//       index: true,
-//       follow: true,
-//       noimageindex: false,
-//     },
-//   },
-// };
+import getSEOTags from "@/utils/getSeoTags";
+export const metadata = getSEOTags(
+  "HubSpot CRM | Maximize Marketing & Sales Performance",
+  "Optimize HubSpot CRM for seamless marketing, sales automation, and improved customer engagement."
+);
 
 export default function Home() {
   return (
@@ -145,7 +78,7 @@ export default function Home() {
                 <p className="flex items-start mb-2">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2 relative top-1"
                   />
 
@@ -157,7 +90,7 @@ export default function Home() {
                 <p className="flex items-start mb-2">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2 relative top-1"
                   />
                   <span>
@@ -168,7 +101,7 @@ export default function Home() {
                 <p className="flex items-start mb-2">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2 relative top-1"
                   />
                   <span>
@@ -181,7 +114,10 @@ export default function Home() {
 
             <div className="w-full lg:w-2/5 text-left lg:pl-5 order-1 lg:order-none">
               <div className="inline-block py-6 px-9 rounded-xl">
-                <img src="/assets/images/tech-services/5-1.png" alt="" />
+                <img
+                  src="/assets/images/tech-services/5-1.png"
+                  alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+                />
               </div>
             </div>
           </div>
@@ -189,7 +125,10 @@ export default function Home() {
           <div className="w-full flex lg:flex-row flex-col justify-between items-center mb-8 lg:mb-3 max-w-[1100px]">
             <div className="w-full lg:w-2/5 text-left">
               <div className=" inline-block py-6 px-9 rounded-xl">
-                <img src="/assets/images/tech-services/5-2.png" alt="" />
+                <img
+                  src="/assets/images/tech-services/5-2.png"
+                  alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+                />
               </div>
             </div>
 
@@ -205,7 +144,7 @@ export default function Home() {
                 <p className="flex items-start mb-2">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2 relative top-1"
                   />
 
@@ -217,7 +156,7 @@ export default function Home() {
                 <p className="flex items-start mb-2">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2 relative top-1"
                   />
                   <span>
@@ -228,7 +167,7 @@ export default function Home() {
                 <p className="flex items-start mb-2">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2 relative top-1"
                   />
                   <span>
@@ -253,7 +192,7 @@ export default function Home() {
                 <p className="flex items-start mb-2">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2 relative top-1"
                   />
 
@@ -265,7 +204,7 @@ export default function Home() {
                 <p className="flex items-start mb-2">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2 relative top-1"
                   />
                   <span>
@@ -276,7 +215,7 @@ export default function Home() {
                 <p className="flex items-start mb-2">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2 relative top-1"
                   />
                   <span>
@@ -289,7 +228,10 @@ export default function Home() {
 
             <div className="w-full lg:w-2/5 text-left lg:pl-5 order-1 lg:order-none">
               <div className="inline-block py-6 px-9 rounded-xl">
-                <img src="/assets/images/tech-services/5-3.png" alt="" />
+                <img
+                  src="/assets/images/tech-services/5-3.png"
+                  alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+                />
               </div>
             </div>
           </div>
@@ -297,7 +239,10 @@ export default function Home() {
           <div className="w-full flex lg:flex-row flex-col justify-between items-center mb-8 lg:mb-3 max-w-[1100px]">
             <div className="w-full lg:w-2/5 text-left">
               <div className=" inline-block py-6 px-9 rounded-xl">
-                <img src="/assets/images/tech-services/5-4.png" alt="" />
+                <img
+                  src="/assets/images/tech-services/5-4.png"
+                  alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+                />
               </div>
             </div>
 
@@ -313,7 +258,7 @@ export default function Home() {
                 <p className="flex items-start mb-2">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2 relative top-1"
                   />
 
@@ -325,7 +270,7 @@ export default function Home() {
                 <p className="flex items-start mb-2">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2 relative top-1"
                   />
                   <span>
@@ -336,7 +281,7 @@ export default function Home() {
                 <p className="flex items-start mb-2">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2 relative top-1"
                   />
                   <span>
@@ -361,7 +306,7 @@ export default function Home() {
                 <p className="flex items-start mb-2">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2 relative top-1"
                   />
 
@@ -373,7 +318,7 @@ export default function Home() {
                 <p className="flex items-start mb-2">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2 relative top-1"
                   />
                   <span>
@@ -384,7 +329,7 @@ export default function Home() {
                 <p className="flex items-start mb-2">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2 relative top-1"
                   />
                   <span>
@@ -397,7 +342,10 @@ export default function Home() {
 
             <div className="w-full lg:w-2/5 text-left lg:pl-5 order-1 lg:order-none">
               <div className="inline-block py-6 px-9 rounded-xl">
-                <img src="/assets/images/tech-services/5-5.png" alt="" />
+                <img
+                  src="/assets/images/tech-services/5-5.png"
+                  alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+                />
               </div>
             </div>
           </div>
@@ -405,7 +353,10 @@ export default function Home() {
           <div className="w-full flex lg:flex-row flex-col justify-between items-center mb-8 lg:mb-3 max-w-[1100px]">
             <div className="w-full lg:w-2/5 text-left">
               <div className=" inline-block py-6 px-9 rounded-xl">
-                <img src="/assets/images/tech-services/5-6.png" alt="" />
+                <img
+                  src="/assets/images/tech-services/5-6.png"
+                  alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+                />
               </div>
             </div>
 
@@ -421,7 +372,7 @@ export default function Home() {
                 <p className="flex items-start mb-2">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2 relative top-1"
                   />
 
@@ -433,7 +384,7 @@ export default function Home() {
                 <p className="flex items-start mb-2">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2 relative top-1"
                   />
                   <span>
@@ -444,7 +395,7 @@ export default function Home() {
                 <p className="flex items-start mb-2">
                   <img
                     src="/assets/images/blue-tick.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="mr-2 relative top-1"
                   />
                   <span>

@@ -15,7 +15,7 @@ const VegaCompassInAction = () => {
             >
               <img
                 src="/assets/images/videopreview.png"
-                alt=""
+                alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                 className="w-full h-full object-cover cursor-pointer"
               />
             </Link>
@@ -24,7 +24,7 @@ const VegaCompassInAction = () => {
 
         <div className="w-full lg:w-1/2 text-left lg:pl-16 lg:pr-5 mt-5 lg:mt-0">
           <h3 className="ff-raleway text-5xl text-blackone mt-4 mb-4 font-bold leading-tight">
-            See <span className="text-red">Vega Compass </span>
+            See <span className="text-red">Vegacompass </span>
             in action
           </h3>
           <p className="ff-lato text-base text-blackone mt-4 mb-6">

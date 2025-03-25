@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image";
 import Navigation from "@/components/Navigation/Navigation";
 import Team from "@/components/Team";
 import TestimonialSlider from "@/components/TestimonialSlider";
@@ -9,75 +8,12 @@ import CRMInquiry from "@/components/CRMInquiry";
 import Footer from "@/components/Footer";
 import HeroOne from "@/components/HeroOne";
 import CaseStudiesSlides from "@/components/CaseStudiesSlides";
+import getSEOTags from "@/utils/getSeoTags";
 
-import Link from "next/link";
-import menuData from "@/components/Navigation/menuData";
-
-export const metadata = {
-  title: "Vega Compass",
-  description: "Vega Compass",
-};
-
-// export const metadata = {
-//   title: "UI Graphic – 3D Illustrations & Animations for Beautiful UI Design",
-//   description:
-//     "Discover premium 3D illustrations and background animations crafted for modern UI design. Perfect for SaaS, startups, and landing pages.",
-//   keywords: [
-//     "3D illustrations",
-//     "UI design assets",
-//     "SaaS design",
-//     "landing page animations",
-//     "website illustrations",
-//     "premium UI assets",
-//     "background animations",
-//   ],
-//   metadataBase: new URL("https://uigraphic.com"),
-//   openGraph: {
-//     title: "UI Graphic – 3D Illustrations & Animations for Beautiful UI Design",
-//     description:
-//       "Discover premium 3D illustrations and background animations crafted for modern UI design.",
-//     url: "https://uigraphic.com",
-//     siteName: "UI Graphic",
-//     images: [
-//       {
-//         url: "https://uigraphic.com/og-image.jpg", // Replace with your OG image
-//         width: 1200,
-//         height: 630,
-//         alt: "UI Graphic Preview",
-//       },
-//     ],
-//     type: "website",
-//   },
-//   twitter: {
-//     card: "summary_large_image",
-//     title: "UI Graphic – 3D Illustrations & Animations for Beautiful UI Design",
-//     description:
-//       "Discover premium 3D illustrations and background animations crafted for modern UI design.",
-//     site: "@uigraphic", // Replace with your Twitter handle
-//     creator: "@uigraphic", // Replace with your Twitter handle
-//     images: ["https://uigraphic.com/og-image.jpg"],
-//   },
-//   icons: {
-//     icon: "/favicon.ico",
-//     shortcut: "/favicon-32x32.png",
-//     apple: "/apple-touch-icon.png",
-//   },
-//   themeColor: "#ffffff",
-//   authors: [{ name: "Vega Compass", url: "" }],
-//   generator: "Next.js",
-//   applicationName: "Vega Compass",
-//   referrer: "origin-when-cross-origin",
-//   robots: {
-//     index: true,
-//     follow: true,
-//     nocache: false,
-//     googleBot: {
-//       index: true,
-//       follow: true,
-//       noimageindex: false,
-//     },
-//   },
-// };
+export const metadata = getSEOTags(
+  "CRM Security Planning | Protect Data & Business Growth",
+  "Secure your CRM infrastructure with advanced security measures to safeguard customer data and business operations."
+);
 
 export default function Home() {
   const tiles = [
@@ -188,7 +124,7 @@ export default function Home() {
                 <div className="border rounded-md pt-2 py-2 pb-3 text-left info-card">
                   <img
                     src={item.img}
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="w-full h-72 object-contain p-4"
                   />
                   <h3 className="ff-raleway font-semibold text-2xl text-blackone mt-11 px-8">

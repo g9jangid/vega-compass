@@ -18,7 +18,7 @@ const TeamModal = ({ onClose, data }) => {
           <img
             src={`/assets/images/team/${data.img}`}
             className="w-full aspect-square object-cover object-center rounded-lg"
-            alt=""
+            alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
           />
           <div className="mt-6">
             {data?.linkedin && (

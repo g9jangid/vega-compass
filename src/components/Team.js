@@ -45,7 +45,7 @@ const Team = () => {
               <div className="rounded-2xl w-full mb-4 aspect-square">
                 <img
                   src={item.img}
-                  alt=""
+                  alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                   className="w-full h-full object-cover rounded-2xl"
                 />
               </div>
@@ -57,7 +57,7 @@ const Team = () => {
                 >
                   <img
                     src="/assets/images/icons/arrow-round.svg"
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="w-7 h-7"
                   />
                 </span>

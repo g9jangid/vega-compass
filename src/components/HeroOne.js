@@ -34,7 +34,7 @@ const HeroOne = ({ subhead, title, img, bg }) => {
         <div className="w-full lg:w-1/2 lg:pl-11 flex justify-center mt-5 lg:mt-0">
           <img
             src={img}
-            alt=""
+            alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
             className="w-3/4 lg:w-full h-full object-cover p-2 lg:p-0"
           />
         </div>

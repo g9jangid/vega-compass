@@ -13,21 +13,36 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col md:flex-row justify-between">
         <div className="mb-10 md:mb-0 w-full md:w-1/3 lg:w-1/4">
           <Link href="/">
-            <img src="/assets/images/logo-v2.svg" alt="" />
+            <img
+              src="/assets/images/logo-v2.svg"
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+            />
           </Link>
 
           <div className="flex space-x-4 mt-8">
             <a href="#" className="text-red-600">
-              <img src="/assets/images/social/facebook.svg" alt="" />
+              <img
+                src="/assets/images/social/facebook.svg"
+                alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              />
             </a>
             <a href="#" className="text-red-600">
-              <img src="/assets/images/social/linkedin.svg" alt="" />
+              <img
+                src="/assets/images/social/linkedin.svg"
+                alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              />
             </a>
             <a href="#" className="text-red-600">
-              <img src="/assets/images/social/twitter.svg" alt="" />
+              <img
+                src="/assets/images/social/twitter.svg"
+                alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              />
             </a>
             <a href="#" className="text-red-600">
-              <img src="/assets/images/social/youtube.svg" alt="" />
+              <img
+                src="/assets/images/social/youtube.svg"
+                alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              />
             </a>
           </div>
           <p className="ff-lato text-sm text-white mt-8">
@@ -119,7 +134,7 @@ const Footer = () => {
       </div>
       <div className="border-t border-[--border-gray] mt-14 pt-5 flex lg:justify-between justify-center items-center flex-col md:flex-row">
         <p className="ff-lato text-xs text-gray-400 mb-4">
-          © 2025 Vega Compass. All rights reserved
+          © 2025 Vegacompass. All rights reserved
         </p>
         <div className="flex justify-center space-x-4 mt-2">
           <Link

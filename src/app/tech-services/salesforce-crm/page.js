@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image";
 import Navigation from "@/components/Navigation/Navigation";
 import Team from "@/components/Team";
 import TestimonialSlider from "@/components/TestimonialSlider";
@@ -11,75 +10,12 @@ import HeroOne from "@/components/HeroOne";
 import CaseStudiesSlides from "@/components/CaseStudiesSlides";
 import Accordian from "@/components/Accordian";
 import AccordianBig from "@/components/AccordianBig";
-
 import Link from "next/link";
-import menuData from "@/components/Navigation/menuData";
-
-export const metadata = {
-  title: "Vega Compass",
-  description: "Vega Compass",
-};
-
-// export const metadata = {
-//   title: "UI Graphic – 3D Illustrations & Animations for Beautiful UI Design",
-//   description:
-//     "Discover premium 3D illustrations and background animations crafted for modern UI design. Perfect for SaaS, startups, and landing pages.",
-//   keywords: [
-//     "3D illustrations",
-//     "UI design assets",
-//     "SaaS design",
-//     "landing page animations",
-//     "website illustrations",
-//     "premium UI assets",
-//     "background animations",
-//   ],
-//   metadataBase: new URL("https://uigraphic.com"),
-//   openGraph: {
-//     title: "UI Graphic – 3D Illustrations & Animations for Beautiful UI Design",
-//     description:
-//       "Discover premium 3D illustrations and background animations crafted for modern UI design.",
-//     url: "https://uigraphic.com",
-//     siteName: "UI Graphic",
-//     images: [
-//       {
-//         url: "https://uigraphic.com/og-image.jpg", // Replace with your OG image
-//         width: 1200,
-//         height: 630,
-//         alt: "UI Graphic Preview",
-//       },
-//     ],
-//     type: "website",
-//   },
-//   twitter: {
-//     card: "summary_large_image",
-//     title: "UI Graphic – 3D Illustrations & Animations for Beautiful UI Design",
-//     description:
-//       "Discover premium 3D illustrations and background animations crafted for modern UI design.",
-//     site: "@uigraphic", // Replace with your Twitter handle
-//     creator: "@uigraphic", // Replace with your Twitter handle
-//     images: ["https://uigraphic.com/og-image.jpg"],
-//   },
-//   icons: {
-//     icon: "/favicon.ico",
-//     shortcut: "/favicon-32x32.png",
-//     apple: "/apple-touch-icon.png",
-//   },
-//   themeColor: "#ffffff",
-//   authors: [{ name: "Vega Compass", url: "" }],
-//   generator: "Next.js",
-//   applicationName: "Vega Compass",
-//   referrer: "origin-when-cross-origin",
-//   robots: {
-//     index: true,
-//     follow: true,
-//     nocache: false,
-//     googleBot: {
-//       index: true,
-//       follow: true,
-//       noimageindex: false,
-//     },
-//   },
-// };
+import getSEOTags from "@/utils/getSeoTags";
+export const metadata = getSEOTags(
+  "Salesforce CRM | Elevate Business with Expert Salesforce Solutions",
+  "Transform your business operations with advanced Salesforce CRM solutions, tailored to enhance productivity and growth."
+);
 
 export default function Home() {
   const tiles = [
@@ -210,35 +146,67 @@ export default function Home() {
       content: (
         <div>
           <p className="flex items-center">
-            <img src="/assets/images/purple-tick.svg" alt="" className="mr-2" />
+            <img
+              src="/assets/images/purple-tick.svg"
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              className="mr-2"
+            />
             Business case development and cost of ownership
           </p>
           <p className="flex items-center">
-            <img src="/assets/images/purple-tick.svg" alt="" className="mr-2" />
+            <img
+              src="/assets/images/purple-tick.svg"
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              className="mr-2"
+            />
             Change management and planning
           </p>
           <p className="flex items-center">
-            <img src="/assets/images/purple-tick.svg" alt="" className="mr-2" />
+            <img
+              src="/assets/images/purple-tick.svg"
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              className="mr-2"
+            />
             Cloud strategy
           </p>
           <p className="flex items-center">
-            <img src="/assets/images/purple-tick.svg" alt="" className="mr-2" />
+            <img
+              src="/assets/images/purple-tick.svg"
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              className="mr-2"
+            />
             Content strategy
           </p>
           <p className="flex items-center">
-            <img src="/assets/images/purple-tick.svg" alt="" className="mr-2" />
+            <img
+              src="/assets/images/purple-tick.svg"
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              className="mr-2"
+            />
             Customer experience strategy
           </p>
           <p className="flex items-center">
-            <img src="/assets/images/purple-tick.svg" alt="" className="mr-2" />
+            <img
+              src="/assets/images/purple-tick.svg"
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              className="mr-2"
+            />
             Designing and blueprinting
           </p>
           <p className="flex items-center">
-            <img src="/assets/images/purple-tick.svg" alt="" className="mr-2" />
+            <img
+              src="/assets/images/purple-tick.svg"
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              className="mr-2"
+            />
             DevSecOps
           </p>
           <p className="flex items-center">
-            <img src="/assets/images/purple-tick.svg" alt="" className="mr-2" />
+            <img
+              src="/assets/images/purple-tick.svg"
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              className="mr-2"
+            />
             Data Cloud and AI
           </p>
         </div>
@@ -250,31 +218,59 @@ export default function Home() {
       content: (
         <div>
           <p className="flex items-center">
-            <img src="/assets/images/blue-tick.svg" alt="" className="mr-2" />
+            <img
+              src="/assets/images/blue-tick.svg"
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              className="mr-2"
+            />
             All Salesforce core products
           </p>
           <p className="flex items-center">
-            <img src="/assets/images/blue-tick.svg" alt="" className="mr-2" />
+            <img
+              src="/assets/images/blue-tick.svg"
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              className="mr-2"
+            />
             Salesforce industry cloud
           </p>
           <p className="flex items-center">
-            <img src="/assets/images/blue-tick.svg" alt="" className="mr-2" />
+            <img
+              src="/assets/images/blue-tick.svg"
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              className="mr-2"
+            />
             Salesforce Platform
           </p>
           <p className="flex items-center">
-            <img src="/assets/images/blue-tick.svg" alt="" className="mr-2" />
+            <img
+              src="/assets/images/blue-tick.svg"
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              className="mr-2"
+            />
             Salesforce Einstein and Data Cloud 
           </p>
           <p className="flex items-center">
-            <img src="/assets/images/blue-tick.svg" alt="" className="mr-2" />
+            <img
+              src="/assets/images/blue-tick.svg"
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              className="mr-2"
+            />
             MuleSoft
           </p>
           <p className="flex items-center">
-            <img src="/assets/images/blue-tick.svg" alt="" className="mr-2" />
+            <img
+              src="/assets/images/blue-tick.svg"
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              className="mr-2"
+            />
             Salesforce Trailhead
           </p>
           <p className="flex items-center">
-            <img src="/assets/images/blue-tick.svg" alt="" className="mr-2" />
+            <img
+              src="/assets/images/blue-tick.svg"
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              className="mr-2"
+            />
             Salesforce DevOps
           </p>
         </div>
@@ -286,31 +282,59 @@ export default function Home() {
       content: (
         <div>
           <p className="flex items-center">
-            <img src="/assets/images/orange-tick.svg" alt="" className="mr-2" />
+            <img
+              src="/assets/images/orange-tick.svg"
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              className="mr-2"
+            />
             Application optimization
           </p>
           <p className="flex items-center">
-            <img src="/assets/images/orange-tick.svg" alt="" className="mr-2" />
+            <img
+              src="/assets/images/orange-tick.svg"
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              className="mr-2"
+            />
             Business process efficiency audit
           </p>
           <p className="flex items-center">
-            <img src="/assets/images/orange-tick.svg" alt="" className="mr-2" />
+            <img
+              src="/assets/images/orange-tick.svg"
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              className="mr-2"
+            />
             Managed services
           </p>
           <p className="flex items-center">
-            <img src="/assets/images/orange-tick.svg" alt="" className="mr-2" />
+            <img
+              src="/assets/images/orange-tick.svg"
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              className="mr-2"
+            />
             Salesforce Lightning migration
           </p>
           <p className="flex items-center">
-            <img src="/assets/images/orange-tick.svg" alt="" className="mr-2" />
+            <img
+              src="/assets/images/orange-tick.svg"
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              className="mr-2"
+            />
             Shared services
           </p>
           <p className="flex items-center">
-            <img src="/assets/images/orange-tick.svg" alt="" className="mr-2" />
+            <img
+              src="/assets/images/orange-tick.svg"
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              className="mr-2"
+            />
             System evaluation and reference architecture services
           </p>
           <p className="flex items-center">
-            <img src="/assets/images/orange-tick.svg" alt="" className="mr-2" />
+            <img
+              src="/assets/images/orange-tick.svg"
+              alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
+              className="mr-2"
+            />
             User interface improvement
           </p>
         </div>
@@ -512,7 +536,7 @@ export default function Home() {
 
       <section className="container mx-auto text-center mt-3 px-6">
         <h2 className="ff-raleway text-4xl font-semibold text-blackone mb-8">
-          Vega Compass solutions on <br /> Salesforce platform
+          Vegacompass solutions on <br /> Salesforce platform
         </h2>
         <div className="w-full flex flex-wrap justify-start items-center">
           {tiles.map((item, i) => (
@@ -521,7 +545,7 @@ export default function Home() {
                 <div className="border rounded-md pt-2 py-2 pb-3 text-left info-card">
                   <img
                     src={item.img}
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="w-full h-72 object-contain p-4"
                   />
                   <h3 className="ff-raleway font-semibold text-2xl text-blackone mt-11 px-8">

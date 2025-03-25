@@ -105,7 +105,7 @@ const Accordian = ({ data }) => {
       <div className="w-full lg:w-1/2 p-6">
         <img
           src={accordionItems[openIndex]?.img || accordionItems[0]?.img}
-          alt=""
+          alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
           className="p-5"
         />
       </div>

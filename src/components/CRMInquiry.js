@@ -24,7 +24,7 @@ const CRMInquiry = () => {
             <div className="inline-block rounded-xl">
               <img
                 src="/assets/images/integration.svg"
-                alt=""
+                alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                 className="p-6 lg:p-0"
               />
             </div>

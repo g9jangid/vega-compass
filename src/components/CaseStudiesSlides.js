@@ -64,7 +64,7 @@ const CaseStudiesSlides = () => {
               <SwiperSlide key={i}>
                 <div className="bg-white rounded-lg p-6 border border-[#ECECED] w-80 h-[520px] overflow-hidden">
                   <img
-                    alt=""
+                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
                     className="rounded-lg mb-4 case-study-slide-img"
                     src={item.img}
                   />
