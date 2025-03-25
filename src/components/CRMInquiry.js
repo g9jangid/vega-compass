@@ -13,7 +13,7 @@ const CRMInquiry = () => {
             </h3>
 
             <Link
-              href="/signup"
+              href="/contact-us"
               className="text-base capitalize inline-block ff-lato ease-in-up rounded-md border bg-red py-2 px-8 text-white transition duration-300"
             >
               Contact Us

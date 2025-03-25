@@ -141,6 +141,126 @@ export default function Home() {
     },
   ];
 
+  const accordionItems = [
+    {
+      title: "Finance",
+      content: (
+        <p>
+          We help financial institutions transform client management and
+          compliance processes using Microsoft Dynamics 365 and strategic CRM
+          consulting. Our implementations span wealth management, lending, and
+          insurance domains, with tailored solutions for onboarding,
+          relationship management, and case handling. We build secure, scalable
+          systems that support regulatory needs like KYC, AML, and audit
+          tracking.
+          <br />
+          <br />
+          Our consulting team understands the nuances of financial workflows,
+          from portfolio management to loan servicing. We’ve integrated CRM
+          platforms with core banking systems, document management tools, and
+          communication platforms to create a seamless advisor and client
+          experience. Dynamics CRM also enables segmentation, predictive
+          insights, and personalized service offerings.
+          <br />
+          <br />
+          With enhanced automation and analytics, financial institutions can
+          deliver faster service, improve retention, and make more informed
+          decisions. Our solutions ensure teams stay compliant while staying
+          agile in a highly regulated and competitive environment. From digital
+          onboarding to proactive customer engagement, we help finance clients
+          lead with trust and technology.
+        </p>
+      ),
+    },
+    {
+      title: "Manufacturing",
+      content: (
+        <p>
+          In the manufacturing sector, we’ve helped clients modernize their
+          customer engagement and partner management processes through tailored
+          Microsoft Dynamics 365 solutions. Our work includes building CRM
+          systems that integrate seamlessly with ERP platforms to support end-
+          to-end order management, dealer onboarding, and field service
+          automation. By optimizing lead-to-order workflows and enabling
+          real-time visibility across sales and service teams, we&#39;ve
+          empowered manufacturers to scale operations with greater efficiency.
+          <br />
+          <br />
+          Our consulting team brings a deep understanding of
+          manufacturing-specific needs, such as multi-tier distribution, complex
+          pricing models, and compliance tracking. Our Dynamics implementations
+          support predictive maintenance, warranty tracking, and seamless
+          collaboration between engineering, sales, and service functions.
+          <br />
+          <br />
+          Clients have seen improved productivity, faster order cycles, and
+          better coordination across production and sales teams. Our data-driven
+          CRM approach enables accurate forecasting, better customer insights,
+          and stronger channel partner relationships. We ensure every solution
+          is adaptable to evolving market demands and aligned with the client’s
+          digital transformation goals.
+        </p>
+      ),
+    },
+    {
+      title: "Hi-Tech",
+      content: (
+        <p>
+          We work with high-tech companies to implement CRM strategies that
+          support rapid growth, global expansion, and complex customer journeys.
+          Using Microsoft Dynamics 365, we&#39;ve delivered scalable solutions
+          that unify customer data across marketing, sales, product, and support
+          functions. Our projects often focus on automating renewals, managing
+          software licensing, and enabling cross-team collaboration for
+          enterprise and SMB sales models.
+          <br />
+          <br />
+          Our consulting team is experienced in designing CRM architectures for
+          SaaS, hardware, and hybrid business models. Our Dynamics solutions
+          integrate with customer support tools, and partner ecosystems,
+          ensuring a 360-degree view of customers and products.
+          <br />
+          <br />
+          We help high-tech clients stay ahead with tailored dashboards,
+          advanced analytics, and automation that reduce manual effort and
+          improve decision-making. Our CRM consulting empowers clients to
+          deliver personalized, data-driven experiences and foster long-term
+          customer loyalty in competitive markets. With scalable and secure
+          solutions, we support your innovation journey from lead to renewal.
+        </p>
+      ),
+    },
+    {
+      title: "Non-Profit",
+      content: (
+        <p>
+          For non-profits, we deliver Microsoft Dynamics 365 solutions designed
+          to manage donors, volunteers, programs, and beneficiaries in one
+          unified platform. Our consulting focuses on building CRM systems that
+          support mission delivery while ensuring data transparency and donor
+          engagement. We’ve helped organizations improve fundraising efficiency,
+          automate outreach, and centralize reporting to meet regulatory and
+          board requirements.
+          <br />
+          <br />
+          Our Dynamics implementations have empowered teams to manage campaigns,
+          track grant funding, and streamline event planning. We tailor CRM
+          features to handle recurring donations, volunteer scheduling, and
+          constituent communications with ease. Our solutions align with the
+          specific operational goals of non-profits—maximizing impact while
+          minimizing administrative burden.
+          <br />
+          <br />
+          We bring a consultative approach, helping non-profits build CRM
+          strategies that scale with their mission and community reach. With
+          improved data quality and process automation, organizations are better
+          equipped to measure outcomes, improve stakeholder relationships, and
+          drive engagement through personalized, impactful experiences.
+        </p>
+      ),
+    },
+  ];
+
   return (
     <main className="min-h-screen">
       <Navigation />
@@ -239,7 +359,7 @@ export default function Home() {
           <h2 className="ff-raleway text-4xl font-semibold text-blackone mb-10 mt-4">
             Industry-specific CRM, designed for you
           </h2>
-          <AccordianBig />
+          <AccordianBig data={accordionItems} />
         </div>
       </section>
 

@@ -91,22 +91,22 @@ export default function Home() {
       <section className="container mx-auto flex justify-start flex-col items-start px-6 mt-32 lg:mt-48 max-w-[1200px]">
         <div className="text-left flex flex-col items-center">
           <h1 className="ff-raleway text-2xl md:text-3xl lg:text-4xl text-blackone capitalize font-bold">
-            Privacy Policy
+            Privacy and Content Policy
           </h1>
         </div>
       </section>
 
       <section className="container mx-auto text-left mt-6 px-6 max-w-[1200px] privacy-policy-page">
         <p>
-          The portal, https://www.vegacompass.com (the “website”) is owned and
-          operated by VegaCompass Technologies Private Limited(“Company”, “us”,
+          The portal, https://vegacompass.com (the “website”) is owned and
+          operated by Vegacompass Technologies Private Limited(“Company”, “us”,
           “we”, “our”), a private limited company incorporated under the
-          Companies Act, 1956, having CIN No. —------- and its registered office
-          at —-----------, India. <br />
+          Companies Act, 1956, having CIN No. U62013PN2025PTC238337 and its
+          registered office at Pune, India. <br />
           <br />
-          Company is engaged in the business of providing market research and
-          consulting services to its customers across various business sectors
-          in India.
+          Company is engaged in the business of providing IT consulting services
+          to its customers across various business sectors in India and out of
+          India.
           <br />
           <br />
           This privacy policy (“Privacy Policy”) sets out the information
@@ -120,9 +120,9 @@ export default function Home() {
           “customer” or “user”, would mean the person who accesses and/or uses
           the website, in any manner. <br />
           <br />
-          We request you to go through this Privacy Policy and the Terms of Use
-          accessible at Terms of Use carefully before you decide to use this
-          website. <br />
+          We request you to go through this Privacy and Content Policy and the
+          Terms of Use accessible at Terms of Use carefully before you decide to
+          use this website. <br />
           <br />
           By using our website and services or by otherwise giving us your
           information, you agree to the terms of this privacy policy. You also
@@ -388,11 +388,10 @@ export default function Home() {
         <p className="my-3">
           Your information will be retained with us as long as you engage with
           us If you wish to cancel your account or request that we no longer use
-          your information, you may contact us at                         or
-          send us an email to —---------------------. We will retain and use
-          your information as necessary to comply with our legal obligations,
-          resolve disputes, enforce our agreements or for other business
-          purposes.
+          your information, you may contact us via email to
+          connect@vegacompass.com. We will retain and use your information as
+          necessary to comply with our legal obligations, resolve disputes,
+          enforce our agreements or for other business purposes.
         </p>
 
         <h2 className="ff-raleway font-semibold text-blackone text-3xl pl-0 mt-10">
@@ -401,9 +400,9 @@ export default function Home() {
         <p className="my-3">
           You may, at any time, choose to opt-out of receiving further
           communications from us. To be completely removed from our mailing
-          list, you may contact us at —------------------------. If you are
-          using an e-mail forwarding service or other similar services please
-          make sure to include the correct e-mail address or addresses.
+          list, you may contact us at connect@vegacompass.com. If you are using
+          an e-mail forwarding service or other similar services please make
+          sure to include the correct e-mail address or addresses.
         </p>
 
         <h2 className="ff-raleway font-semibold text-blackone text-3xl pl-0 mt-10">
@@ -442,7 +441,7 @@ export default function Home() {
         <p className="my-3">
           Should you have questions about the Privacy Policy or our information
           collection, use, and disclosure practices, you may contact us at
-          —------------------. We will use reasonable efforts to respond
+          connect@vegacompass.com. We will use reasonable efforts to respond
           promptly to requests, questions or concerns you may have regarding our
           use of your Sensitive Personal Information. Except where required by
           law, we cannot ensure a response to questions or comments regarding
@@ -470,20 +469,20 @@ export default function Home() {
           </p>
           <p className="mt-2">
             <span className="uppercase font-semibold pr-3">
-              CONTACT NUMBER::
+              CONTACT NUMBER:
             </span>{" "}
-            <span>-</span>
+            <span>+91-20-4761-0774</span>
           </p>
           <p className="mt-2">
-            <span className="uppercase font-semibold pr-3">EMAIL ID: :</span>{" "}
-            <span>-</span>
+            <span className="uppercase font-semibold pr-3">EMAIL ID:</span>{" "}
+            <span>connect@vegacompass.com</span>
           </p>
         </div>
         <p className="my-3">
           YOU HAVE READ THIS PRIVACY POLICY AND AGREE TO ALL OF THE PROVISIONS
           CONTAINED ABOVE
         </p>
-        <p className="my-3">Effective Date: DD/MM/YY</p>
+        <p className="my-3">Effective Date: 31/03/2025</p>
       </section>
 
       <VegaCompassInAction />

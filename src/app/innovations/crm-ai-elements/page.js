@@ -245,12 +245,12 @@ export default function Home() {
                 customer success​. Analyze case content to understand customer
                 sentiment, enhancing customer success strategies and outcomes.
               </p>
-              <Link
+              {/* <Link
                 href="/signup"
                 className="text-base capitalize inline-block ff-lato ease-in-up rounded-md border border-red hover:bg-red py-2 px-8 text-red hover:text-white transition duration-300"
               >
                 learn More
-              </Link>
+              </Link> */}
             </div>
 
             <div className="w-full lg:w-2/5 text-left lg:pl-5 order-1 lg:order-none">
@@ -277,7 +277,7 @@ export default function Home() {
                 effectively, ensuring clearer and concise understanding.
               </p>
               <Link
-                href="/signup"
+                href="/innovations/crm-ai-elements/summarization"
                 className="text-base capitalize inline-block ff-lato ease-in-up rounded-md border border-red hover:bg-red py-2 px-8 text-red hover:text-white transition duration-300"
               >
                 learn More
@@ -296,7 +296,7 @@ export default function Home() {
                 enabling seamless multilingual communication.
               </p>
               <Link
-                href="/signup"
+                href="/innovations/crm-ai-elements/audio-to-text"
                 className="text-base capitalize inline-block ff-lato ease-in-up rounded-md border border-red hover:bg-red py-2 px-8 text-red hover:text-white transition duration-300"
               >
                 learn More
@@ -328,7 +328,7 @@ export default function Home() {
                 the reasons behind each score.
               </p>
               <Link
-                href="/signup"
+                href="/innovations/crm-ai-elements/lead-scoring"
                 className="text-base capitalize inline-block ff-lato ease-in-up rounded-md border border-red hover:bg-red py-2 px-8 text-red hover:text-white transition duration-300"
               >
                 learn More
@@ -348,7 +348,7 @@ export default function Home() {
                 efficiency.
               </p>
               <Link
-                href="/signup"
+                href="/innovations/crm-ai-elements/large-document-analysis"
                 className="text-base capitalize inline-block ff-lato ease-in-up rounded-md border border-red hover:bg-red py-2 px-8 text-red hover:text-white transition duration-300"
               >
                 learn More
@@ -379,7 +379,7 @@ export default function Home() {
                 gaining valuable insights into its overall performance.
               </p>
               <Link
-                href="/signup"
+                href="/innovations/crm-ai-elements/company-evaluation"
                 className="text-base capitalize inline-block ff-lato ease-in-up rounded-md border border-red hover:bg-red py-2 px-8 text-red hover:text-white transition duration-300"
               >
                 learn More

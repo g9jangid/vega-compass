@@ -8,11 +8,17 @@ const VegaCompassInAction = () => {
       <div className="w-full flex lg:flex-row flex-col justify-between items-center mb-8 lg:mb-3">
         <div className="w-full lg:w-1/2 text-left">
           <div className="inline-block rounded-xl">
-            <img
-              src="/assets/images/videopreview.png"
-              alt=""
-              className="w-full h-full object-cover"
-            />
+            <Link
+              href={"https://www.youtube.com/watch?v=9zaL6uPWO9U"}
+              className="w-full h-full"
+              target="_blank"
+            >
+              <img
+                src="/assets/images/videopreview.png"
+                alt=""
+                className="w-full h-full object-cover cursor-pointer"
+              />
+            </Link>
           </div>
         </div>
 
@@ -26,10 +32,10 @@ const VegaCompassInAction = () => {
             businesses worldwide
           </p>
           <Link
-            href="/signup"
+            href="/contact-us"
             className="text-base capitalize inline-block ff-lato ease-in-up rounded-md border bg-red py-2 px-8 text-white transition duration-300"
           >
-            Request a Demo
+            Contact Us
           </Link>
         </div>
       </div>

@@ -14,18 +14,19 @@ export default function Home() {
     <main className="min-h-screen">
       <Navigation />
       <HomeSlider />
-      <section className="container mx-auto px-6 flex justify-center flex-col items-center mt-16">
-        <h2 className="ff-raleway text-xl text-blackone font-semibold mb-8 text-center">
-          Trusted by businesses all over the world
-        </h2>
-        <LogoSlider />
-      </section>
 
       <section className="container mx-auto text-center mt-28 testimonial-section">
         <h2 className="ff-raleway text-4xl font-semibold text-blackone mb-12">
           Hear from our clients
         </h2>
         <TestimonialSlider />
+      </section>
+
+      <section className="container mx-auto px-6 flex justify-center flex-col items-center mt-28">
+        <h2 className="ff-raleway text-4xl font-semibold text-blackone mb-12">
+          CRM engagements by our team
+        </h2>
+        <LogoSlider />
       </section>
 
       <section className="container mx-auto text-center mt-28 px-6 lg:px-28">
@@ -51,7 +52,7 @@ export default function Home() {
               interactions, streamlining operations, and driving long-term value
             </p>
             <Link
-              href="/signup"
+              href="/consulting"
               className="text-base capitalize inline-block ff-lato ease-in-up rounded-md border border-red hover:bg-red py-2 px-8 text-red hover:text-white transition duration-300"
             >
               learn More
@@ -72,7 +73,7 @@ export default function Home() {
               enhance your operational efficiency.
             </p>
             <Link
-              href="/signup"
+              href="/tech-services"
               className="text-base capitalize inline-block ff-lato ease-in-up rounded-md border border-red hover:bg-red py-2 px-8 text-red hover:text-white transition duration-300"
             >
               learn More
@@ -105,7 +106,7 @@ export default function Home() {
               that set your business apart.
             </p>
             <Link
-              href="/signup"
+              href="/innovations"
               className="text-base capitalize inline-block ff-lato ease-in-up rounded-md border border-red hover:bg-red py-2 px-8 text-red hover:text-white transition duration-300"
             >
               learn More
@@ -113,6 +114,25 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <div className="bg-[#FFF7F0] w-full py-24 mt-28">
+        <section className="container mx-auto px-6 flex justify-center flex-col items-center text-center ">
+          <h2 className="ff-raleway text-2xl md:text-3xl lg:text-4xl font-bold text-blackone mb-2">
+            If our{" "}
+            <span className="text-red">CRM process or technical work</span>
+            <br className="hidden lg:block" />
+            doesn&apos;t meet your needs,
+            <br className="hidden lg:block" />
+            <span className="text-red">we’ll</span> remake it until it does.
+          </h2>
+          <p className="text-blackone ff-lato text-lg mt-3">
+            (Again+ again as long as it takes)
+          </p>
+          <p className="text-blackone ff-lato text-lg mt-2">
+            Your satisfaction is our priority :)
+          </p>
+        </section>
+      </div>
 
       <VegaCompassInAction />
       <CRMInquiry />

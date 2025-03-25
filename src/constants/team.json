@@ -1,22 +1,21 @@
 [
   {
     "name": "Charudatta Thute",
-    "desg": "CEO",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
-    "twitter": "https://www.linkedin.com/in/your-profile",
-    "categories": ["consulting"],
-    "img": "jason-linkswiler.jpg",
+    "desg": "CEO & FOUNDER",
+    "linkedin": "",
+    "twitter": "",
+    "categories": ["consulting", "core-team", "tech-services"],
+    "img": "charudatta-thute.jpg",
     "bio": [
-      "With over 20 years of experience in business transformation, operations, and strategy, Jason helps organizations optimize their growth investments and GTM systems by delivering scalable, cost-effective CRM solutions that drive measurable business outcomes. A trusted advisor to PE/VC firms, corporate strategy teams, and C-suite executives, he has led high-impact digital transformation initiatives across industries, including financial services, energy, media, and technology, bridging strategic vision with hands-on execution to drive efficiency, customer engagement, and long-term growth.",
-      "Jason did MBA from Texas McCombs school of Business and is based in Austin,US."
+      "Charu has worked in the CRM domain for the last 18 years in different capacities starting as developer to leading global teams.  He has worked in CRM technology with global giants, developing products complementing CRM processes and published white papers on CRM operations/technology. With a deep understanding of the CRM arena, he holds an MBA from University of Mumbai. He loves reading books and talking about CRM technology in his free time."
     ]
   },
   {
     "name": "Jason Linkswiler",
     "desg": "Partner",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
-    "twitter": "https://www.linkedin.com/in/your-profile",
-    "categories": ["consulting"],
+    "linkedin": "",
+    "twitter": "",
+    "categories": ["consulting", "core-team", "tech-services"],
     "img": "jason-linkswiler.jpg",
     "bio": [
       "With over 20 years of experience in business transformation, operations, and strategy, Jason helps organizations optimize their growth investments and GTM systems by delivering scalable, cost-effective CRM solutions that drive measurable business outcomes. A trusted advisor to PE/VC firms, corporate strategy teams, and C-suite executives, he has led high-impact digital transformation initiatives across industries, including financial services, energy, media, and technology, bridging strategic vision with hands-on execution to drive efficiency, customer engagement, and long-term growth.",
@@ -26,253 +25,35 @@
   {
     "name": "Jeremy Joseph",
     "desg": "Partner",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
-    "twitter": "https://www.linkedin.com/in/your-profile",
-    "categories": ["consulting"],
-    "img": "jason-linkswiler.jpg",
+    "linkedin": "",
+    "twitter": "",
+    "categories": ["consulting", "core-team", "tech-services"],
+    "img": "Jeremy-Joseph.jpg",
     "bio": [
-      "With over 20 years of experience in business transformation, operations, and strategy, Jason helps organizations optimize their growth investments and GTM systems by delivering scalable, cost-effective CRM solutions that drive measurable business outcomes. A trusted advisor to PE/VC firms, corporate strategy teams, and C-suite executives, he has led high-impact digital transformation initiatives across industries, including financial services, energy, media, and technology, bridging strategic vision with hands-on execution to drive efficiency, customer engagement, and long-term growth.",
-      "Jason did MBA from Texas McCombs school of Business and is based in Austin,US."
+      "Jeremy is an experienced 20 year CRM executive with consultative experiences ranging from global enterprise to Silicon Valley startup successes.  He is based in Palo Alto, California."
     ]
   },
   {
     "name": "Atul Kumthekar",
     "desg": "Partner",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
-    "twitter": "https://www.linkedin.com/in/your-profile",
-    "categories": ["consulting"],
-    "img": "jason-linkswiler.jpg",
+    "linkedin": "",
+    "twitter": "",
+    "categories": ["consulting", "core-team", "tech-services"],
+    "img": "Atul-Kumthekar.jpg",
     "bio": [
-      "With over 20 years of experience in business transformation, operations, and strategy, Jason helps organizations optimize their growth investments and GTM systems by delivering scalable, cost-effective CRM solutions that drive measurable business outcomes. A trusted advisor to PE/VC firms, corporate strategy teams, and C-suite executives, he has led high-impact digital transformation initiatives across industries, including financial services, energy, media, and technology, bridging strategic vision with hands-on execution to drive efficiency, customer engagement, and long-term growth.",
-      "Jason did MBA from Texas McCombs school of Business and is based in Austin,US."
+      "Atul is a Salesforce and enterprise CRM architect with over 20 years of experience in designing, architecting, and implementing scalable CRM solutions for mid-market and enterprise clients across financial services, SaaS, sustainability, and B2B industries.  He specializes in CRM strategy, system architecture, and automation, helping organizations optimize their GTM systems and customer engagement through innovative, cost-effective solutions. As a trusted partner to C-suite executives, he has led complex digital transformation initiatives, integrating Salesforce and other CRM platforms to drive efficiency, scalability, and long-term business growth.",
+      "Atul is a B.Tech graduate from IIT Bombay and based in US and India."
     ]
   },
   {
-    "name": "Ayush Saxena",
+    "name": "Michael",
     "desg": "Partner",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
-    "twitter": "https://www.linkedin.com/in/your-profile",
-    "categories": ["core-team", "hubspot"],
-    "img": "jason-linkswiler.jpg",
+    "linkedin": "",
+    "twitter": "",
+    "categories": ["consulting", "core-team", "tech-services"],
+    "img": "Michael.jpg",
     "bio": [
-      "With over 20 years of experience in business transformation, operations, and strategy, Jason helps organizations optimize their growth investments and GTM systems by delivering scalable, cost-effective CRM solutions that drive measurable business outcomes. A trusted advisor to PE/VC firms, corporate strategy teams, and C-suite executives, he has led high-impact digital transformation initiatives across industries, including financial services, energy, media, and technology, bridging strategic vision with hands-on execution to drive efficiency, customer engagement, and long-term growth.",
-      "Jason did MBA from Texas McCombs school of Business and is based in Austin,US."
-    ]
-  },
-  {
-    "name": "Akhil Dobariya",
-    "desg": "Partner",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
-    "twitter": "https://www.linkedin.com/in/your-profile",
-    "categories": ["core-team", "hubspot"],
-    "img": "jason-linkswiler.jpg",
-    "bio": [
-      "With over 20 years of experience in business transformation, operations, and strategy, Jason helps organizations optimize their growth investments and GTM systems by delivering scalable, cost-effective CRM solutions that drive measurable business outcomes. A trusted advisor to PE/VC firms, corporate strategy teams, and C-suite executives, he has led high-impact digital transformation initiatives across industries, including financial services, energy, media, and technology, bridging strategic vision with hands-on execution to drive efficiency, customer engagement, and long-term growth.",
-      "Jason did MBA from Texas McCombs school of Business and is based in Austin,US."
-    ]
-  },
-  {
-    "name": "Debashish Jena",
-    "desg": "SALESFORCE ARCHITECT",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
-    "twitter": "https://www.linkedin.com/in/your-profile",
-    "categories": ["core-team", "hubspot"],
-    "img": "jason-linkswiler.jpg",
-    "bio": [
-      "With over 20 years of experience in business transformation, operations, and strategy, Jason helps organizations optimize their growth investments and GTM systems by delivering scalable, cost-effective CRM solutions that drive measurable business outcomes. A trusted advisor to PE/VC firms, corporate strategy teams, and C-suite executives, he has led high-impact digital transformation initiatives across industries, including financial services, energy, media, and technology, bridging strategic vision with hands-on execution to drive efficiency, customer engagement, and long-term growth.",
-      "Jason did MBA from Texas McCombs school of Business and is based in Austin,US."
-    ]
-  },
-  {
-    "name": "Divyanshi C.",
-    "desg": "SALESFORCE ARCHITECT",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
-    "twitter": "https://www.linkedin.com/in/your-profile",
-    "categories": ["core-team", "hubspot", "salesforce"],
-    "img": "jason-linkswiler.jpg",
-    "bio": [
-      "With over 20 years of experience in business transformation, operations, and strategy, Jason helps organizations optimize their growth investments and GTM systems by delivering scalable, cost-effective CRM solutions that drive measurable business outcomes. A trusted advisor to PE/VC firms, corporate strategy teams, and C-suite executives, he has led high-impact digital transformation initiatives across industries, including financial services, energy, media, and technology, bridging strategic vision with hands-on execution to drive efficiency, customer engagement, and long-term growth.",
-      "Jason did MBA from Texas McCombs school of Business and is based in Austin,US."
-    ]
-  },
-  {
-    "name": "Ananya Agrawal",
-    "desg": "Pardot",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
-    "twitter": "https://www.linkedin.com/in/your-profile",
-    "categories": ["core-team", "hubspot"],
-    "img": "jason-linkswiler.jpg",
-    "bio": [
-      "With over 20 years of experience in business transformation, operations, and strategy, Jason helps organizations optimize their growth investments and GTM systems by delivering scalable, cost-effective CRM solutions that drive measurable business outcomes. A trusted advisor to PE/VC firms, corporate strategy teams, and C-suite executives, he has led high-impact digital transformation initiatives across industries, including financial services, energy, media, and technology, bridging strategic vision with hands-on execution to drive efficiency, customer engagement, and long-term growth.",
-      "Jason did MBA from Texas McCombs school of Business and is based in Austin,US."
-    ]
-  },
-  {
-    "name": "Sukumar",
-    "desg": "Partner",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
-    "twitter": "https://www.linkedin.com/in/your-profile",
-    "categories": ["core-team", "hubspot"],
-    "img": "jason-linkswiler.jpg",
-    "bio": [
-      "With over 20 years of experience in business transformation, operations, and strategy, Jason helps organizations optimize their growth investments and GTM systems by delivering scalable, cost-effective CRM solutions that drive measurable business outcomes. A trusted advisor to PE/VC firms, corporate strategy teams, and C-suite executives, he has led high-impact digital transformation initiatives across industries, including financial services, energy, media, and technology, bridging strategic vision with hands-on execution to drive efficiency, customer engagement, and long-term growth.",
-      "Jason did MBA from Texas McCombs school of Business and is based in Austin,US."
-    ]
-  },
-  {
-    "name": "Pragati",
-    "desg": "MS DYANMIC ARCHITECT",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
-    "twitter": "https://www.linkedin.com/in/your-profile",
-    "categories": ["core-team", "hubspot", "salesforce"],
-    "img": "jason-linkswiler.jpg",
-    "bio": [
-      "With over 20 years of experience in business transformation, operations, and strategy, Jason helps organizations optimize their growth investments and GTM systems by delivering scalable, cost-effective CRM solutions that drive measurable business outcomes. A trusted advisor to PE/VC firms, corporate strategy teams, and C-suite executives, he has led high-impact digital transformation initiatives across industries, including financial services, energy, media, and technology, bridging strategic vision with hands-on execution to drive efficiency, customer engagement, and long-term growth.",
-      "Jason did MBA from Texas McCombs school of Business and is based in Austin,US."
-    ]
-  },
-  {
-    "name": "Nitin",
-    "desg": "HUBSPOT ARCHITECT",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
-    "twitter": "https://www.linkedin.com/in/your-profile",
-    "categories": ["core-team", "hubspot"],
-    "img": "jason-linkswiler.jpg",
-    "bio": [
-      "With over 20 years of experience in business transformation, operations, and strategy, Jason helps organizations optimize their growth investments and GTM systems by delivering scalable, cost-effective CRM solutions that drive measurable business outcomes. A trusted advisor to PE/VC firms, corporate strategy teams, and C-suite executives, he has led high-impact digital transformation initiatives across industries, including financial services, energy, media, and technology, bridging strategic vision with hands-on execution to drive efficiency, customer engagement, and long-term growth.",
-      "Jason did MBA from Texas McCombs school of Business and is based in Austin,US."
-    ]
-  },
-  {
-    "name": "Abhishek",
-    "desg": "MARKETO ARCHITECT",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
-    "twitter": "https://www.linkedin.com/in/your-profile",
-    "categories": ["core-team", "hubspot"],
-    "img": "jason-linkswiler.jpg",
-    "bio": [
-      "With over 20 years of experience in business transformation, operations, and strategy, Jason helps organizations optimize their growth investments and GTM systems by delivering scalable, cost-effective CRM solutions that drive measurable business outcomes. A trusted advisor to PE/VC firms, corporate strategy teams, and C-suite executives, he has led high-impact digital transformation initiatives across industries, including financial services, energy, media, and technology, bridging strategic vision with hands-on execution to drive efficiency, customer engagement, and long-term growth.",
-      "Jason did MBA from Texas McCombs school of Business and is based in Austin,US."
-    ]
-  },
-  {
-    "name": "Abhinav",
-    "desg": "MARKETO ARCHITECT",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
-    "twitter": "https://www.linkedin.com/in/your-profile",
-    "categories": ["core-team", "hubspot"],
-    "img": "jason-linkswiler.jpg",
-    "bio": [
-      "With over 20 years of experience in business transformation, operations, and strategy, Jason helps organizations optimize their growth investments and GTM systems by delivering scalable, cost-effective CRM solutions that drive measurable business outcomes. A trusted advisor to PE/VC firms, corporate strategy teams, and C-suite executives, he has led high-impact digital transformation initiatives across industries, including financial services, energy, media, and technology, bridging strategic vision with hands-on execution to drive efficiency, customer engagement, and long-term growth.",
-      "Jason did MBA from Texas McCombs school of Business and is based in Austin,US."
-    ]
-  },
-  {
-    "name": "Arsalan Yasin",
-    "desg": "ODOO ARCHITECT",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
-    "twitter": "https://www.linkedin.com/in/your-profile",
-    "categories": ["core-team", "hubspot"],
-    "img": "jason-linkswiler.jpg",
-    "bio": [
-      "With over 20 years of experience in business transformation, operations, and strategy, Jason helps organizations optimize their growth investments and GTM systems by delivering scalable, cost-effective CRM solutions that drive measurable business outcomes. A trusted advisor to PE/VC firms, corporate strategy teams, and C-suite executives, he has led high-impact digital transformation initiatives across industries, including financial services, energy, media, and technology, bridging strategic vision with hands-on execution to drive efficiency, customer engagement, and long-term growth.",
-      "Jason did MBA from Texas McCombs school of Business and is based in Austin,US."
-    ]
-  },
-  {
-    "name": "Dmytro Protsenko",
-    "desg": "ODOO ARCHITECT",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
-    "twitter": "https://www.linkedin.com/in/your-profile",
-    "categories": ["core-team", "hubspot"],
-    "img": "jason-linkswiler.jpg",
-    "bio": [
-      "With over 20 years of experience in business transformation, operations, and strategy, Jason helps organizations optimize their growth investments and GTM systems by delivering scalable, cost-effective CRM solutions that drive measurable business outcomes. A trusted advisor to PE/VC firms, corporate strategy teams, and C-suite executives, he has led high-impact digital transformation initiatives across industries, including financial services, energy, media, and technology, bridging strategic vision with hands-on execution to drive efficiency, customer engagement, and long-term growth.",
-      "Jason did MBA from Texas McCombs school of Business and is based in Austin,US."
-    ]
-  },
-  {
-    "name": "Cristobal Lagos",
-    "desg": "ZOHO ARCHITECT",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
-    "twitter": "https://www.linkedin.com/in/your-profile",
-    "categories": ["core-team", "hubspot"],
-    "img": "jason-linkswiler.jpg",
-    "bio": [
-      "With over 20 years of experience in business transformation, operations, and strategy, Jason helps organizations optimize their growth investments and GTM systems by delivering scalable, cost-effective CRM solutions that drive measurable business outcomes. A trusted advisor to PE/VC firms, corporate strategy teams, and C-suite executives, he has led high-impact digital transformation initiatives across industries, including financial services, energy, media, and technology, bridging strategic vision with hands-on execution to drive efficiency, customer engagement, and long-term growth.",
-      "Jason did MBA from Texas McCombs school of Business and is based in Austin,US."
-    ]
-  },
-  {
-    "name": "Kiran Thangirala",
-    "desg": "MULESOFT ARCHITECT",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
-    "twitter": "https://www.linkedin.com/in/your-profile",
-    "categories": ["core-team", "hubspot"],
-    "img": "jason-linkswiler.jpg",
-    "bio": [
-      "With over 20 years of experience in business transformation, operations, and strategy, Jason helps organizations optimize their growth investments and GTM systems by delivering scalable, cost-effective CRM solutions that drive measurable business outcomes. A trusted advisor to PE/VC firms, corporate strategy teams, and C-suite executives, he has led high-impact digital transformation initiatives across industries, including financial services, energy, media, and technology, bridging strategic vision with hands-on execution to drive efficiency, customer engagement, and long-term growth.",
-      "Jason did MBA from Texas McCombs school of Business and is based in Austin,US."
-    ]
-  },
-  {
-    "name": "Jay Patkar",
-    "desg": "ATOM ARCHITECT",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
-    "twitter": "https://www.linkedin.com/in/your-profile",
-    "categories": ["core-team", "hubspot"],
-    "img": "jason-linkswiler.jpg",
-    "bio": [
-      "With over 20 years of experience in business transformation, operations, and strategy, Jason helps organizations optimize their growth investments and GTM systems by delivering scalable, cost-effective CRM solutions that drive measurable business outcomes. A trusted advisor to PE/VC firms, corporate strategy teams, and C-suite executives, he has led high-impact digital transformation initiatives across industries, including financial services, energy, media, and technology, bridging strategic vision with hands-on execution to drive efficiency, customer engagement, and long-term growth.",
-      "Jason did MBA from Texas McCombs school of Business and is based in Austin,US."
-    ]
-  },
-  {
-    "name": "Ajit Padole",
-    "desg": "ATOM ARCHITECT",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
-    "twitter": "https://www.linkedin.com/in/your-profile",
-    "categories": ["core-team", "hubspot"],
-    "img": "jason-linkswiler.jpg",
-    "bio": [
-      "With over 20 years of experience in business transformation, operations, and strategy, Jason helps organizations optimize their growth investments and GTM systems by delivering scalable, cost-effective CRM solutions that drive measurable business outcomes. A trusted advisor to PE/VC firms, corporate strategy teams, and C-suite executives, he has led high-impact digital transformation initiatives across industries, including financial services, energy, media, and technology, bridging strategic vision with hands-on execution to drive efficiency, customer engagement, and long-term growth.",
-      "Jason did MBA from Texas McCombs school of Business and is based in Austin,US."
-    ]
-  },
-  {
-    "name": "Jitendra Sharma",
-    "desg": "SERVICENOW ARCHITECT",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
-    "twitter": "https://www.linkedin.com/in/your-profile",
-    "categories": ["core-team", "hubspot"],
-    "img": "jason-linkswiler.jpg",
-    "bio": [
-      "With over 20 years of experience in business transformation, operations, and strategy, Jason helps organizations optimize their growth investments and GTM systems by delivering scalable, cost-effective CRM solutions that drive measurable business outcomes. A trusted advisor to PE/VC firms, corporate strategy teams, and C-suite executives, he has led high-impact digital transformation initiatives across industries, including financial services, energy, media, and technology, bridging strategic vision with hands-on execution to drive efficiency, customer engagement, and long-term growth.",
-      "Jason did MBA from Texas McCombs school of Business and is based in Austin,US."
-    ]
-  },
-  {
-    "name": "Aamir Bilal",
-    "desg": "SERVICENOW ARCHITECT",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
-    "twitter": "https://www.linkedin.com/in/your-profile",
-    "categories": ["core-team", "hubspot"],
-    "img": "jason-linkswiler.jpg",
-    "bio": [
-      "With over 20 years of experience in business transformation, operations, and strategy, Jason helps organizations optimize their growth investments and GTM systems by delivering scalable, cost-effective CRM solutions that drive measurable business outcomes. A trusted advisor to PE/VC firms, corporate strategy teams, and C-suite executives, he has led high-impact digital transformation initiatives across industries, including financial services, energy, media, and technology, bridging strategic vision with hands-on execution to drive efficiency, customer engagement, and long-term growth.",
-      "Jason did MBA from Texas McCombs school of Business and is based in Austin,US."
-    ]
-  },
-  {
-    "name": "Sergii Lopka",
-    "desg": "AI ARCHITECT",
-    "linkedin": "https://www.linkedin.com/in/your-profile",
-    "twitter": "https://www.linkedin.com/in/your-profile",
-    "categories": ["core-team", "hubspot"],
-    "img": "jason-linkswiler.jpg",
-    "bio": [
-      "With over 20 years of experience in business transformation, operations, and strategy, Jason helps organizations optimize their growth investments and GTM systems by delivering scalable, cost-effective CRM solutions that drive measurable business outcomes. A trusted advisor to PE/VC firms, corporate strategy teams, and C-suite executives, he has led high-impact digital transformation initiatives across industries, including financial services, energy, media, and technology, bridging strategic vision with hands-on execution to drive efficiency, customer engagement, and long-term growth.",
-      "Jason did MBA from Texas McCombs school of Business and is based in Austin,US."
+      "Michael's journey from building computers at 12 to mastering system integration and automation showcases a lifelong passion for technology. He firmly believes that CRM systems should adapt to human workflows, not the other way around. With a history of successful turnkey optimization projects for diverse clients, Michael is ready to bring his expertise to projects across Southeast Asia. He is based in Singapore."
     ]
   }
 ]

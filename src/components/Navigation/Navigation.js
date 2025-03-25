@@ -221,7 +221,7 @@ const Navigation = () => {
                           {!menuItem.submenu ? (
                             <Link
                               href={menuItem.path}
-                              className={`flex py-2 text-lg lg:text-sm ff-lato text-blackone lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
+                              className={`flex py-2 text-lg lg:text-sm xl:text-base ff-lato text-blackone lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
                             >
                               {menuItem.title}
                             </Link>
@@ -229,7 +229,7 @@ const Navigation = () => {
                             <>
                               <Link
                                 href={menuItem.path}
-                                className={`flex cursor-pointer items-center justify-start lg:justify-between py-2 text-lg lg:text-sm ${
+                                className={`flex cursor-pointer items-center justify-start text-blackone text-lg lg:text-sm xl:text-base ff-lato lg:justify-between py-2 ${
                                   !isActivePage(menuItem.path)
                                     ? "text-textDark"
                                     : "text-red"
@@ -304,7 +304,7 @@ const Navigation = () => {
                       <li className="group relative lg:hidden">
                         <Link
                           href="/contact-us"
-                          className={`flex cursor-pointer items-center justify-start lg:justify-between py-2 text-lg lg:text-sm ${
+                          className={`flex cursor-pointer items-center justify-start lg:justify-between py-2 text-lg lg:text-sm xl:text-base ${
                             !isActivePage("/contact-us")
                               ? "text-textDark"
                               : "text-red"

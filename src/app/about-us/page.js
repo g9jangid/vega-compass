@@ -95,8 +95,8 @@ export default function Home() {
             work for you
           </h1>
           <p className="text-blackone ff-lato mt-6 max-w-[660px]">
-            Vega Compass operated as Thutech for the last 10 years and has now
-            rebranded to Vega Compass, reinforcing our commitment to CRM
+            Vegacompass operated as Thutech for the last 10 years and has now
+            rebranded to Vegacompass, reinforcing our commitment to CRM
             consulting excellence.
           </p>
         </div>
@@ -110,7 +110,7 @@ export default function Home() {
                 <div className="bg-[#F0CCB4] border border-[#F0CCB4] w-14 mt-2"></div>
               </div>
               <h2 className="ff-raleway font-semibold text-4xl py-4">
-                Vega Compass Mission
+                Vegacompass Mission
               </h2>
               <p className="ff-lato text-blackone">
                 Our mission is to enable our customers to achieve tangible and
@@ -127,11 +127,11 @@ export default function Home() {
                 <div className="bg-[#F0CCB4] border border-[#F0CCB4] w-14 mt-2"></div>
               </div>
               <h2 className="ff-raleway font-semibold text-4xl py-4">
-                Vega Compass Mission
+                Vegacompass Vision
               </h2>
               <p className="ff-lato text-blackone">
-                Our mission is to enable our customers to achieve tangible and
-                productive output with their CRM investment.
+                Our vision is to be a most trusted advisory and consulting firm
+                for CRM process and technology.
               </p>
             </div>
           </div>
@@ -181,9 +181,9 @@ export default function Home() {
         </div>
         <div className="w-full lg:w-1/2 lg:pl-6 mt-16 lg:mt-0">
           <img
-            src="/assets/images/contact-us.png"
+            src="/assets/images/about/intro.png"
             alt=""
-            className="w-full h-auto p-3"
+            className="w-full h-auto p-3 lg:scale-125 origin-left"
           />
         </div>
       </section>
@@ -202,15 +202,36 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="container mx-auto text-left mt-8 lg:mt-16 px-6 justify-center flex flex-col lg:flex-row items-center max-w-[1000px]">
-        <div className="w-full lg:w-1/3 lg:pr-6 text-center">
-          <p className="ff-lato font-semibold text-blackone">Trust</p>
+      <section className="container mx-auto text-left mt-8 px-6 justify-center flex flex-col lg:flex-row items-center max-w-[1000px]">
+        <div className="w-full lg:w-1/3 lg:pr-6 text-center flex flex-col justify-center items-center">
+          <img
+            src="/assets/images/about/trust.png"
+            alt=""
+            className="w-20 h-auto m-1"
+          />
+          <p className="ff-raleway text-2xl font-semibold text-blackone mt-3">
+            Trust
+          </p>
         </div>
-        <div className="w-full lg:w-1/3 lg:pl-6 mt-16 lg:mt-0 text-center">
-          <p className="ff-lato font-semibold text-blackone">Transparency</p>
+        <div className="w-full lg:w-1/3 lg:pl-6 mt-16 lg:mt-0 text-center flex flex-col justify-center items-center">
+          <img
+            src="/assets/images/about/security.png"
+            alt=""
+            className="w-20 h-auto m-1"
+          />
+          <p className="ff-raleway text-2xl font-semibold text-blackone mt-3">
+            Transparency
+          </p>
         </div>
-        <div className="w-full lg:w-1/3 lg:pl-6 mt-16 lg:mt-0 text-center">
-          <p className="ff-lato font-semibold text-blackone">Innovation</p>
+        <div className="w-full lg:w-1/3 lg:pl-6 mt-16 lg:mt-0 text-center flex flex-col justify-center items-center">
+          <img
+            src="/assets/images/about/innovation.png"
+            alt=""
+            className="w-20 h-auto m-1"
+          />
+          <p className="ff-raleway text-2xl font-semibold text-blackone mt-3">
+            Innovation
+          </p>
         </div>
       </section>
 
@@ -242,7 +263,7 @@ export default function Home() {
         </div>
         <div className="w-full lg:w-1/2 lg:pl-6 mt-16 lg:mt-0">
           <img
-            src="/assets/images/contact-us.png"
+            src="/assets/images/about/the-vega-way.png"
             alt=""
             className="w-full h-auto p-3"
           />
@@ -280,7 +301,7 @@ export default function Home() {
         </div>
         <div className="w-full lg:w-1/2 lg:pl-6 mt-16 lg:mt-0">
           <img
-            src="/assets/images/contact-us.png"
+            src="/assets/images/about/working.png"
             alt=""
             className="w-full h-auto p-3"
           />

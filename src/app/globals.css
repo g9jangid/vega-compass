@@ -117,6 +117,7 @@ body {
   justify-content: center;
   align-items: center;
   max-width: 100%;
+  position: relative;
 }
 
 .logo-slider .swiper-slide {
@@ -132,6 +133,18 @@ body {
   object-fit: contain;
   object-position: center center;
 }
+.logo-slider .swiper-button-prev:after,
+.logo-slider .swiper-button-next:after {
+  color: #fff;
+}
+.logo-slider .swiper-button-prev,
+.logo-slider .swiper-button-next {
+  background: #c40a23;
+  color: #fff;
+  width: 44px;
+  border-radius: 100%;
+}
+
 .swiper-button-prev:after,
 .swiper-button-next:after {
   font-size: 16px !important;

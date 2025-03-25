@@ -38,15 +38,15 @@ const Team = () => {
       <h2 className="ff-raleway text-4xl font-semibold text-blackone mb-10 mt-4">
         Meet our experts
       </h2>
-      <div className="w-full flex flex-wrap justify-center">
+      <div className="w-full flex flex-wrap justify-center max-w-[900px]">
         {data.map((item) => (
           <div key={item.id} className="text-left w-full md:w-1/2 lg:w-1/3">
             <div className="p-4">
-              <div className="bg-gray-300 rounded-lg w-full mb-4 aspect-square">
+              <div className="rounded-2xl w-full mb-4 aspect-square">
                 <img
                   src={item.img}
                   alt=""
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover rounded-2xl"
                 />
               </div>
               <h2 className="text-xl font-medium text-blackone ff-raleway flex justify-between">

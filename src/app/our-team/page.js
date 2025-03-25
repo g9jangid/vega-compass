@@ -112,50 +112,6 @@ export default function Home() {
       label: "Core Team",
       value: "core-team",
     },
-    {
-      label: "Consulting",
-      value: "consulting",
-    },
-    {
-      label: "Salesforce",
-      value: "salesforce",
-    },
-    {
-      label: "MS Dynamics",
-      value: "ms-dynamics",
-    },
-    {
-      label: "HubSpot",
-      value: "hubspot",
-    },
-    {
-      label: "Marketo",
-      value: "marketo",
-    },
-    {
-      label: "Odoo",
-      value: "odoo",
-    },
-    {
-      label: "Zoho",
-      value: "zoho",
-    },
-    {
-      label: "MuleSoft",
-      value: "mulesoft",
-    },
-    {
-      label: "Atom",
-      value: "atom",
-    },
-    {
-      label: "ServiceNow",
-      value: "servicenow",
-    },
-    {
-      label: "AI Architect",
-      value: "ai-architect",
-    },
   ];
 
   return (
