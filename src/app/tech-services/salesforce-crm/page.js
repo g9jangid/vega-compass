@@ -483,6 +483,7 @@ export default function Home() {
         title="We make Salesforce work smarter for you"
         img="/assets/images/tech-services/salesform-crm-hero.png"
         bg="#F3FFFF"
+        page="salesforce"
       />
 
       <section className="container mx-auto flex justify-center flex-col items-center mt-16">

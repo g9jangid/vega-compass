@@ -29,6 +29,23 @@ export default function Home() {
         </div>
         <div className="bg-[#F7E4D8] p-6 w-full rounded-2xl -mb-20 mt-14 flex flex-col lg:flex-row max-w-[1000px]">
           <div className="w-full lg:w-1/2">
+            <div className="w-full py-10 lg:pr-6 lg:pl-12">
+              <div className="text-left flex flex-col items-left">
+                <p className="ff-lato text-sm text-red uppercase font-semibold tracking-wider">
+                  our Vision
+                </p>
+                <div className="bg-[#F0CCB4] border border-[#F0CCB4] w-14 mt-2"></div>
+              </div>
+              <h2 className="ff-raleway font-semibold text-4xl py-4">
+                Vegacompass Vision
+              </h2>
+              <p className="ff-lato text-blackone">
+                To be the most trusted CRM advisory and consulting firm
+                globally.
+              </p>
+            </div>
+          </div>
+          <div className="w-full lg:w-1/2">
             <div className="w-full py-10 lg:px-6 lg:border-r-2 border-[#E3B79B]">
               <div className="text-left flex flex-col items-left">
                 <p className="ff-lato text-sm text-red uppercase font-semibold tracking-wider">
@@ -40,25 +57,9 @@ export default function Home() {
                 Vegacompass Mission
               </h2>
               <p className="ff-lato text-blackone">
-                Our mission is to enable our customers to achieve tangible and
-                productive output with their CRM investment.
-              </p>
-            </div>
-          </div>
-          <div className="w-full lg:w-1/2">
-            <div className="w-full py-10 lg:pr-6 lg:pl-12">
-              <div className="text-left flex flex-col items-left">
-                <p className="ff-lato text-sm text-red uppercase font-semibold tracking-wider">
-                  our MISSION
-                </p>
-                <div className="bg-[#F0CCB4] border border-[#F0CCB4] w-14 mt-2"></div>
-              </div>
-              <h2 className="ff-raleway font-semibold text-4xl py-4">
-                Vegacompass Vision
-              </h2>
-              <p className="ff-lato text-blackone">
-                Our vision is to be a most trusted advisory and consulting firm
-                for CRM process and technology.
+                To make organizations more efficient and productive by
+                maximizing their CRM investment with the right people,
+                processes, and technology.
               </p>
             </div>
           </div>

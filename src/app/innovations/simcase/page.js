@@ -20,6 +20,7 @@ export default function Home() {
         title="Simplify customer service with SimCase"
         img="/assets/images/innovations/simcase-hero.png"
         bg="#F3FFFF"
+        page="simcase"
       />
 
       <section className="container mx-auto flex justify-center flex-col items-center mt-16">

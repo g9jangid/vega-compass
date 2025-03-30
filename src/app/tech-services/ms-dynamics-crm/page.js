@@ -258,7 +258,7 @@ export default function Home() {
 
       <section className="container mx-auto text-center mt-3 px-6">
         <h2 className="ff-raleway text-4xl font-semibold text-blackone mb-8">
-          Vegacompass solutions on <br /> Salesforce platform
+          Vegacompass solutions on <br /> MS Dynamics platform
         </h2>
         <div className="w-full flex flex-wrap justify-start items-center">
           {tiles.map((item, i) => (

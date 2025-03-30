@@ -57,7 +57,7 @@ export default function Home() {
       id: 7,
       img: "/assets/images/consulting/3-7.png",
       title: "CRM Implementation for Customer Service",
-      desc: "We implement CRM platforms like Salesforce Service Cloud, HubSpot Service Hub and and Microsoft Dynamics Customer Service customized for your service needs, providing teams efficient resolution.",
+      desc: "We implement CRM platforms like Salesforce Service Cloud, ServiceNow Service Hub and Microsoft Dynamics Customer Service customized for your service needs, providing teams efficient resolution.",
     },
   ];
 

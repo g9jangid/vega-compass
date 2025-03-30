@@ -18,7 +18,7 @@ export const viewport = {
 };
 
 export const metadata = getSEOTags(
-  "Vegacompass | CRM-Only Consulting Experts",
+  "Vegacompass | CRM - Consulting and Technology",
   "Vegacompass is a specialized CRM consulting firm with deep domain expertise in marketing, sales, and customer support operations. Our expert team ensures your CRM delivers more than expected, driving business growth and seamless customer management."
 );
 

@@ -126,18 +126,17 @@ export default function Home() {
       <div className="bg-[#FFF7F0] w-full py-24 mt-28">
         <section className="container mx-auto px-6 flex justify-center flex-col items-center text-center ">
           <h2 className="ff-raleway text-2xl md:text-3xl lg:text-4xl font-bold text-blackone mb-2">
-            If our{" "}
-            <span className="text-red">CRM process or technical work</span>
-            <br className="hidden lg:block" />
-            doesn&apos;t meet your needs,
-            <br className="hidden lg:block" />
-            <span className="text-red">we’ll</span> remake it until it does.
+            We don’t stop at “good enough.” <br />
+            <br />
+            If our CRM process & technical delivery
+            <br className="hidden lg:block" /> doesn&apos;t quite hit the mark
+            we <br className="hidden lg:block" />
+            <span className="text-red">
+              rebuild it — no limits, no excuses.
+            </span>
           </h2>
-          <p className="text-blackone ff-lato text-lg mt-3">
-            (Again+ again as long as it takes)
-          </p>
           <p className="text-blackone ff-lato text-lg mt-2">
-            Your satisfaction is our priority :)
+            Because your business deserves nothing less.
           </p>
         </section>
       </div>

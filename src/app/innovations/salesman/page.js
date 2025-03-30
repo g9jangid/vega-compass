@@ -20,6 +20,7 @@ export default function Home() {
         title="Boost sales efficiency with our Salesman AI"
         img="/assets/images/innovations/sales-hero.png"
         bg="#FFF7F0"
+        page="salesman"
       />
 
       <section className="container mx-auto flex justify-center flex-col items-center mt-16">

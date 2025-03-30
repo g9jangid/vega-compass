@@ -138,10 +138,10 @@ export default function Home() {
       label: "Hubspot CRM",
       value: "hubspot-crm",
     },
-    {
-      label: "Excel CRM-Atom",
-      value: "excel-crm-atom",
-    },
+    // {
+    //   label: "Excel CRM-Atom",
+    //   value: "excel-crm-atom",
+    // },
     {
       label: "MuleSoft",
       value: "mulesoft",
@@ -154,10 +154,10 @@ export default function Home() {
       label: "Customer Data Optimization & Cleanup",
       value: "customer-data-optimization-and-cleanup",
     },
-    {
-      label: "E-Commerce & Development",
-      value: "e-commerce-and-development",
-    },
+    // {
+    //   label: "E-Commerce & Development",
+    //   value: "e-commerce-and-development",
+    // },
   ];
 
   const customStyles = {

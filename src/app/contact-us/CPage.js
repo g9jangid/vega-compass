@@ -330,8 +330,8 @@ export default function Home() {
           </h3>
         </div>
       </section>
-      <section className="container mx-auto text-left mt-8 lg:mt-16 px-6 justify-center flex flex-col lg:flex-row items-center max-w-[1000px]">
-        <div className="w-full lg:w-1/3 lg:px-3">
+      <section className="container mx-auto text-left mt-8 lg:mt-16 px-6 justify-center flex flex-col lg:flex-row items-start max-w-[1000px]">
+        <div className="w-full lg:w-1/3 xl:1/4 lg:px-3">
           <p className="ff-lato font-semibold text-blackone">Pune (India)</p>
           <p className="text-[#585858] font-medium ff-lato leading-normal pt-3">
             Vegacompass Technologies Pvt Limited,
@@ -340,7 +340,7 @@ export default function Home() {
             Club Rd, Baner, Pune, India
           </p>
         </div>
-        <div className="w-full lg:w-1/3 lg:px-3 mt-16 lg:mt-0">
+        <div className="w-full lg:w-1/3 xl:1/4 lg:px-3 mt-16 lg:mt-0">
           <p className="ff-lato font-semibold text-blackone">Palo Alto (USA)</p>
           <p className="text-[#585858] font-medium ff-lato leading-normal pt-3">
             Jeremy Joseph
@@ -349,7 +349,15 @@ export default function Home() {
             Palo Alto, California, United States
           </p>
         </div>
-        <div className="w-full lg:w-1/3 lg:px-3 mt-16 lg:mt-0">
+        <div className="w-full lg:w-1/3 xl:1/4 lg:px-3 mt-16 lg:mt-0">
+          <p className="ff-lato font-semibold text-blackone">Austin (USA)</p>
+          <p className="text-[#585858] font-medium ff-lato leading-normal pt-3">
+            1903, Romeria Drive,
+            <br />
+            Austin, TX, 78757
+          </p>
+        </div>
+        <div className="w-full lg:w-1/3 xl:1/4 lg:px-3 mt-16 lg:mt-0">
           <p className="ff-lato font-semibold text-blackone">Singapore</p>
           <p className="text-[#585858] font-medium ff-lato leading-normal pt-3">
             Michael Lin

@@ -115,14 +115,14 @@ const Footer = () => {
                   Our Team
                 </Link>
               </li>
-              <li className="ff-lato text-xs text-white mb-4">
+              {/* <li className="ff-lato text-xs text-white mb-4">
                 <Link
                   href="/case-studies"
                   className="ff-lato text-xs text-white mb-4"
                 >
                   Case Studies
                 </Link>
-              </li>
+              </li> */}
               <li className="ff-lato text-xs text-white mb-4">
                 <Link href="/" className="ff-lato text-xs text-white mb-4">
                   Blogs
@@ -141,7 +141,7 @@ const Footer = () => {
             href="/privacy-policy"
             className="ff-lato text-xs text-white mb-4"
           >
-            Privacy Policy
+            Privacy and Data Policy
           </Link>
         </div>
       </div>

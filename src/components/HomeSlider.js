@@ -77,13 +77,14 @@ const DownloadBtns = () => (
       </svg>
     </Link>
 
-    <Link
+    <a
+      download={true}
       target="_blank"
-      href="/Automated Sales Reps Account Handling with Reap & Replace mechanism.pdf"
+      href="/downloads/vegacompass-automated-sales-reps-account-handling-with-reap-&-replace-mechanism.pdf"
       className="lg:ml-3 mt-6 inline-flex items-center ff-lato ease-in-up rounded-md text-base font-semibold text-white border-white border py-3 px-8 md:px-9 lg:px-6 xl:px-9"
     >
       Download latest work
-    </Link>
+    </a>
   </div>
 );
 
@@ -103,8 +104,9 @@ const HomeSlider = () => {
             <div className="w-full relative z-[1] mt-12 lg:mt-28 px-4 lg:px-20 flex flex-col">
               <YoutubeLinks />
               <h1 className="text-white ff-raleway text-3xl md:text-4xl lg:text-5xl text-center lg:text-left font-semibold !leading-tight">
-                Business optimization <br className="hidden lg:block" /> through
-                CRM domain <br className="hidden lg:block" />& Tech knowledge
+                Business Optimization
+                <br className="hidden lg:block" /> with CRM Process{" "}
+                <br className="hidden lg:block" />& Technology
               </h1>
               <DownloadBtns />
             </div>
