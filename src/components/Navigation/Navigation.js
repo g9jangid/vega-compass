@@ -294,7 +294,11 @@ const Navigation = () => {
                                 <div className="h-0.5 w-14 mb-4 hidden lg:block"></div>
                                 <MenuDropDown
                                   submenu={menuItem.submenu}
-                                  parentpath={menuItem.path}
+                                  parentpath={
+                                    menuItem.path === "/about-us"
+                                      ? ""
+                                      : menuItem.path
+                                  }
                                 />
                               </div>
                             </>

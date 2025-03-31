@@ -586,7 +586,7 @@ export default function Home() {
 
       <section className="w-full mx-auto text-center mt-28 testimonial-section">
         <h2 className="ff-raleway text-4xl font-semibold text-blackone mb-12">
-          Hear from our clients
+          Hear about our work
         </h2>
         <TestimonialSlider />
       </section>

@@ -261,12 +261,32 @@ const menuData = [
     title: "About Us",
     path: "/about-us",
     newTab: false,
+    submenu: [
+      {
+        id: 501,
+        title: "Who We Are",
+        path: "/about-us",
+        newTab: false,
+      },
+      {
+        id: 502,
+        title: "Our Team",
+        path: "/our-team",
+        newTab: false,
+      },
+      {
+        id: 503,
+        title: "CRM Insights",
+        path: "https://vegacompass.medium.com/",
+        newTab: true,
+      },
+    ],
   },
-  {
-    id: 6,
-    title: "Our Team",
-    path: "/our-team",
-    newTab: false,
-  },
+  // {
+  //   id: 6,
+  //   title: "Our Team",
+  //   path: "/our-team",
+  //   newTab: false,
+  // },
 ];
 export default menuData;

@@ -178,6 +178,14 @@ export default async function Page({ params }) {
           ))}
         </div>
 
+        {activeStudy?.collab && (
+          <div className="mt-10 text-right w-full">
+            <p className="ff-lato italic text-sm text-gray-600">
+              {activeStudy?.collab}
+            </p>
+          </div>
+        )}
+
         <div className="mt-24">
           <h2 className="ff-raleway font-semibold  text-2xl lg:text-3xl text-blackone">
             More Case Studies

@@ -372,9 +372,13 @@ export default function Home() {
           use of your Sensitive Personal Information. Except where required by
           law, we cannot ensure a response to questions or comments regarding
           topics unrelated to this Privacy Policy or our privacy practices.
+          <br />
+          <br />
+          Any legal proceedings if needed can only be done in Court of Pune,
+          India.
         </p>
         <h2 className="ff-raleway font-semibold text-blackone text-3xl pl-0 mt-10">
-          11. GRIEVANCE OFFICER
+          12. GRIEVANCE OFFICER
         </h2>
         <p className="my-3">
           We have appointed a grievance officer in accordance with the
@@ -405,8 +409,8 @@ export default function Home() {
           </p>
         </div>
         <p className="my-3">
-          YOU HAVE READ THIS PRIVACY POLICY AND AGREE TO ALL OF THE PROVISIONS
-          CONTAINED ABOVE
+          BY VISITING THE WEBSITE YOU HAVE READ THIS PRIVACY &amp; CONTENT
+          POLICY AND AGREE TO ALL OF THE PROVISIONS CONTAINED ABOVE.
         </p>
         <p className="my-3">Effective Date: 31/03/2025</p>
       </section>

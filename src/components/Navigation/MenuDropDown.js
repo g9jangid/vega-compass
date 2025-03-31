@@ -17,6 +17,7 @@ export default function MenuDropDown({ submenu, parentpath }) {
           <Link
             href={parentpath + link.path}
             key={link.id}
+            target={link.newTab ? "_blank" : "_self"}
             className="inline-block py-1 my-1 text-sm lg:text-base text-textDark self-start border-b-2 border-transparent hover:text-red hover:border-b-2 hover:border-red"
           >
             {link.title}

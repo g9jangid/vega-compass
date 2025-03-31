@@ -20,25 +20,33 @@ const Footer = () => {
           </Link>
 
           <div className="flex space-x-4 mt-8">
-            <a href="#" className="text-red-600">
+            {/* <a href="#" className="text-red-600">
               <img
                 src="/assets/images/social/facebook.svg"
                 alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
               />
-            </a>
+            </a> */}
             <a href="#" className="text-red-600">
               <img
                 src="/assets/images/social/linkedin.svg"
                 alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
               />
             </a>
-            <a href="#" className="text-red-600">
+            <a
+              href="https://x.com/vegacompass"
+              target="_blank"
+              className="text-red-600"
+            >
               <img
                 src="/assets/images/social/twitter.svg"
                 alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
               />
             </a>
-            <a href="#" className="text-red-600">
+            <a
+              href="https://www.youtube.com/@Vegacompass"
+              target="_blank"
+              className="text-red-600"
+            >
               <img
                 src="/assets/images/social/youtube.svg"
                 alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
@@ -124,7 +132,11 @@ const Footer = () => {
                 </Link>
               </li> */}
               <li className="ff-lato text-xs text-white mb-4">
-                <Link href="/" className="ff-lato text-xs text-white mb-4">
+                <Link
+                  href="https://vegacompass.medium.com/"
+                  target="_blank"
+                  className="ff-lato text-xs text-white mb-4"
+                >
                   Blogs
                 </Link>
               </li>

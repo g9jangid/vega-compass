@@ -29,7 +29,7 @@ export default function Home() {
         </div>
         <div className="bg-[#F7E4D8] p-6 w-full rounded-2xl -mb-20 mt-14 flex flex-col lg:flex-row max-w-[1000px]">
           <div className="w-full lg:w-1/2">
-            <div className="w-full py-10 lg:pr-6 lg:pl-12">
+            <div className="w-full py-10 lg:px-6 lg:border-r-2 border-[#E3B79B]">
               <div className="text-left flex flex-col items-left">
                 <p className="ff-lato text-sm text-red uppercase font-semibold tracking-wider">
                   our Vision
@@ -46,7 +46,7 @@ export default function Home() {
             </div>
           </div>
           <div className="w-full lg:w-1/2">
-            <div className="w-full py-10 lg:px-6 lg:border-r-2 border-[#E3B79B]">
+            <div className="w-full py-10 lg:pr-6 lg:pl-12">
               <div className="text-left flex flex-col items-left">
                 <p className="ff-lato text-sm text-red uppercase font-semibold tracking-wider">
                   our MISSION
