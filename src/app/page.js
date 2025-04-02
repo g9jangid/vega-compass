@@ -17,41 +17,47 @@ export default function Home() {
       <section className="w-full px-6 bg-[#f2f5fa] py-10">
         <div className="container mx-auto flex flex-col lg:flex-row">
           <div className="w-full lg:w-1/5 p-3">
-            <p className="ff-raleway font-semibold text-gray-700">
-              Vegacompass CRM Insights
+            <p className="ff-raleway font-bold text-lg text-gray-700 uppercase">
+              CRM Insights
             </p>
           </div>
-          <div className="w-full lg:w-2/5 p-3">
+          <div className="w-full lg:w-2/5 p-3 flex">
+            <span className="ff-lato font-bold text-blue-700 text-3xl pr-3">
+              1
+            </span>
             <a
               href="https://vegacompass.medium.com/approach-for-crm-instances-merging-post-acquisition-5b00ede1bfb3?source=user_profile_page---------0-------------de6aa38d0d0e----------------------"
               target="_blank"
-              className="hover:underline"
+              className="group pl-3 border-l border-gray-400 block"
             >
-              <span className="ff-lato font-semibold text-blackone">
+              <span className="ff-lato font-semibold text-blackone group-hover:text-blue-700">
                 Approach for CRM instances merging post-acquisition
               </span>
               <br />
-              <span className="ff-lato text-sm text-gray-700">
+              <span className="ff-lato text-sm text-gray-700 group-hover:text-blue-500">
                 As companies continue to grow and get acquired they can adopt 5
                 step approach for smooth CRM transition and onboarding. Know
                 more…
               </span>
             </a>
           </div>
-          <div className="w-full lg:w-2/5 p-3">
+          <div className="w-full lg:w-2/5 p-3 flex">
+            <span className="ff-lato font-bold text-blue-700 text-3xl pr-3">
+              2
+            </span>
             <a
               href="https://vegacompass.medium.com/crm-solutions-for-smes-points-to-ponder-8acc64e85cce?source=user_profile_page---------1-------------de6aa38d0d0e----------------------"
               target="_blank"
-              className="hover:underline"
+              className="group pl-3 border-l border-gray-400 block"
             >
-              <span className="ff-lato font-semibold text-blackone">
+              <span className="ff-lato font-semibold text-blackone group-hover:text-blue-700">
                 CRM Solutions for SMEs: Points to ponder
               </span>
               <br />
-              <span className="ff-lato text-sm text-gray-700">
+              <span className="ff-lato text-sm text-gray-700 group-hover:text-blue-500">
                 Defining right needs, looking for budget allocated and selection
-                after after thorough research to avoid later cost escalations is
-                a key.
+                after thorough research to avoid later cost escalations is a
+                key.
               </span>
             </a>
           </div>

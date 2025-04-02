@@ -326,7 +326,7 @@ export default function Home() {
       <section className="container mx-auto flex justify-center flex-col items-center mt-16 lg:mt-32">
         <div className="text-center flex flex-col items-center">
           <h3 className="ff-raleway text-2xl md:text-3xl lg:text-4xl text-blackone capitalize font-semibold">
-            Our offices
+            Our Locations
           </h3>
         </div>
       </section>

@@ -124,10 +124,10 @@ const HomeSlider = () => {
           <div className="container flex justify-between flex-col lg:flex-row items-center lg:items-start">
             <div className="w-full relative z-[1] mt-12 lg:mt-28 px-4 lg:px-20 flex flex-col">
               <YoutubeLinks />
-              <h1 className="text-white ff-raleway text-3xl md:text-4xl lg:text-5xl text-center lg:text-left font-semibold !leading-tight">
+              <h2 className="text-white ff-raleway text-3xl md:text-4xl lg:text-5xl text-center lg:text-left font-semibold !leading-tight">
                 Transform your customer <br className="hidden lg:block" />{" "}
                 journey with CRM <br className="hidden lg:block" /> experts
-              </h1>
+              </h2>
               <DownloadBtns />
             </div>
             <div className="home-slider-img relative bottom-0 z-[2] lg:absolute right-0 w-full md:w-3/4 p-6 lg:w-1/2">
@@ -144,10 +144,10 @@ const HomeSlider = () => {
           <div className="container flex justify-between flex-col lg:flex-row items-center lg:items-start">
             <div className="w-full relative z-[1] mt-12 lg:mt-28 px-4 lg:px-20 flex flex-col">
               <YoutubeLinks />
-              <h1 className="text-white ff-raleway text-3xl md:text-4xl lg:text-5xl text-center lg:text-left font-semibold !leading-tight">
+              <h2 className="text-white ff-raleway text-3xl md:text-4xl lg:text-5xl text-center lg:text-left font-semibold !leading-tight">
                 Think CRM. <br className="hidden lg:block" />
                 Think Vegacompass
-              </h1>
+              </h2>
               <DownloadBtns />
             </div>
             <div className="home-slider-img relative bottom-0 z-[2] lg:absolute right-0 w-full md:w-3/4 p-6 lg:w-2/5">

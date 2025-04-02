@@ -83,9 +83,9 @@ export default function Home() {
             <br />
             Our asset is our highly experienced and knowledgeable team which has
             worked with multiple clients in different geographies. Each core
-            team member carries 15+ years of experience in CRM domain having
-            worked on streamlining Marketing, Sales and Customer support
-            operations globally.
+            team member carries vast experience in CRM domain having worked on
+            streamlining Marketing, Sales and Customer support operations
+            globally.
             <br />
             <br />
             Our strength is the core and deep understanding of CRM processes,
