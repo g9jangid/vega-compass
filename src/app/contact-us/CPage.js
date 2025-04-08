@@ -291,7 +291,7 @@ export default function Home() {
           <div className="lg:ml-5 mb-8">
             <p className="ff-lato text-blackone font-semibold py-1">
               <FaHeadphones size={18} className="inline mr-2 text-blue-500" />{" "}
-              US: +1 (650) 353 7421
+              US: +1 (551) 3690 230
             </p>
             <p className="ff-lato text-blackone font-semibold py-1">
               <FaHeadphones size={18} className="inline mr-2 text-blue-500" />{" "}

@@ -22,8 +22,8 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: #101118;
+  background: #fff;
   font-family: var(--font-lato);
 }
 

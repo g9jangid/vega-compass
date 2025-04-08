@@ -14,7 +14,7 @@ export default function Home() {
       <Navigation />
       <HomeSlider />
 
-      <section className="w-full px-6 bg-[#f2f5fa] py-10">
+      <section className="w-full px-6 py-10">
         <div className="container mx-auto flex flex-col lg:flex-row">
           <div className="w-full lg:w-1/5 p-3">
             <p className="ff-raleway font-bold text-lg text-gray-700 uppercase">
