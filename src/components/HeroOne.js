@@ -29,7 +29,7 @@ const HeroOne = ({ subhead, title, img, bg, youtubelinks, page = "" }) => {
         <span className="pl-2">Watch our AI agent Salesman</span>
       </Link>
       <Link
-        href={"https://www.youtube.com/watch?v=t2hJH-hq8Do"}
+        href={"https://www.youtube.com/watch?v=ElyyEk7r0Os"}
         target="_blank"
         className="text-blackone mt-6 md:mt-0 md:ml-6 border-blackone ff-lato text-sm border rounded-3xl inline-flex justify-center items-center py-1.5 px-5"
       >
@@ -131,7 +131,7 @@ const HeroOne = ({ subhead, title, img, bg, youtubelinks, page = "" }) => {
           {page === "simcase" && (
             <div className="flex mt-7 text-center justify-center lg:justify-start mb-8 flex-col md:flex-row w-full md:w-auto ">
               <Link
-                href={"https://www.youtube.com/watch?v=t2hJH-hq8Do"}
+                href={"https://www.youtube.com/watch?v=ElyyEk7r0Os"}
                 target="_blank"
                 className="text-blackone mt-6 md:mt-0  border-blackone ff-lato text-sm border rounded-3xl inline-flex justify-center items-center py-1.5 px-5"
               >
