@@ -26,18 +26,18 @@ export default function Home() {
               1
             </span>
             <a
-              href="https://vegacompass.medium.com/approach-for-crm-instances-merging-post-acquisition-5b00ede1bfb3?source=user_profile_page---------0-------------de6aa38d0d0e----------------------"
+              href="https://vegacompass.medium.com/top-5-crm-trends-in-2025-792b55d22628"
               target="_blank"
               className="group pl-3 border-l border-gray-400 block"
             >
               <span className="ff-lato font-semibold text-blackone group-hover:text-blue-700">
-                Approach for CRM instances merging post-acquisition
+                Top 5 CRM Trends in 2025!!
               </span>
               <br />
               <span className="ff-lato text-sm text-gray-700 group-hover:text-blue-500">
-                As companies continue to grow and get acquired they can adopt 5
-                step approach for smooth CRM transition and onboarding. Know
-                more…
+                In today’s hyper-connected, customer-first world, Customer
+                Relationship Management (CRM) has moved far beyond a digital
+                Rolodex or a simple…
               </span>
             </a>
           </div>
@@ -46,18 +46,18 @@ export default function Home() {
               2
             </span>
             <a
-              href="https://vegacompass.medium.com/crm-solutions-for-smes-points-to-ponder-8acc64e85cce?source=user_profile_page---------1-------------de6aa38d0d0e----------------------"
+              href="https://vegacompass.medium.com/define-your-customer-ecosystem-and-plan-crm-setup-dc408d570112"
               target="_blank"
               className="group pl-3 border-l border-gray-400 block"
             >
               <span className="ff-lato font-semibold text-blackone group-hover:text-blue-700">
-                CRM Solutions for SMEs: Points to ponder
+                Define Your Customer Ecosystem and plan CRM setup…
               </span>
               <br />
               <span className="ff-lato text-sm text-gray-700 group-hover:text-blue-500">
-                Defining right needs, looking for budget allocated and selection
-                after thorough research to avoid later cost escalations is a
-                key.
+                The CRM session focusses on concepts , technologies, best
+                practices, implementation plan, improvements and some
+                suggestions for effective…
               </span>
             </a>
           </div>

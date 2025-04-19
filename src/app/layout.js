@@ -41,6 +41,26 @@ export default function RootLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `var $zoho = $zoho || {};
+  $zoho.salesiq = $zoho.salesiq || {
+    widgetcode:
+      "siqcd8700c140cc25c3ef7afbea895c9dcc42c66f995df67157ad5c6f7f62cfb9c5",
+    values: {},
+    ready: function () {},
+  };
+  var d = document;
+  s = d.createElement("script");
+  s.type = "text/javascript";
+  s.id = "zsiqscript";
+  s.defer = true;
+  s.src = "https://salesiq.zoho.com/widget";
+  t = d.getElementsByTagName("script")[0];
+  t.parentNode.insertBefore(s, t);`,
+          }}
+        />
         {children}
       </body>
       <GoogleAnalytics gaId="G-7QJ5RNT0TE" />

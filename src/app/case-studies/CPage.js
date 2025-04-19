@@ -146,10 +146,10 @@ export default function Home() {
       label: "MuleSoft",
       value: "mulesoft",
     },
-    {
-      label: "Marketo",
-      value: "marketo",
-    },
+    // {
+    //   label: "Marketo",
+    //   value: "marketo",
+    // },
     {
       label: "Customer Data Optimization & Cleanup",
       value: "customer-data-optimization-and-cleanup",
@@ -244,7 +244,7 @@ export default function Home() {
       <section className="container mx-auto text-center mt-3 px-6 justify-center flex flex-col items-center">
         <h1 className="ff-raleway text-xl md:text-2xl lg:text-5xl font-semibold text-blackone mb-8 !leading-tight">
           Success stories driven by <br className="hidden lg:block" />
-          Vegacompass Solutions
+          Vegacompass
         </h1>
 
         <div className="w-full flex flex-wrap justify-center items-center max-w-[700px] text-center mt-8 px-6 relative">

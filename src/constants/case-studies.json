@@ -1,7 +1,7 @@
 [
   {
     "service": "CRM - Marketing Strategy",
-    "title": "Lead Lift-Off: How Pardot Perfected OSM Worldwide's Pipeline Performance!",
+    "title": "Lead Lift-Off: How Pardot Perfected a Global Logistics player Pipeline Performance!",
     "client": "OSM Worldwide is a global logistics company that specializes in shipping small parcels for businesses to consumers. They offer domestic and international shipping services, and are a preferred partner of the United States Postal Service (USPS).",
     "brief": "OSM Worldwide, a leading global logistics firm, sought to streamline its marketing operations to improve lead management and customer engagement. The company was facing challenges in tracking leads, managing campaigns, and optimizing customer outreach efforts. By leveraging Salesforce Account engagement, OSM Worldwide transformed its processes, resulting in a more efficient and data-driven approach to marketing.",
     "work_details": [
@@ -101,7 +101,7 @@
   },
   {
     "service": "CRM - Sales Strategy",
-    "title": "Revamping Reap and Replace: Automating Account Allocation for Aprimo",
+    "title": "Revamping Reap and Replace: Automating Account Allocation for a global leader in Digital Asset Management SAAS software",
     "client": "Aprimo is a United States–based company that develops and sells marketing automation software and digital asset management technology for marketing and customer experience departments in enterprise organizations.",
     "brief": "Aprimo, a leading digital asset management company, sought to optimize its sales operations by improving the reap and replace process and automating account allocations to sales reps. The existing manual processes were inefficient and time-consuming, limiting the company's ability to scale. By implementing a new process setup with automation, Aprimo was able to streamline account distribution and boost sales productivity.",
     "work_details": [
@@ -364,7 +364,7 @@
   },
   {
     "service": "Audit/Cost Optimization",
-    "title": "CRM Audit Excellence: Eliminating Technical Debt and Streamlining Operations at OSM Worldwide",
+    "title": "CRM Audit Excellence: Eliminating Technical Debt and Streamlining Operations for a Global Logistics player",
     "client": "",
     "brief": "OSM Worldwide, a global logistics firm headquartered in the US, sought a comprehensive audit of its current CRM systems to address inefficiencies and improve customer operations. The audit included an in-depth analysis of code, security, system performance, and application utilization. Based on the findings, strategic recommendations were made, enabling OSM to significantly reduce technical debt, optimize processes, and enhance overall customer service.",
     "work_details": [
@@ -525,7 +525,7 @@
   },
   {
     "service": "Program Management",
-    "title": "Revamping Reap and Replace: Optimizing CRM for Aprimo’s Asset Management",
+    "title": "Revamping Reap and Replace: Optimizing CRM for a global leader in Digital Asset Management SAAS software",
     "client": "",
     "brief": "Aprimo, a global asset management software company, sought to update and optimize its CRM processes through a comprehensive Reap and Replace program. The initiative aimed to enhance efficiency, automate outdated workflows, and ensure seamless integration of new tools into their existing CRM infrastructure. By refining key CRM processes, Aprimo improved its customer management and operational performance.",
     "work_details": [
@@ -761,7 +761,7 @@
   },
   {
     "service": "Salesforce",
-    "title": "Seamless Shipping Solutions: Optimizing CRM and Analytics for OSM",
+    "title": "Seamless Shipping Solutions: Optimizing CRM and Analytics for a Global Logistics player",
     "client": "OSM, a global leader in logistics, shipping, and transportation, needed a comprehensive setup within Salesforce CRM to streamline its B2B marketing analytics, lead management, and data security. By implementing end-to-end B2B marketing analytics, OSM achieved a unified view of lead progress across various channels, enabling data-driven decisions for improved customer engagement. To safeguard critical data, Salesforce’s data backup solution was configured, providing a layer of protection against data loss. The setup of dedicated sandboxes facilitated testing and development, ensuring process integrity, while automation for lead conversion and assignment improved response times. Lastly, UI/UX improvements provided a smoother experience for end users, enhancing productivity through optimized page load times and simplified data access.",
     "brief": "Optimized Salesforce CRM for OSM by implementing B2B marketing analytics, automating lead processes, and improving data security. Enhancements included dedicated sandboxes, UI/UX upgrades, and a scalable framework to support OSM’s global logistics operations.",
     "work_details": [
@@ -788,7 +788,7 @@
   },
   {
     "service": "Salesforce",
-    "title": "Streamlined Success: Automating Sales and Lead Operations for Aprimo’s SaaS Growth",
+    "title": "Streamlined Success: Automating Sales and Lead Operations for a global leader in Digital Asset Management SAAS software Growth",
     "client": "Aprimo, a global SaaS leader in marketing automation and digital asset management, required robust support for its Salesforce CRM to maintain smooth sales processes and efficient lead management. To enhance efficiency, regular Salesforce support was provided to address issues and ensure seamless functionality. A key focus was automating the lead-to-opportunity process, ensuring accurate data flow for SaaS operations and optimizing sales engagement. Additionally, a comprehensive Reap and Replace process was implemented, using seven Salesforce Flows and complex Apex code, to manage prospects distribution, reassign inactive accounts, and support marketing with nurturable accounts. These changes enabled Aprimo’s sales team to streamline lead management, while the marketing team efficiently nurtured potential prospects, driving growth and scalability.",
     "brief": "Enhanced Aprimo’s Salesforce CRM by automating lead-to-opportunity workflows and implementing the Reap and Replace process, streamlining sales operations, enabling data accuracy, and improving marketing alignment for global SaaS growth.",
     "work_details": [
@@ -1003,7 +1003,7 @@
   },
   {
     "service": "ServiceNow",
-    "title": "Service Stability: Streamlined Support and Case Management for Aprimo",
+    "title": "Service Stability: Streamlined Support and Case Management for a global leader in Digital Asset Management SAAS software",
     "client": "Aprimo, a US-based software products company, required continuous support and maintenance of its ServiceNow platform to handle regular case management, incidents, and support operations efficiently. By implementing structured workflows and consistent maintenance, Aprimo’s support processes were optimized to ensure minimal downtime and faster issue resolution. The team focused on ServiceNow’s stability and reliability, enabling seamless management of customer cases and operational incidents. With ongoing support, Aprimo achieved improved efficiency and a robust infrastructure for handling its growing support needs.",
     "brief": "Delivered ongoing support and structured workflow enhancements in ServiceNow to optimize case management and improve operational stability for Aprimo.",
     "work_details": [

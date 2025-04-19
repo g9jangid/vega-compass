@@ -34,10 +34,11 @@ const VegaCompassInAction = () => {
             businesses worldwide
           </p>
           <Link
-            href="/contact-us"
+            target="_blank"
+            href="https://www.youtube.com/@Vegacompass"
             className="text-base capitalize inline-block ff-lato ease-in-up rounded-md border bg-red py-2 px-8 text-white transition duration-300"
           >
-            Contact Us
+            View More
           </Link>
         </div>
       </div>
