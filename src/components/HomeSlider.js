@@ -31,7 +31,7 @@ const YoutubeLinks = () => (
       <span className="pl-2">Watch our AI agent Salesman</span>
     </Link>
     <Link
-      href={"https://www.youtube.com/watch?v=ElyyEk7r0Os"}
+      href={"https://www.youtube.com/watch?v=IwppQWVx3O4"}
       target="_blank"
       className="text-[#FFF7F0] mt-6 md:mt-0 md:ml-6 border-[#FFF7F0] ff-lato text-sm border rounded-3xl inline-flex justify-center items-center py-1.5 px-5 hover:text-blackone hover:bg-[#FFF7F0]"
     >
@@ -51,7 +51,7 @@ const YoutubeLinks = () => (
           fill="white"
         />
       </svg>
-      <span className="pl-2">Watch our AI agent Casey</span>
+      <span className="pl-2">See Vega AI agents work together</span>
     </Link>
   </div>
 );
