@@ -8,7 +8,7 @@ import Link from "next/link";
 const YoutubeLinks = () => (
   <div className="flex text-center justify-center lg:justify-start mb-8 flex-col md:flex-row w-full md:w-auto ">
     <Link
-      href={"https://www.youtube.com/watch?v=mPZgbljL7TE"}
+      href={"https://www.youtube.com/watch?v=fQUU5dRbUTk"}
       target="_blank"
       className="text-[#FFF7F0] border-[#FFF7F0] ff-lato text-sm border rounded-3xl inline-flex justify-center items-center py-1.5 px-5 hover:text-blackone hover:bg-[#FFF7F0]"
     >
@@ -28,7 +28,7 @@ const YoutubeLinks = () => (
           fill="white"
         />
       </svg>
-      <span className="pl-2">Watch our AI agent Salesman</span>
+      <span className="pl-2">Watch Track & Trace secure CRM</span>
     </Link>
     <Link
       href={"https://www.youtube.com/watch?v=IwppQWVx3O4"}

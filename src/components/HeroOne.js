@@ -6,7 +6,7 @@ const HeroOne = ({ subhead, title, img, bg, youtubelinks, page = "" }) => {
   const YoutubeLinks = () => (
     <div className="flex text-center justify-center lg:justify-start mb-8 flex-col md:flex-row w-full md:w-auto ">
       <Link
-        href={"https://www.youtube.com/watch?v=mPZgbljL7TE"}
+        href={"https://www.youtube.com/watch?v=fQUU5dRbUTk"}
         target="_blank"
         className="text-blackone border-blackone ff-lato text-sm border rounded-3xl inline-flex justify-center items-center py-1.5 px-5"
       >
@@ -26,7 +26,7 @@ const HeroOne = ({ subhead, title, img, bg, youtubelinks, page = "" }) => {
             fill="white"
           />
         </svg>
-        <span className="pl-2">Watch our AI agent Salesman</span>
+        <span className="pl-2">Watch Track & Trace secure CRM</span>
       </Link>
       <Link
         href={"https://www.youtube.com/watch?v=IwppQWVx3O4"}
@@ -103,7 +103,7 @@ const HeroOne = ({ subhead, title, img, bg, youtubelinks, page = "" }) => {
           {page === "salesman" && (
             <div className="flex mt-7 text-center justify-center lg:justify-start mb-8 flex-col md:flex-row w-full md:w-auto ">
               <Link
-                href={"https://www.youtube.com/watch?v=mPZgbljL7TE"}
+                href={"https://www.youtube.com/watch?v=fQUU5dRbUTk"}
                 target="_blank"
                 className="text-blackone border-blackone ff-lato text-sm border rounded-3xl inline-flex justify-center items-center py-1.5 px-5"
               >
@@ -123,7 +123,7 @@ const HeroOne = ({ subhead, title, img, bg, youtubelinks, page = "" }) => {
                     fill="white"
                   />
                 </svg>
-                <span className="pl-2">Watch our AI agent Salesman</span>
+                <span className="pl-2">Watch Track & Trace secure CRM</span>
               </Link>
             </div>
           )}

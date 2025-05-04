@@ -69,7 +69,7 @@ export default function Home() {
           <br />
           <br />
           <Link
-            href={"https://www.youtube.com/watch?v=mPZgbljL7TE"}
+            href={"https://www.youtube.com/watch?v=fQUU5dRbUTk"}
             target="_blank"
             className="text-blackone border-blackone ff-lato text-sm border rounded-3xl inline-flex justify-center items-center py-1.5 px-5"
           >
@@ -89,7 +89,7 @@ export default function Home() {
                 fill="white"
               />
             </svg>
-            <span className="pl-2">Watch our AI agent Salesman</span>
+            <span className="pl-2">Watch Track & Trace secure CRM</span>
           </Link>
         </>
       ),
