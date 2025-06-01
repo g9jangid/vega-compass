@@ -26,7 +26,17 @@ const Footer = () => {
                 alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
               />
             </a> */}
-            <a href="#" className="text-red-600">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/company/vegacompass/?viewAsMember=true"
+              className="text-red-600 group relative"
+            >
+              <span
+                className="group-hover:opacity-100 transition-opacity bg-white px-1 text-sm text-black rounded-md absolute left-1/2 
+    -translate-x-1/2 -translate-y-9 opacity-0 m-4 mx-auto"
+              >
+                Linkedin
+              </span>
               <img
                 src="/assets/images/social/linkedin.svg"
                 alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
@@ -35,8 +45,14 @@ const Footer = () => {
             <a
               href="https://x.com/vegacompass"
               target="_blank"
-              className="text-red-600"
+              className="text-red-600 group relative"
             >
+              <span
+                className="group-hover:opacity-100 transition-opacity bg-white px-1 text-sm text-black rounded-md absolute left-1/2 
+    -translate-x-1/2 -translate-y-9 opacity-0 m-4 mx-auto"
+              >
+                Twitter
+              </span>
               <img
                 src="/assets/images/social/twitter.svg"
                 alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
@@ -45,8 +61,14 @@ const Footer = () => {
             <a
               href="https://www.youtube.com/@Vegacompass"
               target="_blank"
-              className="text-red-600"
+              className="text-red-600 group relative"
             >
+              <span
+                className="group-hover:opacity-100 transition-opacity bg-white px-1 text-sm text-black rounded-md absolute left-1/2 
+    -translate-x-1/2 -translate-y-9 opacity-0 m-4 mx-auto"
+              >
+                YouTube
+              </span>
               <img
                 src="/assets/images/social/youtube.svg"
                 alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"

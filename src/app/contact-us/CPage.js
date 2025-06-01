@@ -330,7 +330,7 @@ export default function Home() {
           </h3>
         </div>
       </section>
-      <section className="container mx-auto text-left mt-8 lg:mt-16 px-6 justify-center flex flex-col lg:flex-row items-start max-w-[1000px]">
+      <section className="container mx-auto text-left mt-8 lg:mt-16 px-6 justify-between content-between flex flex-col lg:flex-row items-start">
         <div className="w-full lg:w-1/3 xl:1/4 lg:px-3">
           <p className="ff-lato font-semibold text-blackone">Pune (India)</p>
           <p className="text-[#585858] font-medium ff-lato leading-normal pt-3">
@@ -352,9 +352,11 @@ export default function Home() {
         <div className="w-full lg:w-1/3 xl:1/4 lg:px-3 mt-16 lg:mt-0">
           <p className="ff-lato font-semibold text-blackone">Austin (USA)</p>
           <p className="text-[#585858] font-medium ff-lato leading-normal pt-3">
-            1903, Romeria Drive,
+            Vegacompass Technologies LLC,
             <br />
-            Austin, TX, 78757
+            3040, 701 Tillery Street Unit 12,
+            <br /> Austin, TX, Travis,
+            <br /> US, 78702
           </p>
         </div>
         <div className="w-full lg:w-1/3 xl:1/4 lg:px-3 mt-16 lg:mt-0">

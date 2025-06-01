@@ -103,7 +103,7 @@ const HeroOne = ({ subhead, title, img, bg, youtubelinks, page = "" }) => {
           {page === "salesman" && (
             <div className="flex mt-7 text-center justify-center lg:justify-start mb-8 flex-col md:flex-row w-full md:w-auto ">
               <Link
-                href={"https://www.youtube.com/watch?v=fQUU5dRbUTk"}
+                href={"https://www.youtube.com/watch?v=0sJUPqx3GVY"}
                 target="_blank"
                 className="text-blackone border-blackone ff-lato text-sm border rounded-3xl inline-flex justify-center items-center py-1.5 px-5"
               >
@@ -123,7 +123,7 @@ const HeroOne = ({ subhead, title, img, bg, youtubelinks, page = "" }) => {
                     fill="white"
                   />
                 </svg>
-                <span className="pl-2">Watch Track & Trace secure CRM</span>
+                <span className="pl-2">See Agents Enhancing Sales</span>
               </Link>
             </div>
           )}
