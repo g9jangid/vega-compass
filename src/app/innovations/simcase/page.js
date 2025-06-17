@@ -1,6 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 import Navigation from "@/components/Navigation/Navigation";
-import VegaCompassInAction from "@/components/VegaCompassInAction";
+import VideoPalyerSection from "@/components/VideoPalyerSection";
 import CRMInquiry from "@/components/CRMInquiry";
 import Footer from "@/components/Footer";
 import HeroOne from "@/components/HeroOne";
@@ -17,39 +16,77 @@ export default function Home() {
 
       <HeroOne
         subhead="INNOVATIONS"
-        title="Simplify customer service with SimCase"
+        title={
+          <>
+            {" "}
+            <span className="text-[#C40A23]">
+              VEGA CUSTOMER SUPPORT AI:
+            </span>{" "}
+            See Vega Agents automate end to end customer support management
+          </>
+        }
         img="/assets/images/innovations/simcase-hero.png"
         bg="#F3FFFF"
         page="simcase"
+        textPortion="wide"
       />
 
-      <section className="container mx-auto flex justify-center flex-col items-center mt-16">
-        <div className="text-center flex flex-col items-center">
+      <VideoPalyerSection
+        title={"Check the demo"}
+        ytcode="IwppQWVx3O4"
+        img="simcase-video.jpg"
+      />
+
+      <section className="container mx-auto flex flex-col mt-32 px-6 lg:px-28">
+        <div className="text-left flex flex-col">
           <p className="ff-lato text-sm text-red uppercase font-semibold tracking-wider">
-            INTRODUCTION
+            PROCESS
           </p>
           <div className="bg-[#F0CCB4] border border-[#F0CCB4] w-14 mt-2"></div>
         </div>
       </section>
 
-      <section className="container mx-auto text-center mt-3 px-6 justify-center flex flex-col items-center">
+      <section className="container mx-auto text-left mt-3 px-6 flex flex-col lg:px-28">
         <h2 className="ff-raleway text-4xl font-semibold text-blackone mb-8">
-          SimCase: AI-Powered Similar <br className="hidden lg:block" /> Case
-          Suggestions in CRM
+          What these AI Agents do together
         </h2>
 
-        <div className="w-full flex flex-wrap justify-center items-center max-w-[700px] text-center">
-          <p className="ff-lato text-blackone">
-            At Vegacompass, we understand the complexities of managing customer
-            interactions across email, chat, and social media. Simcase
-            streamlines data aggregation, delivering standardized insights for
-            customer service managers. It empowers teams with actionable,
-            data-driven solutions to enhance support and optimize performance.
+        <div className="w-full flex flex-wrap text-left">
+          <p className="ff-lato text-blackone leading-normal">
+            1. Customer audio from call center into Transcription Delivers a
+            clear, concise textual representation of the customer&apos;s initial
+            message, facilitating efficient review and action.{" "}
+            <span className="block mb-2 clear-both"></span>
+            2. Case Creation & Initial Processing A case is created when a
+            customer submits a query or issue through an audio file.{" "}
+            <span className="block mb-2 clear-both"></span>
+            3. Case Summarization & Sentiment Analysis Automatically generates a
+            concise summary of the case. Analyzes customer sentiment to
+            determine the tone (positive, neutral, or negative).{" "}
+            <span className="block mb-2 clear-both"></span>
+            4. Similar Closed Cases Recommendation Displays relevant closed
+            cases with similar issues to improve agent case resolution
+            efficiency. <span className="block mb-2 clear-both"></span>
+            5. Critical Case Alert – CTA Planning If a contact has created three
+            or more negative sentiment cases within the last 20 days, the
+            support manager receives an email notification for further action.{" "}
+            <span className="block mb-2 clear-both"></span>
+            6. Customer Notification & Case Resolution Decision An email
+            notification is sent to the contact containing potential solutions
+            from a PDF file. The email includes Yes/No options for resolution
+            confirmation: Yes: The case is auto-closed based on the customer’s
+            response. No: The case is automatically assigned to a new owner who
+            has recently resolved similar cases.{" "}
+            <span className="block mb-2 clear-both"></span>
+            7. Enhancing Customer Support with AI-Powered Assistance The
+            Community Portal enables public users to interact with service
+            agents and receive accurate responses from uploaded PDFs in
+            Salesforce, ensuring efficient and reliable support.
           </p>
         </div>
       </section>
 
-      <section className="container mx-auto flex justify-center flex-col items-center mt-24">
+      {/* <section className="container mx-auto flex justify-center flex-col items-center mt-24">
         <div className="text-center flex flex-col items-center">
           <p className="ff-lato text-sm text-red uppercase font-semibold tracking-wider">
             SOLUTIONS
@@ -402,9 +439,52 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section> */}
+
+      <section className="w-full bg-[#FFF7F0] py-20 mt-32 px-6">
+        <div className=" container mx-auto flex justify-center flex-col items-center mt-4">
+          <div className="text-center flex flex-col items-center">
+            <p className="ff-lato text-sm text-red uppercase font-semibold tracking-wider">
+              BENEFITS
+            </p>
+            <div className="bg-[#F0CCB4] border border-[#F0CCB4] w-14 mt-2"></div>
+          </div>
+          <h2 className="ff-raleway text-4xl font-semibold text-blackone text-center mb-8 mt-4">
+            Benefits of using SimCase AI
+          </h2>
+
+          <div className="w-full flex flex-col lg:flex-row justify-between items-center mb-8 lg:mb-3 max-w-[600px]">
+            <p className="ff-lato text-blackone text-center">
+              End to end automation of customer support processes helps ensure
+              all aspects of case management are covered in detail. It improves
+              agent efficiency and ensures customer is served in a best possible
+              manner with right approach.
+            </p>
+          </div>
+        </div>
       </section>
 
-      <VegaCompassInAction />
+      <section className="w-full py-20 mt-0 px-6">
+        <div className=" container mx-auto flex justify-center flex-col items-center mt-4">
+          <div className="text-center flex flex-col items-center">
+            <p className="ff-lato text-sm text-red uppercase font-semibold tracking-wider">
+              BENEFITS
+            </p>
+            <div className="bg-[#F0CCB4] border border-[#F0CCB4] w-14 mt-2"></div>
+          </div>
+          <h2 className="ff-raleway text-4xl font-semibold text-blackone mb-8 mt-4 text-center">
+            Why This Matters
+          </h2>
+
+          <div className="w-full flex flex-col lg:flex-row justify-between items-center mb-8 lg:mb-3 max-w-[400px]">
+            <p className="ff-lato text-blackone text-center">
+              Agentic Intelligence isn&apos;t just automating workflows —
+              it&apos;s adding cognitive capability to your CRM
+            </p>
+          </div>
+        </div>
+      </section>
+
       <CRMInquiry />
       <Footer />
     </main>

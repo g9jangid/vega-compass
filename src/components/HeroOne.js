@@ -2,7 +2,15 @@
 "use client";
 import Link from "next/link";
 
-const HeroOne = ({ subhead, title, img, bg, youtubelinks, page = "" }) => {
+const HeroOne = ({
+  subhead,
+  title,
+  img,
+  bg,
+  youtubelinks,
+  page = "",
+  textPortion = "",
+}) => {
   const YoutubeLinks = () => (
     <div className="flex text-center justify-center lg:justify-start mb-8 flex-col md:flex-row w-full md:w-auto ">
       <Link
@@ -60,7 +68,11 @@ const HeroOne = ({ subhead, title, img, bg, youtubelinks, page = "" }) => {
       style={{ backgroundColor: bg }}
     >
       <div className="container mx-auto flex py-6 px-6 items-center lg:flex-row flex-col">
-        <div className="w-full lg:w-1/2 text-center lg:text-left">
+        <div
+          className={`w-full ${
+            textPortion === "wide" ? "lg:w-3/5 2xl:w-1/2" : "lg:w-1/2"
+          }  text-center lg:text-left`}
+        >
           {page === "salesforce" && (
             <div className="flex mb-8 justify-center lg:justify-start">
               <img
@@ -100,7 +112,7 @@ const HeroOne = ({ subhead, title, img, bg, youtubelinks, page = "" }) => {
               <YoutubeLinks />{" "}
             </div>
           )}
-          {page === "salesman" && (
+          {/* {page === "salesman" && (
             <div className="flex mt-7 text-center justify-center lg:justify-start mb-8 flex-col md:flex-row w-full md:w-auto ">
               <Link
                 href={"https://www.youtube.com/watch?v=0sJUPqx3GVY"}
@@ -126,9 +138,9 @@ const HeroOne = ({ subhead, title, img, bg, youtubelinks, page = "" }) => {
                 <span className="pl-2">See Agents Enhancing Sales</span>
               </Link>
             </div>
-          )}
+          )} */}
 
-          {page === "simcase" && (
+          {/* {page === "simcase" && (
             <div className="flex mt-7 text-center justify-center lg:justify-start mb-8 flex-col md:flex-row w-full md:w-auto ">
               <Link
                 href={"https://www.youtube.com/watch?v=IwppQWVx3O4"}
@@ -154,9 +166,13 @@ const HeroOne = ({ subhead, title, img, bg, youtubelinks, page = "" }) => {
                 <span className="pl-2">See Vega AI agents work together</span>
               </Link>
             </div>
-          )}
+          )} */}
         </div>
-        <div className="w-full lg:w-1/2 lg:pl-11 flex justify-center mt-5 lg:mt-0">
+        <div
+          className={`w-full ${
+            textPortion === "wide" ? "lg:w-2/5 2xl:w-1/2" : "lg:w-1/2"
+          } lg:pl-11 flex justify-center mt-5 lg:mt-0`}
+        >
           <img
             src={img}
             alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"

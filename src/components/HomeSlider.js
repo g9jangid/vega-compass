@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import Link from "next/link";
+import CRMModal from "@/components/CRMModal";
 
 const YoutubeLinks = () => (
   <div className="flex text-center justify-center lg:justify-start mb-8 flex-col md:flex-row w-full md:w-auto ">
@@ -28,7 +29,7 @@ const YoutubeLinks = () => (
           fill="white"
         />
       </svg>
-      <span className="pl-2">Watch Track & Trace secure CRM</span>
+      <span className="pl-2">Watch CyberSecurity in CRM</span>
     </Link>
     <Link
       href={"https://www.youtube.com/watch?v=IwppQWVx3O4"}
@@ -56,13 +57,13 @@ const YoutubeLinks = () => (
   </div>
 );
 
-const DownloadBtns = () => (
+const DownloadBtns = ({ setOpenModal }) => (
   <div className="inline-flex lg:pb-10 lg:flex-row items-center lg:items-start flex-col mt-8">
     <Link
       href="/case-studies"
       className="lg:mr-3 mt-6 inline-flex w-auto items-center ff-lato ease-in-up rounded-md text-base font-semibold bg-white py-3 px-8 text-blackone md:px-9 lg:px-6 xl:px-9"
     >
-      <span className="pr-3">Read Case Study</span>
+      <span className="pr-3">Our Case Studies</span>
       <svg
         width="32"
         height="15"
@@ -77,18 +78,25 @@ const DownloadBtns = () => (
       </svg>
     </Link>
 
-    <a
-      download={true}
-      target="_blank"
-      href="/downloads/vegacompass-automated-sales-reps-account-handling-with-reap-&-replace-mechanism.pdf"
+    <button
+      onClick={() => setOpenModal(true)}
       className="lg:ml-3 mt-6 inline-flex items-center ff-lato ease-in-up rounded-md text-base font-semibold text-white border-white border py-3 px-8 md:px-9 lg:px-6 xl:px-9"
     >
-      Download latest work
-    </a>
+      What is CRM&apos;?
+    </button>
   </div>
 );
 
 const HomeSlider = () => {
+  const [openModal, setOpenModal] = useState(false);
+
+  useEffect(() => {
+    if (openModal) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+  }, [openModal]);
   return (
     <>
       <Carousel
@@ -104,11 +112,10 @@ const HomeSlider = () => {
             <div className="w-full relative z-[1] mt-12 lg:mt-28 px-4 lg:px-20 flex flex-col">
               <YoutubeLinks />
               <h1 className="text-white ff-raleway text-3xl md:text-4xl lg:text-5xl text-center lg:text-left font-semibold !leading-tight">
-                Business Optimization
-                <br className="hidden lg:block" /> with CRM Process{" "}
-                <br className="hidden lg:block" />& Technology
+                Your Partner for CRM Process
+                <br className="hidden lg:block" /> & Technology
               </h1>
-              <DownloadBtns />
+              <DownloadBtns setOpenModal={setOpenModal} />
             </div>
             <div className="home-slider-img relative bottom-0 z-[2] lg:absolute right-0 w-full md:w-3/4 p-6 lg:w-1/2">
               <img
@@ -128,7 +135,7 @@ const HomeSlider = () => {
                 Transform your customer <br className="hidden lg:block" />{" "}
                 journey with CRM <br className="hidden lg:block" /> experts
               </h2>
-              <DownloadBtns />
+              <DownloadBtns setOpenModal={setOpenModal} />
             </div>
             <div className="home-slider-img relative bottom-0 z-[2] lg:absolute right-0 w-full md:w-3/4 p-6 lg:w-1/2">
               <img
@@ -148,7 +155,7 @@ const HomeSlider = () => {
                 Think CRM. <br className="hidden lg:block" />
                 Think Vegacompass
               </h2>
-              <DownloadBtns />
+              <DownloadBtns setOpenModal={setOpenModal} />
             </div>
             <div className="home-slider-img relative bottom-0 z-[2] lg:absolute right-0 w-full md:w-3/4 p-6 lg:w-2/5">
               <img
@@ -160,6 +167,7 @@ const HomeSlider = () => {
           </div>
         </div>
       </Carousel>
+      {openModal && <CRMModal handleClose={() => setOpenModal(false)} />}
     </>
   );
 };

@@ -185,8 +185,13 @@ export default function Home() {
               rebuild it — no limits, no excuses.
             </span>
           </h2>
-          <p className="text-blackone ff-lato text-lg mt-2">
+          <p className="text-blackone ff-lato text-lg pb-14 mt-2 relative">
             Because your business deserves nothing less.
+            <img
+              src="/assets/images/sign.png"
+              className="w-auto h-20 absolute -bottom-18 -right-6"
+              alt="signature"
+            />
           </p>
         </section>
       </div>
