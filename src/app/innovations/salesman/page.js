@@ -39,10 +39,10 @@ export default function Home() {
       </section>
 
       <section className="container mx-auto text-center mt-3 px-6 justify-center flex flex-col items-center">
-        <h2 className="ff-raleway text-4xl font-semibold text-blackone mb-8">
+        {/* <h2 className="ff-raleway text-4xl font-semibold text-blackone mb-8">
           SalesMan - CRM Upsell Cross-sell <br className="hidden lg:block" />{" "}
           recommendations plugin
-        </h2>
+        </h2> */}
 
         <div className="w-full flex flex-wrap justify-center items-center max-w-[700px] text-center">
           <p className="ff-lato text-blackone">
@@ -227,7 +227,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full bg-[#FFF7F0] py-20 mt-32 px-6">
+      <section className="w-full bg-[#FFF7F0] py-20 mt-32 px-6 -mb-32">
         <div className=" container mx-auto flex justify-center flex-col items-center mt-4">
           <div className="text-center flex flex-col items-center">
             <p className="ff-lato text-sm text-red uppercase font-semibold tracking-wider">
@@ -245,11 +245,17 @@ export default function Home() {
               cracks. With intelligent prioritization and automatic routing,
               SDRs get high-quality, context-rich SQLs in their queue —
               instantly.
+              <br />
+              <br />
+              Agentic Intelligence isn&apos;t just automating workflows —
+              it&apos;s adding cognitive capability to your CRM. It&apos;s not
+              just a faster pipeline — it&apos;s a smarter one.
             </p>
           </div>
         </div>
+        <div className="w-full h-[1px] bg-black/10 mt-32"></div>
       </section>
-
+      {/* 
       <section className="w-full py-20 mt-0 px-6">
         <div className=" container mx-auto flex justify-center flex-col items-center mt-4">
           <div className="text-center flex flex-col items-center">
@@ -270,7 +276,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <CRMInquiry />
       <Footer />

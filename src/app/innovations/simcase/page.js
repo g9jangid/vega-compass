@@ -37,7 +37,7 @@ export default function Home() {
         img="simcase-video.jpg"
       />
 
-      <section className="container mx-auto flex flex-col mt-32 px-6 lg:px-28">
+      {/* <section className="container mx-auto flex flex-col mt-32 px-6 lg:px-28">
         <div className="text-left flex flex-col">
           <p className="ff-lato text-sm text-red uppercase font-semibold tracking-wider">
             PROCESS
@@ -53,38 +53,11 @@ export default function Home() {
 
         <div className="w-full flex flex-wrap text-left">
           <p className="ff-lato text-blackone leading-normal">
-            1. Customer audio from call center into Transcription Delivers a
-            clear, concise textual representation of the customer&apos;s initial
-            message, facilitating efficient review and action.{" "}
-            <span className="block mb-2 clear-both"></span>
-            2. Case Creation & Initial Processing A case is created when a
-            customer submits a query or issue through an audio file.{" "}
-            <span className="block mb-2 clear-both"></span>
-            3. Case Summarization & Sentiment Analysis Automatically generates a
-            concise summary of the case. Analyzes customer sentiment to
-            determine the tone (positive, neutral, or negative).{" "}
-            <span className="block mb-2 clear-both"></span>
-            4. Similar Closed Cases Recommendation Displays relevant closed
-            cases with similar issues to improve agent case resolution
-            efficiency. <span className="block mb-2 clear-both"></span>
-            5. Critical Case Alert – CTA Planning If a contact has created three
-            or more negative sentiment cases within the last 20 days, the
-            support manager receives an email notification for further action.{" "}
-            <span className="block mb-2 clear-both"></span>
-            6. Customer Notification & Case Resolution Decision An email
-            notification is sent to the contact containing potential solutions
-            from a PDF file. The email includes Yes/No options for resolution
-            confirmation: Yes: The case is auto-closed based on the customer’s
-            response. No: The case is automatically assigned to a new owner who
-            has recently resolved similar cases.{" "}
-            <span className="block mb-2 clear-both"></span>
-            7. Enhancing Customer Support with AI-Powered Assistance The
-            Community Portal enables public users to interact with service
-            agents and receive accurate responses from uploaded PDFs in
-            Salesforce, ensuring efficient and reliable support.
+           
+            
           </p>
         </div>
-      </section>
+      </section> */}
 
       {/* <section className="container mx-auto flex justify-center flex-col items-center mt-24">
         <div className="text-center flex flex-col items-center">
@@ -93,9 +66,9 @@ export default function Home() {
           </p>
           <div className="bg-[#F0CCB4] border border-[#F0CCB4] w-14 mt-2"></div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="container mx-auto text-center mt-3 px-6 justify-center flex flex-col items-center">
+      {/* <section className="container mx-auto text-center mt-3 px-6 justify-center flex flex-col items-center">
         <h2 className="ff-raleway text-4xl font-semibold text-blackone mb-8">
           Support made smarter with SimCase
         </h2>
@@ -265,73 +238,33 @@ export default function Home() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="w-full  pt-10 mt-12 px-6">
         <div className=" container mx-auto flex justify-center flex-col items-center mt-4">
           <div className="text-center flex flex-col items-center">
             <p className="ff-lato text-sm text-red uppercase font-semibold tracking-wider">
-              Benefits
+              PROCESS
             </p>
             <div className="bg-[#F0CCB4] border border-[#F0CCB4] w-14 mt-2"></div>
           </div>
-          <h2 className="ff-raleway text-4xl font-semibold text-blackone mb-8 mt-4">
-            SimCase CRM benefits
+          <h2 className="ff-raleway text-center text-4xl font-semibold text-blackone mb-8 mt-4">
+            What these AI Agents do together
           </h2>
 
           <div className="w-full flex flex-col lg:flex-row justify-between items-center mb-8 lg:mb-3 max-w-[1000px]">
             <div className="w-full lg:w-1/2 text-left lg:pr-16 order-2 lg:order-none mt-5 lg:mt-0">
-              <h3 className="ff-raleway font-semibold text-3xl text-blackone">
+              {/* <h3 className="ff-raleway font-semibold text-3xl text-blackone">
                 Customer Service
-              </h3>
+              </h3> */}
               <p className="ff-lato text-base text-blackone mt-4 mb-6">
-                <span className="flex items-center mb-3">
-                  <img
-                    src="/assets/images/blue-tick.svg"
-                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
-                    className="mr-2"
-                  />
-                  Faster onboarding with reduced training time for new staff.
-                </span>
-
-                <span className="flex items-center mb-3">
-                  <img
-                    src="/assets/images/blue-tick.svg"
-                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
-                    className="mr-2"
-                  />
-                  Provides AI-powered similar case suggestions for efficient
-                  query resolution.
-                </span>
-
-                <span className="flex items-center mb-3">
-                  <img
-                    src="/assets/images/blue-tick.svg"
-                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
-                    className="mr-2"
-                  />
-                  Streamlines workflows, reducing response time and offering
-                  instant solutions.
-                </span>
-
-                <span className="flex items-center mb-3">
-                  <img
-                    src="/assets/images/blue-tick.svg"
-                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
-                    className="mr-2"
-                  />
-                  Enhances professionalism and customer experience with advanced
-                  AI and NLP tools.
-                </span>
-
-                <span className="flex items-center mb-3">
-                  <img
-                    src="/assets/images/blue-tick.svg"
-                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
-                    className="mr-2"
-                  />
-                  Delivers actionable insights for proactive problem-solving.
-                </span>
+                1. Customer audio from call center into Transcription Delivers a
+                clear, concise textual representation of the customer&apos;s
+                initial message, facilitating efficient review and action.{" "}
+                <span className="block mb-2 clear-both"></span>
+                2. Case Creation & Initial Processing A case is created when a
+                customer submits a query or issue through an audio file.{" "}
+                <span className="block mb-2 clear-both"></span>
               </p>
             </div>
 
@@ -356,76 +289,42 @@ export default function Home() {
             </div>
 
             <div className="w-full lg:w-1/2 text-left lg:pl-16 lg:pr-5 mt-5 lg:mt-0">
-              <h3 className="ff-raleway font-semibold text-3xl text-blackone">
+              {/* <h3 className="ff-raleway font-semibold text-3xl text-blackone">
                 Better Customer Insights
-              </h3>
+              </h3> */}
               <p className="ff-lato text-base text-blackone mt-4 mb-6">
-                <span className="flex items-center mb-3">
-                  <img
-                    src="/assets/images/blue-tick.svg"
-                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
-                    className="mr-2"
-                  />
-                  Offers detailed case reports with cross-account analysis for
-                  better planning
-                </span>
-                <span className="flex items-center mb-3">
-                  <img
-                    src="/assets/images/blue-tick.svg"
-                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
-                    className="mr-2"
-                  />
-                  Provides insights to refine products, services, and workflows
-                  effectively.
-                </span>
-
-                <span className="flex items-center mb-3">
-                  <img
-                    src="/assets/images/blue-tick.svg"
-                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
-                    className="mr-2"
-                  />
-                  Boosts productivity and reduces costs by enabling targeted
-                  support strategies.
-                </span>
-
-                <span className="flex items-center mb-3">
-                  <img
-                    src="/assets/images/blue-tick.svg"
-                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
-                    className="mr-2"
-                  />
-                  Provides insights to refine products, services, and workflows
-                  effectively.
-                </span>
+                3. Case Summarization & Sentiment Analysis Automatically
+                generates a concise summary of the case. Analyzes customer
+                sentiment to determine the tone (positive, neutral, or
+                negative). <span className="block mb-2 clear-both"></span>
+                4. Similar Closed Cases Recommendation Displays relevant closed
+                cases with similar issues to improve agent case resolution
+                efficiency. <span className="block mb-2 clear-both"></span>
               </p>
             </div>
           </div>
 
           <div className="w-full flex flex-col lg:flex-row justify-between items-center mb-8 lg:mb-3 max-w-[1000px]">
             <div className="w-full lg:w-1/2 text-left lg:pr-16 order-2 lg:order-none mt-5 lg:mt-0">
-              <h3 className="ff-raleway font-semibold text-3xl text-blackone">
+              {/* <h3 className="ff-raleway font-semibold text-3xl text-blackone">
                 Cross team collaboration
-              </h3>
+              </h3> */}
               <p className="ff-lato text-base text-blackone mt-4 mb-6">
-                <span className="flex items-center mb-3">
-                  <img
-                    src="/assets/images/blue-tick.svg"
-                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
-                    className="mr-2"
-                  />
-                  Better cross team collaboration to coordinate for more product
-                  Sales/Marketing
-                </span>
-
-                <span className="flex items-center mb-3">
-                  <img
-                    src="/assets/images/blue-tick.svg"
-                    alt="Vegacompass, Business optimization through CRM domain & Tech knowledge"
-                    className="mr-2"
-                  />
-                  Better trainings planning
-                </span>
+                5. Critical Case Alert – CTA Planning If a contact has created
+                three or more negative sentiment cases within the last 20 days,
+                the support manager receives an email notification for further
+                action. <span className="block mb-2 clear-both"></span>
+                6. Customer Notification & Case Resolution Decision An email
+                notification is sent to the contact containing potential
+                solutions from a PDF file. The email includes Yes/No options for
+                resolution confirmation: Yes: The case is auto-closed based on
+                the customer’s response. No: The case is automatically assigned
+                to a new owner who has recently resolved similar cases.{" "}
+                <span className="block mb-2 clear-both"></span>
+                7. Enhancing Customer Support with AI-Powered Assistance The
+                Community Portal enables public users to interact with service
+                agents and receive accurate responses from uploaded PDFs in
+                Salesforce, ensuring efficient and reliable support.
               </p>
             </div>
 
@@ -439,9 +338,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
-      <section className="w-full bg-[#FFF7F0] py-20 mt-32 px-6">
+      <section className="w-full bg-[#FFF7F0] py-20 mt-32 px-6 -mb-32">
         <div className=" container mx-auto flex justify-center flex-col items-center mt-4">
           <div className="text-center flex flex-col items-center">
             <p className="ff-lato text-sm text-red uppercase font-semibold tracking-wider">
@@ -459,12 +358,17 @@ export default function Home() {
               all aspects of case management are covered in detail. It improves
               agent efficiency and ensures customer is served in a best possible
               manner with right approach.
+              <br />
+              <br />
+              Agentic Intelligence isn&apos;t just automating workflows —
+              it&apos;s adding cognitive capability to your CRM
             </p>
           </div>
         </div>
+        <div className="w-full h-[1px] bg-black/10 mt-32"></div>
       </section>
 
-      <section className="w-full py-20 mt-0 px-6">
+      {/* <section className="w-full py-20 mt-0 px-6">
         <div className=" container mx-auto flex justify-center flex-col items-center mt-4">
           <div className="text-center flex flex-col items-center">
             <p className="ff-lato text-sm text-red uppercase font-semibold tracking-wider">
@@ -483,7 +387,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <CRMInquiry />
       <Footer />

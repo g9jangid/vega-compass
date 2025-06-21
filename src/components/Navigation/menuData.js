@@ -234,7 +234,7 @@ const menuData = [
       },
       {
         id: 303,
-        title: "Salesman",
+        title: "AI Agent Salesman",
         path: "/salesman",
         newTab: false,
         desc: "Empower sales teams with intelligent, ML-driven product recommendations for seamless upselling and cross-selling",
@@ -242,7 +242,7 @@ const menuData = [
       },
       {
         id: 304,
-        title: "SimCase",
+        title: "Vega Support AI",
         path: "/simcase",
         newTab: false,
         desc: "Centralize customer communication channels for actionable insights and enhanced customer service strategies.",

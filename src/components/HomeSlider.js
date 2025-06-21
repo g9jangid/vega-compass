@@ -80,9 +80,9 @@ const DownloadBtns = ({ setOpenModal }) => (
 
     <button
       onClick={() => setOpenModal(true)}
-      className="lg:ml-3 mt-6 inline-flex items-center ff-lato ease-in-up rounded-md text-base font-semibold text-white border-white border py-3 px-8 md:px-9 lg:px-6 xl:px-9"
+      className="lg:ml-3 mt-6 inline-flex items-center ff-lato ease-in-up rounded-md text-base font-semibold text-white border-white hover:bg-white hover:text-blackone border py-3 px-8 md:px-9 lg:px-6 xl:px-9"
     >
-      What is CRM&apos;?
+      What is CRM?
     </button>
   </div>
 );
