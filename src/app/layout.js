@@ -20,7 +20,7 @@ export const viewport = {
 
 export const metadata = getSEOTags(
   "Vegacompass | CRM - Consulting and Tech Services",
-  "Vegacompass is a CRM-focused consulting firm enabling organizations globally transform their Marketing, Sales, and Customer Support operations through process excellence and technology enablement."
+  "Vegacompass is a customer-focused firm specializing in CRM process and technology enablement."
 );
 
 const jsonLd = {

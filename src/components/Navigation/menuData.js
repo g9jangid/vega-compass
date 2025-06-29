@@ -120,6 +120,14 @@ const menuData = [
         desc: "Drive customer success by proactively addressing needs and minimizing churn.",
         imglink: "/assets/images/consulting/customer-success-strategy.png",
       },
+      {
+        id: 203,
+        title: "Customer Data Optimization & Cleanup",
+        path: "/customer-data-optimization-and-cleanup",
+        newTab: false,
+        desc: "Simplify CRM with Atom, an Excel-based solution for SMBs.",
+        imglink: "/assets/images/tech-services/tech-service-9.png",
+      },
     ],
   },
   {
@@ -145,6 +153,14 @@ const menuData = [
         imglink: "/assets/images/tech-services/tech-service-2.png",
       },
       {
+        id: 206,
+        title: "Hubspot CRM",
+        path: "/hubspot-crm",
+        newTab: false,
+        desc: "Optimize HubSpot for success in marketing, sales, and service.",
+        imglink: "/assets/images/tech-services/tech-service-5.png",
+      },
+      {
         id: 204,
         title: "ServiceNow",
         path: "/servicenow",
@@ -160,14 +176,7 @@ const menuData = [
         desc: "Streamline sales, marketing, and customer service with cost-effective Open Source CRM solutions tailored for small businesses",
         imglink: "/assets/images/tech-services/tech-service-4.png",
       },
-      {
-        id: 206,
-        title: "Hubspot CRM",
-        path: "/hubspot-crm",
-        newTab: false,
-        desc: "Optimize HubSpot for success in marketing, sales, and service.",
-        imglink: "/assets/images/tech-services/tech-service-5.png",
-      },
+
       // {
       //   id: 207,
       //   title: "Excel CRM-Atom",
@@ -176,30 +185,23 @@ const menuData = [
       //   desc: "Simplify CRM with Atom, an Excel-based solution for SMBs.",
       //   imglink: "/assets/images/tech-services/tech-service-6.png",
       // },
-      {
-        id: 208,
-        title: "MuleSoft",
-        path: "/mulesoft",
-        newTab: false,
-        desc: "Connect data effortlessly with expert MuleSoft integration services.",
-        imglink: "/assets/images/tech-services/tech-service-7.png",
-      },
-      {
-        id: 209,
-        title: "Marketo",
-        path: "/marketo",
-        newTab: false,
-        desc: "Transform your business with strategic Salesforce CRM solutions.",
-        imglink: "/assets/images/tech-services/tech-service-8.png",
-      },
-      {
-        id: 203,
-        title: "Customer Data Optimization & Cleanup",
-        path: "/customer-data-optimization-and-cleanup",
-        newTab: false,
-        desc: "Simplify CRM with Atom, an Excel-based solution for SMBs.",
-        imglink: "/assets/images/tech-services/tech-service-9.png",
-      },
+      // {
+      //   id: 208,
+      //   title: "MuleSoft",
+      //   path: "/mulesoft",
+      //   newTab: false,
+      //   desc: "Connect data effortlessly with expert MuleSoft integration services.",
+      //   imglink: "/assets/images/tech-services/tech-service-7.png",
+      // },
+      // {
+      //   id: 209,
+      //   title: "Marketo",
+      //   path: "/marketo",
+      //   newTab: false,
+      //   desc: "Transform your business with strategic Salesforce CRM solutions.",
+      //   imglink: "/assets/images/tech-services/tech-service-8.png",
+      // },
+
       // {
       //   id: 201,
       //   title: "E-Commerce & Development",

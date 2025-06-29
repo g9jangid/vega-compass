@@ -20,7 +20,7 @@ export default function Home() {
       <Navigation />
 
       <HeroOne
-        subhead="TECH SERVICES"
+        subhead="CRM CONSULTING"
         title="Clean data, better decisions, stronger growth"
         img="/assets/images/tech-services/hero-9.png"
         bg="#FFF7F0"
