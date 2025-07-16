@@ -295,7 +295,7 @@ export default function Home() {
             </p>
             <p className="ff-lato text-blackone font-semibold py-1">
               <FaHeadphones size={18} className="inline mr-2 text-blue-500" />{" "}
-              Singapore : +65 (981) 999 38
+              Singapore : +65 (981) 999 00
             </p>
             <p className="ff-lato text-blackone font-semibold py-1">
               <FaHeadphones size={18} className="inline mr-2 text-blue-500" />{" "}
