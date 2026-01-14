@@ -8,7 +8,7 @@ import CRMModal from "@/components/CRMModal";
 
 const YoutubeLinks = () => (
   <div className="flex text-center justify-center lg:justify-start mb-8 flex-col md:flex-row w-full md:w-auto ">
-    <Link
+    {/* <Link
       href={"https://www.youtube.com/watch?v=fQUU5dRbUTk"}
       target="_blank"
       className="text-[#FFF7F0] border-[#FFF7F0] ff-lato text-sm border rounded-3xl inline-flex justify-center items-center py-1.5 px-5 hover:text-blackone hover:bg-[#FFF7F0]"
@@ -30,11 +30,11 @@ const YoutubeLinks = () => (
         />
       </svg>
       <span className="pl-2">Watch CyberSecurity in CRM</span>
-    </Link>
+    </Link> */}
     <Link
       href={"https://www.youtube.com/watch?v=IwppQWVx3O4"}
       target="_blank"
-      className="text-[#FFF7F0] mt-6 md:mt-0 md:ml-6 border-[#FFF7F0] ff-lato text-sm border rounded-3xl inline-flex justify-center items-center py-1.5 px-5 hover:text-blackone hover:bg-[#FFF7F0]"
+      className="text-[#FFF7F0] mt-6 md:mt-0 md:ml-0 border-[#FFF7F0] ff-lato text-sm border rounded-3xl inline-flex justify-center items-center py-1.5 px-5 hover:text-blackone hover:bg-[#FFF7F0]"
     >
       <svg
         width="18"
